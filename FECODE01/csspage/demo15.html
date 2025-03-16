@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table {
+            width: 536px;
+            /* 添加以下行以确保表格单元格内容垂直居中 */
+            vertical-align: middle;
+        }
+        .title.col-1 {
+            font-size: 20px;
+            font-weight: bolder;
+            color: #000;
+            text-align: left;
+        }
+        .title.col-2 {
+            font-size: 20px;
+            color: #0055db;
+            text-align: left;
+            vertical-align: middle; /* 修改此行 */
+        }
+        /* 鼠标悬浮到上面有下划线 */
+        a:hover {
+            text-decoration: underline;
+        }
+        a {
+            text-decoration: none;
+            color: #0055db;
+        }
+        .col-1 {
+            width: 80%;
+            text-align: left;
+        }
+        /* 这里经过调整选择center最为合适 */
+        .col-2 {
+            width: 20%;
+            text-align: center;
+        }
+        .icon {
+            background-image: url(./换一换.png);
+            width: 24px;
+            height: 24px;
+            background-size: 100% 100%; 
+            display: inline-block;
+            vertical-align: middle; /* 修改此行 */
+        }
+        .content {
+            font-size: 18px;
+            line-height: 40px;
+        }
+        .content .col-1 , .content .col-2 {
+            border-bottom: 2px solid #f3f3f3;
+        }
+        .num {
+            width: 20px;
+            height: 20px;
+            font-size: 18px;
+            color: #fffff3;
+            
+        }
+        .first {
+            background-color: #f54545;
+            padding-right: 8px;
+        }
+        .second {
+            background-color: #ff8547;
+            padding-right: 8px;
+        }
+        .third {
+            background-color: #ffac38;
+            padding-right: 8px;
+        }
+        .else {
+            background-color: #8eb9f5;
+            padding-right: 8px;
+        }
+    </style>
+</head>
+<!-- 
+百度热榜实现
+1.整个盒子大小536*536
+2.标题字体框20px，加粗，纯黑，换一换字体大小20px，颜色0055db，刷新图标需要保存
+3.内容字体18px，上下边距15px，下边框实心2px，颜色f3f3f3，宽度大概占80%
+4.序号20*20，字体颜色fffff3，背景颜色1为f54545,2为ff8547，3为ffac38，其他为8eb9f5
+5.序号和正文中间有8像素边距
+6.换一换图标大小24*24，底部对齐
+7.换一换图标需要保存
+
+提示：
+1.使用table布局
+2.表格要是要cellspacing属性把单元格之间的空隙干掉
+3.使用vertical-align: bottom;让换一换图标和文字底部对齐
+4.tr没有独立的边框，td和table才有
+-->
+<body>
+    <table cellspacing="0">
+        <th class="title col-1">百度热榜</th>
+        <th class="title col-2"><a href="#">换一换<span class="icon"></span></a></th>
+        <!-- <label for="img"></label> -->
+        <tr class="content">
+            <td class="col-1"><span class="num first">1.</span><a href="#">未知苦处，不信神佛</a></td>
+            <td class="col-2">474万</td>
+        </tr>
+        <tr class="content">
+            <td class="col-1"><span class="num second">2.</span><a href="#">未知苦处，不信神佛</a></td>
+            <td class="col-2">474万</td>
+        </tr>
+        <tr class="content">
+            <td class="col-1"><span class="num third">3.</span><a href="#">未知苦处，不信神佛</a></td>
+            <td class="col-2">474万</td>
+        </tr>
+        <tr class="content">
+            <td class="col-1"><span class="num else">4.</span><a href="#">未知苦处，不信神佛</a></td>
+            <td class="col-2">474万</td>
+        </tr>
+    </table>
+</body>
+</html>

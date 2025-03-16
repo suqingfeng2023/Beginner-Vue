@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            width: 500px;
+            height: 300px;
+            background-color: aqua;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        span {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+        }
+    </style>
+</head>
+<!-- 
+display：flex; 使得div元素变成了一个flex容器，
+justify-content: space-around; 使得div元素内部的span元素在水平方向上均匀分布
+justify-content：start; 使得div元素内部的span元素在水平方向上靠左对齐
+align-items: center; 使得div元素内部的span元素在垂直方向上居中对齐
+-->
+<body>
+    <div>
+        <span>1</span>
+        <span>2</span>
+        <span>3</span>
+    </div>
+</body>
+</html>

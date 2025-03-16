@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- 伪类选择器 -->
+    <style>
+        a:link {
+            color: red;
+            text-decoration: none;
+        }
+
+        a:visited {
+            color: green;
+        }
+
+        a:hover {
+            color: blue;
+        }
+
+        a:active {
+            color: yellow;
+        }
+    </style>
+    <style>
+        .three input:focus {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <a href="#">小猫</a>
+    <!-- div>a+ul>li*2>a -->
+    <div class="three">
+        <input type="text">
+        <input type="text">
+        <input type="text">
+        <input type="text">
+    </div>
+
+</body>
+
+</html>

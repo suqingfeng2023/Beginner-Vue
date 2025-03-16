@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- 
+    form:表单
+    input:输入框
+    action:表单提交的地址
+    text:文本输入框
+    password:密码输入框
+    radio:单选框
+    checkbox:复选框
+    -->
+
+    <form action="">
+        <div>
+            <label for="username">用户名</label>
+            <input type="text" id="username">
+            <br>
+            <label for="password">密码&nbsp;</label>
+            <input type="password" id="password">
+            <br>
+            <label for="male">男</label>
+            <input type="radio" name="sex" id="male">
+            <label for="female">女</label>
+            <input type="radio" name="sex" id="female">
+            <br>
+            <input type="button" value="我是个按钮" onclick="alert('hello')">
+            <br>
+            <form action="html01.html">
+                    <input type="text" name="username">
+                    <input type="submit" value="提交">
+                    <input type="reset" value="清空">
+            </form>
+
+            <input type="file">
+        </div>
+    </form>
+</body>
+
+</html>

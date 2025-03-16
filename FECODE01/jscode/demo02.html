@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" onkeyup="Myonkeyup(event)">
+</body>
+<script>
+    // onkeypress事件是键盘正在输入时触发
+    // onkeydown事件是键盘按下时触发
+    // onkeyup事件是键盘松开时触发
+    let input = document.querySelector('input')
+    input.onkeypress = function(event) {
+        console.log("键盘正在输入");
+        console.log(event.key);
+    }
+
+    function Myonkeyup() {
+        console.log("键盘松开");
+    }
+
+</script>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box {
+            width: 200px;
+            margin: 0 auto;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <input type="button" class="play" value="重新开始一局游戏"><br>
+        请输入要猜的数字：<input type="text" class="to_guess_num"><input type="button" value="猜" class="guess"><br>
+        已经猜的次数：<span class="times">0</span><br>
+        结果：<span class="result"></span>
+    </div>
+</body>
+<script>
+    let play = document.querySelector('.play')
+    let to_guess_num = document.querySelector('.to_guess_num')
+    let guess = document.querySelector('.guess')
+    let times = document.querySelector('.times')
+    let result = document.querySelector('.result')
+    let guess_num = Math.floor(Math.random() * 100)
+    let count = 0
+    play.onclick = function() {
+        guess_num = Math.floor(Math.random() * 100) + 1
+        count = 0
+        times.innerHTML = count
+        result.innerHTML = ''
+    }
+    guess.onclick = function() {
+        count++
+        times.innerHTML = count
+        let num = parseInt(to_guess_num.value)
+        if (num > guess_num) {
+            result.innerHTML = '猜大了'
+        }
+        else if (num < guess_num) {
+            result.innerHTML = '猜小了'
+        }
+        else {
+            result.innerHTML = '猜对了'
+        }
+    }
+</script>
+</html>

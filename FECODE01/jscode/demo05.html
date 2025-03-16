@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .test {
+            font-size: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <div class="test">测试</div>
+        <input type="button" class="larger" value="放大">
+        <input type="button" class="smaller" value="缩小">
+    </div>
+</body>
+<script>
+    let test = document.querySelector('.test')
+    let larger = document.querySelector('.larger')
+    let smaller = document.querySelector('.smaller')
+    larger.onclick = function() {
+        let fontzise = parseInt(window.getComputedStyle(test).fontSize)
+        test.style.fontSize = fontzise + 5 + 'px'
+    }
+    smaller.onclick = function() {
+        let fontzise = parseInt(window.getComputedStyle(test).fontSize)
+        test.style.fontSize = fontzise - 5 + 'px'
+    }
+</script>
+</html>

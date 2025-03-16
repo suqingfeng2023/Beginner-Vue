@@ -1,0 +1,45 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+}
+h1 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+p {
+    text-align: center;
+    color: gray;
+    margin-bottom: 20px;
+}
+.div1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.edit {
+    width: 200px;
+    height: 30px;
+    margin-bottom: 10px;
+}
+span {
+    width: 80px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+.submit {
+    width: 200px;
+    height: 30px;
+    background-color: orange;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.submit:active {
+    background-color: rgb(160, 142, 142);
+}

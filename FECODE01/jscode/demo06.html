@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div>
+        <span>hello world</span>
+        <span>hello world</span>
+    </div>
+</body>
+
+<script>
+    var div = document.querySelector('div');
+    // 读取页面内容
+    console.log(div.innerHTML);
+    // 修改页面内容
+    div.innerHTML = '<span>hello js</span>'
+</script>
+
+</html>
