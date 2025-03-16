@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    // 扩展运算符
+    // 1.复制数组或对象
+    let arr = [1, 2, 3]
+    let arr2 = [...arr]
+    console.log(arr2)
+    
+    let obj = {name: 'zhangsan', age: 18}
+    let obj2 = {...obj}
+    console.log(obj2)
+
+    // 2.合并数组或对象
+    let arr3 = [4, 5, 6]
+    let arr4 = [...arr, ...arr3]
+    console.log(arr4)
+    
+    let obj3 = {age: 20, weight: 120}
+    let obj4 = {...obj, ...obj3}
+    // 如果有相同的属性，后面的会覆盖前面的
+    console.log(obj4)
+</script>
+
+</html>

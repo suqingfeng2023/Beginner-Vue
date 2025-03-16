@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    // 数组的解构赋值
+    let arr = [1, 2, 3]
+    let [a, b, c] = arr
+    console.log(a, b, c)
+
+    // let[,x,y] = arr
+    // console.log(x, y) 
+
+    // 把第一个给a,其他的给rest
+    let [a1, ...rest] = arr
+    console.log(a1, rest)
+
+    // 对象的解构赋值
+    const obj = {
+        name: 'zhangsan',
+        age: 18
+    }
+    // let {name, age} = obj
+    // console.log(name, age)
+    let {age, name} = obj
+    console.log(name, age)
+</script>
+</html>

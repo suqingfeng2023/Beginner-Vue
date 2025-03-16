@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+</body>
+<script>
+    // 需求: 延迟2秒之后输出1, 完了之后延迟1秒输出2, 完了之后延迟1秒输出3 
+    // 回调地狱
+    // setTimeout(() => {
+    //     console.log(1)
+    //     setTimeout(() => {
+    //         console.log(2)
+    //         setTimeout(() => {
+    //             console.log(3)
+    //         }, 1000)
+    //     }, 1000)
+    // }, 2000)
+
+    // Promise
+    // 封装延迟函数 
+    function delay(duration, n) {
+        return new Promise((resolve) => {
+            setTimeout(() => {
+                resolve(n)
+            }, duration)
+        })
+    }
+    delay(2000, 1).then((n) => {
+        console.log(n)
+        return delay(1000, 2)
+    }).then((n) => {
+        console.log(n)
+        return delay(1000, 3)
+    }).then((n) => {
+        console.log(n)
+    })
+</script>
+
+</html>

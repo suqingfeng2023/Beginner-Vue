@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+</body>
+<script>
+    // 模版字符串
+    // let name = `小明`;
+    // let msg = `Hello World!`;
+    // 优势：
+    // 1. 可以换行
+    // 2. 可以插入变量 ${}
+    // 3. 可以插入表达式 ${}
+    // 4. 可以插入函数调用 ${函数名()}
+
+    let htmlStr = `
+    <div class="hot_goods_box">
+        <h1>
+            热门商品
+        </h1>
+        <p>
+            卖爆了卖爆了
+        </p>
+    </div>`
+
+    let name = `小明`;
+    let age = 18;
+    let str = "我叫" + name + "，今年" + age + "岁了";
+    let str2 = `我叫${name}，今年${age}岁了`;
+    console.log(str);
+    console.log(str2);
+</script>
+
+</html>

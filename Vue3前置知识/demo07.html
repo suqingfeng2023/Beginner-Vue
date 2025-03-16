@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    // Web存储
+    // 1.localStorage
+    // 即使关闭浏览器，数据也会一直存在
+    // 存储数据
+    localStorage.setItem('name', 'zhangsan')
+    // 获取数据
+    console.log(localStorage.getItem('name'))
+    // 删除数据
+    localStorage.removeItem('name')
+
+    // 2.sessionStorage
+    // 关闭浏览器，数据会被清除
+    // 存储数据
+    sessionStorage.setItem('name', 'lisi')
+    // 获取数据
+    console.log(sessionStorage.getItem('name'))
+    // 删除数据
+    sessionStorage.removeItem('name')
+</script>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    // 数组的重要用法
+    // 1.push() 和 unshift() 方法
+    let arr = [1, 2, 3]
+    arr.push(4)
+    console.log(arr)
+    arr.unshift(0)
+    console.log(arr)
+
+    // 2.pop() 和 shift() 方法
+    arr.pop()
+    console.log(arr)
+    arr.shift()
+    console.log(arr)
+
+    // 3.splice() 方法
+    // 从第一个参数开始删除，删除的个数由第二个参数决定，第三个参数是插入的元素
+    arr.splice(1, 1, 5)
+    console.log(arr)
+
+    // 4.includes() 方法
+    // 判断数组中是否包含某个元素
+    console.log(arr.includes(5))
+
+    // 5.forEach() 方法
+    // 遍历数组
+    arr.forEach((item, index) => {
+        console.log(item, index)
+    })
+
+    // 6.filter() 方法
+    // 过滤数组
+    let newArr = arr.filter(item => item > 2)
+    console.log(newArr)
+
+    // 7.map() 方法
+    // 映射数组
+    let newArr2 = arr.map(item => item * 2)
+    console.log(newArr2)
+
+    // 8.reduce() 方法
+    // 求和
+    let sum = arr.reduce((prev, cur) => prev + cur)
+    console.log(sum)
+    
+</script>
+</html>
