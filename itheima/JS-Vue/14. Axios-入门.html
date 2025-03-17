@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajax-Axios</title>
+</head>
+
+<body>
+
+    <input type="button" value="获取数据GET" id="btnGet">
+    <input type="button" value="操作数据POST" id="btnPost">
+
+    <script src="js/axios.js"></script>
+    <script>
+        //发送GET请求
+        document.querySelector('#btnGet').addEventListener('click', () => {
+            // axios发送异步请求
+            axios.get("https://mock.apifox.cn/m1/3083103-0-default/emps/list").then(result => {
+                console.log(result.data);
+            }).catch(err => {
+                console.log(err);
+            })
+        })
+
+        //发送POST请求
+        document.querySelector('#btnPost').addEventListener('click', () => {
+            // axios发送POST请求
+            axios.post("https://mock.apifox.cn/m1/3083103-0-default/emps/update", "id=1").then(result => {
+                console.log(result.data);
+            })
+        })
+    </script>
+</body>
+
+</html>
