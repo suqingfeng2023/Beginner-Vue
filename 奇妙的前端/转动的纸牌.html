@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+
+<head>
+        
+    <meta charset="UTF-8"  />
+        <title>转动的纸牌</title>
+        <style>
+        :root {
+            --title: 'Flipping Playing Cards';
+            --author: 'Matt Cannon';
+            --contact: 'mc@mattcannon.design';
+            --description: 'A mesmerizing 3D animation of playing cards rotating in space,using the Deck of Cards API. Each card gracefully flips to reveal its face and back in an endless cascade.';
+            --keywords: 'cpc-jump-flip,codepenchallenge,cards,playing cards,animation,3D,transform,deck of cards API,CSS animation,interactive,card games,visual effects,rotation,cascade,card flip,dynamic display';
+            --last-modified: '2025-01-21';
+            --content-language: 'en';
+            --generator: 'HTML5,CSS3,JavaScript,Deck of Cards API';
+        }
+
+        *,
+        *:before,
+        *:after {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            align-items: center;
+            display: flex;
+            height: 100vh;
+            justify-content: center;
+            width: 100%;
+            margin: 0;
+            background: #1a1a1a;
+            perspective: 800px;
+            overflow: hidden;
+        }
+
+        ul,
+        li {
+            list-style: none;
+        }
+
+        ul {
+            height: 14em;
+            width: 30em;
+            position: relative;
+            transform-style: preserve-3d;
+            transform: rotate3d(2, -5, 3, -30deg) translateY(50%) scale(1);
+        }
+
+        li {
+            height: 100%;
+            left: 0;
+            position: absolute;
+            top: 0;
+            width: 100%;
+            transform-origin: top center;
+            transform-style: preserve-3d;
+            transform: rotateZ(90deg);
+            will-change: transform;
+        }
+
+        .front,
+        .back {
+            background-size: contain;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 100%;
+            width: 100%;
+            position: absolute;
+            backface-visibility: hidden;
+            -webkit-backface-visibility: hidden;
+        }
+
+        .back {
+            transform: rotateX(180deg);
+        }
+
+        @keyframes turn {
+            from {
+                transform: rotateX(1turn);
+            }
+
+            to {
+                transform: rotateX(0turn);
+            }
+        }
+
+        .sides-1 {
+            animation: turn 10s calc(1 * -300ms) linear infinite;
+        }
+
+        .sides-2 {
+            animation: turn 10s calc(2 * -300ms) linear infinite;
+        }
+
+        .sides-3 {
+            animation: turn 10s calc(3 * -300ms) linear infinite;
+        }
+
+        .sides-4 {
+            animation: turn 10s calc(4 * -300ms) linear infinite;
+        }
+
+        .sides-5 {
+            animation: turn 10s calc(5 * -300ms) linear infinite;
+        }
+
+        .sides-6 {
+            animation: turn 10s calc(6 * -300ms) linear infinite;
+        }
+
+        .sides-7 {
+            animation: turn 10s calc(7 * -300ms) linear infinite;
+        }
+
+        .sides-8 {
+            animation: turn 10s calc(8 * -300ms) linear infinite;
+        }
+
+        .sides-9 {
+            animation: turn 10s calc(9 * -300ms) linear infinite;
+        }
+
+        .sides-10 {
+            animation: turn 10s calc(10 * -300ms) linear infinite;
+        }
+
+        .sides-11 {
+            animation: turn 10s calc(11 * -300ms) linear infinite;
+        }
+
+        .sides-12 {
+            animation: turn 10s calc(12 * -300ms) linear infinite;
+        }
+
+        .sides-13 {
+            animation: turn 10s calc(13 * -300ms) linear infinite;
+        }
+
+        .sides-14 {
+            animation: turn 10s calc(14 * -300ms) linear infinite;
+        }
+
+        .sides-15 {
+            animation: turn 10s calc(15 * -300ms) linear infinite;
+        }
+
+        .sides-16 {
+            animation: turn 10s calc(16 * -300ms) linear infinite;
+        }
+
+        .sides-17 {
+            animation: turn 10s calc(17 * -300ms) linear infinite;
+        }
+
+        .sides-18 {
+            animation: turn 10s calc(18 * -300ms) linear infinite;
+        }
+
+        .sides-19 {
+            animation: turn 10s calc(19 * -300ms) linear infinite;
+        }
+
+        .sides-20 {
+            animation: turn 10s calc(20 * -300ms) linear infinite;
+        }
+
+        .sides-21 {
+            animation: turn 10s calc(21 * -300ms) linear infinite;
+        }
+
+        .sides-22 {
+            animation: turn 10s calc(22 * -300ms) linear infinite;
+        }
+
+        .sides-23 {
+            animation: turn 10s calc(23 * -300ms) linear infinite;
+        }
+
+        .sides-24 {
+            animation: turn 10s calc(24 * -300ms) linear infinite;
+        }
+
+        .sides-25 {
+            animation: turn 10s calc(25 * -300ms) linear infinite;
+        }
+
+        .sides-26 {
+            animation: turn 10s calc(26 * -300ms) linear infinite;
+        }
+
+        .sides-27 {
+            animation: turn 10s calc(27 * -300ms) linear infinite;
+        }
+
+        .sides-28 {
+            animation: turn 10s calc(28 * -300ms) linear infinite;
+        }
+
+        .sides-29 {
+            animation: turn 10s calc(29 * -300ms) linear infinite;
+        }
+
+        .sides-30 {
+            animation: turn 10s calc(30 * -300ms) linear infinite;
+        }
+
+        .sides-31 {
+            animation: turn 10s calc(31 * -300ms) linear infinite;
+        }
+
+        .sides-32 {
+            animation: turn 10s calc(32 * -300ms) linear infinite;
+        }
+
+        .sides-33 {
+            animation: turn 10s calc(33 * -300ms) linear infinite;
+        }
+
+        .sides-34 {
+            animation: turn 10s calc(34 * -300ms) linear infinite;
+        }
+
+        .sides-35 {
+            animation: turn 10s calc(35 * -300ms) linear infinite;
+        }
+
+        .sides-36 {
+            animation: turn 10s calc(36 * -300ms) linear infinite;
+        }
+    </style>
+      
+</head>
+  
+
+<body>
+        <ul></ul>
+        
+    <script>
+        async function initializeCards() {
+            try {
+                // Get a new deck
+                const deckResponse = await fetch(
+                    'https://deckofcardsapi.com/api/deck/new/shuffle/?deck_count=1'
+                );
+                const deck = await deckResponse.json();
+
+                // Draw 36 cards
+                const cardsResponse = await fetch(
+                    `https://deckofcardsapi.com/api/deck/${deck.deck_id}/draw/?count=36`
+                );
+                const cards = await cardsResponse.json();
+
+                const ul = document.querySelector('ul');
+
+                // Create card elements
+                cards.cards.forEach((card, index) => {
+                    const li = document.createElement('li');
+                    li.className = `sides-${index + 1}`;
+
+                    const front = document.createElement('div');
+                    front.className = 'front';
+                    front.style.backgroundImage = `url(${card.image})`;
+
+                    const back = document.createElement('div');
+                    back.className = 'back';
+                    back.style.backgroundImage =
+                        'url(https://deckofcardsapi.com/static/img/back.png)';
+
+                    li.appendChild(front);
+                    li.appendChild(back);
+                    ul.appendChild(li);
+                });
+            } catch (error) {
+                console.error('Error loading cards:', error);
+            }
+        }
+
+        // Initialize when page loads
+        document.addEventListener('DOMContentLoaded', initializeCards);
+    </script>
+      
+</body>
+
+</html>
