@@ -1,0 +1,69 @@
+0 verbose cli D:\node_js\node.exe D:\node_js\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.9.2
+2 info using node@v22.14.0
+3 silly config load:file:D:\node_js\node_modules\npm\npmrc
+4 silly config load:file:D:\Vue\day_03\.npmrc
+5 silly config load:file:C:\Users\10797\.npmrc
+6 silly config load:file:D:\Vue\day_03\node_js\node_global\etc\npmrc
+7 verbose title npm create vue@latest
+8 verbose argv "create" "vue@latest"
+9 verbose logfile logs-max:10 dir:D:\Vue\day_03\node_js\node_cache\_logs\2025-03-19T09_19_03_142Z-
+10 verbose logfile D:\Vue\day_03\node_js\node_cache\_logs\2025-03-19T09_19_03_142Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+13 http fetch GET 200 https://registry.npmmirror.com/npm 251ms
+14 http fetch GET 200 https://registry.npmmirror.com/create-vue 204ms (cache miss)
+15 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+16 silly idealTree buildDeps
+17 silly fetch manifest create-vue@3.15.1
+18 silly packumentCache full:https://registry.npmmirror.com/create-vue cache-miss
+19 http fetch GET 200 https://registry.npmmirror.com/create-vue 76ms (cache miss)
+20 silly packumentCache full:https://registry.npmmirror.com/create-vue set size:71308 disposed:false
+21 silly placeDep ROOT create-vue@3.15.1 OK for:  want: 3.15.1
+22 silly reify moves {}
+23 silly audit bulk request { 'create-vue': [ '3.15.1' ] }
+24 http cache create-vue@https://registry.npmmirror.com/create-vue/-/create-vue-3.15.1.tgz 0ms (cache hit)
+25 silly tarball no local data for create-vue@https://registry.npmmirror.com/create-vue/-/create-vue-3.15.1.tgz. Extracting by manifest.
+26 http fetch POST 404 https://registry.npmmirror.com/-/npm/v1/security/advisories/bulk 21ms
+27 silly audit bulk request failed [object Object]
+28 http fetch POST 404 https://registry.npmmirror.com/-/npm/v1/security/audits/quick 15ms
+29 verbose audit error HttpErrorGeneral: 404 Not Found - POST https://registry.npmmirror.com/-/npm/v1/security/audits/quick - [NOT_IMPLEMENTED] /-/npm/v1/security/* not implemented yet
+29 verbose audit error     at D:\node_js\node_modules\npm\node_modules\npm-registry-fetch\lib\check-response.js:103:15
+29 verbose audit error     at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+29 verbose audit error     at async [getReport] (D:\node_js\node_modules\npm\node_modules\@npmcli\arborist\lib\audit-report.js:336:21)
+29 verbose audit error     at async AuditReport.run (D:\node_js\node_modules\npm\node_modules\@npmcli\arborist\lib\audit-report.js:106:19) {
+29 verbose audit error   headers: [Object: null prototype] {
+29 verbose audit error     server: [ 'Tengine' ],
+29 verbose audit error     date: [ 'Wed, 19 Mar 2025 09:19:06 GMT' ],
+29 verbose audit error     'content-type': [ 'application/json' ],
+29 verbose audit error     'transfer-encoding': [ 'chunked' ],
+29 verbose audit error     connection: [ 'keep-alive' ],
+29 verbose audit error     'strict-transport-security': [ 'max-age=5184000' ],
+29 verbose audit error     via: [ 'kunlun9.cn1588[,404666]' ],
+29 verbose audit error     'timing-allow-origin': [ '*' ],
+29 verbose audit error     eagleid: [ '6f06f39d17423759466782117e' ],
+29 verbose audit error     'x-fetch-attempts': [ '1' ]
+29 verbose audit error   },
+29 verbose audit error   statusCode: 404,
+29 verbose audit error   code: 'E404',
+29 verbose audit error   method: 'POST',
+29 verbose audit error   uri: 'https://registry.npmmirror.com/-/npm/v1/security/audits/quick',
+29 verbose audit error   body: {
+29 verbose audit error     error: '[NOT_IMPLEMENTED] /-/npm/v1/security/* not implemented yet'
+29 verbose audit error   },
+29 verbose audit error   pkgid: undefined
+29 verbose audit error }
+30 silly audit error [object Object]
+31 silly audit report null
+32 http fetch GET 200 https://cdn.npmmirror.com/packages/create-vue/3.15.1/create-vue-3.15.1.tgz 701ms (cache miss)
+33 verbose cwd D:\Vue\day_03
+34 verbose os Windows_NT 10.0.26100
+35 verbose node v22.14.0
+36 verbose npm  v10.9.2
+37 notice
+37 notice New [31mmajor[39m version of npm available! [31m10.9.2[39m -> [34m11.2.0[39m
+37 notice Changelog: [34mhttps://github.com/npm/cli/releases/tag/v11.2.0[39m
+37 notice To update run: [4mnpm install -g npm@11.2.0[24m
+37 notice  { force: true, [Symbol(proc-log.meta)]: true }
+38 verbose exit 0
+39 info ok
