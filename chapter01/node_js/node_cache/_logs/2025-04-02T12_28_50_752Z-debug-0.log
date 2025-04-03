@@ -1,0 +1,30 @@
+0 verbose cli D:\node_js\node.exe D:\node_js\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.9.2
+2 info using node@v22.14.0
+3 silly config load:file:D:\node_js\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\10797\.npmrc
+5 silly config load:file:D:\Vue\chapter01\node_js\node_global\etc\npmrc
+6 verbose title npm install npm@11.2.0
+7 verbose argv "install" "--global" "npm@11.2.0"
+8 verbose logfile logs-max:10 dir:D:\Vue\chapter01\node_js\node_cache\_logs\2025-04-02T12_28_50_752Z-
+9 verbose logfile D:\Vue\chapter01\node_js\node_cache\_logs\2025-04-02T12_28_50_752Z-debug-0.log
+10 silly logfile done cleaning log files
+11 http fetch GET 200 https://registry.npmmirror.com/npm 779ms (cache miss)
+12 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+13 silly idealTree buildDeps
+14 silly fetch manifest npm@11.2.0
+15 silly packumentCache full:https://registry.npmmirror.com/npm cache-miss
+16 http fetch GET 200 https://registry.npmmirror.com/npm 21552ms (cache miss)
+17 silly packumentCache full:https://registry.npmmirror.com/npm set size:6578232 disposed:false
+18 silly placeDep ROOT npm@11.2.0 OK for:  want: 11.2.0
+19 silly reify moves {}
+20 http cache npm@https://registry.npmmirror.com/npm/-/npm-11.2.0.tgz 0ms (cache hit)
+21 silly tarball no local data for npm@https://registry.npmmirror.com/npm/-/npm-11.2.0.tgz. Extracting by manifest.
+22 http fetch GET 200 https://cdn.npmmirror.com/packages/npm/11.2.0/npm-11.2.0.tgz 15266ms (cache miss)
+23 silly ADD node_modules/npm
+24 verbose cwd D:\Vue\chapter01
+25 verbose os Windows_NT 10.0.26100
+26 verbose node v22.14.0
+27 verbose npm  v10.9.2
+28 verbose exit 0
+29 info ok
