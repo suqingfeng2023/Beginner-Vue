@@ -1,0 +1,18 @@
+0 verbose cli D:\node_js\node.exe D:\node_js\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.9.2
+2 info using node@v22.14.0
+3 silly config load:file:D:\node_js\node_modules\npm\npmrc
+4 silly config load:file:D:\Vue\day_02\.npmrc
+5 silly config load:file:C:\Users\10797\.npmrc
+6 silly config load:file:D:\Vue\day_02\node_js\node_global\etc\npmrc
+7 verbose title npm vue-project
+8 verbose argv "vue-project"
+9 verbose logfile logs-max:10 dir:D:\Vue\day_02\node_js\node_cache\_logs\2025-04-02T09_02_10_998Z-
+10 verbose logfile D:\Vue\day_02\node_js\node_cache\_logs\2025-04-02T09_02_10_998Z-debug-0.log
+11 silly logfile done cleaning log files
+12 verbose cwd D:\Vue\day_02
+13 verbose os Windows_NT 10.0.26100
+14 verbose node v22.14.0
+15 verbose npm  v10.9.2
+16 verbose exit 1
+17 verbose code 1
