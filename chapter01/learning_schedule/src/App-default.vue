@@ -74,17 +74,26 @@ let add = () => {
   <div class="card">
     <!-- 标题区域 -->
     <div class="card-header">
+      <!-- card-header: 标题 -->
       学习计划表
     </div>
     <!-- 提交区域 -->
     <div class="card-body">
+      <!-- card-body: 内容 -->
       <form @submit.prevent="add">
         <div class="row g-4">
+          <!-- row g-4: 控制列间隔 -->
           <!-- 学习科目 -->
           <div class="col-auto">
+            <!-- col-auto: 宽度自动 -->
             <div class="input-group mb-3">
+              <!-- mb-3: 下边距 -->
+              <!-- input-group: 输入框组 -->
               <span class="input-group-text" id="basic-addon1">学习科目</span>
+              <!-- input-group-text: 输入框组前缀 -->
               <input type="text" class="form-control" placeholder="请输入学习科目" v-model.trim="subject">
+              <!-- form-control: 输入框 -->
+              <!-- placeholder: 提示文本 -->
             </div>
           </div>
           <!-- 学习任务 -->
@@ -100,6 +109,8 @@ let add = () => {
             <div class="input-group mb-3">
               <span class="input-group-text" id="basic-addon1">学习地点</span>
               <select class="form-select form-select-sm" v-model="selectedOption">
+                <!-- form-select: 下拉框 -->
+                 <!-- form-select-sm: 小尺寸 -->
                 <option v-for="option in options" :key="option.placeCode" :value="option.place">
                   {{ option.place }}
                 </option>
@@ -115,6 +126,9 @@ let add = () => {
     </div>
   </div>
   <table class="table table-striped table-hover table-bordered">
+    <!-- table-striped: 斑马纹 -->
+    <!-- table-hover: 鼠标悬停高亮 -->
+    <!-- table-bordered: 边框 -->
     <thead>
       <tr>
         <th scope="col">序号</th>
