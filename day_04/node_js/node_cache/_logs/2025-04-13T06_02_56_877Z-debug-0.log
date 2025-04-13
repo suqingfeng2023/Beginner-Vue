@@ -1,0 +1,537 @@
+0 verbose cli D:\node_js\node.exe D:\Vue\day_04\node_js\node_global\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.2.0
+2 info using node@v22.14.0
+3 silly config load:file:D:\Vue\day_04\node_js\node_global\node_modules\npm\npmrc
+4 silly config load:file:D:\Vue\day_04\.npmrc
+5 silly config load:file:C:\Users\10797\.npmrc
+6 silly config load:file:D:\Vue\day_04\node_js\node_global\etc\npmrc
+7 verbose title npm install sass sass-embedded
+8 verbose argv "install" "--save-dev" "sass" "sass-embedded"
+9 verbose logfile logs-max:10 dir:D:\Vue\day_04\node_js\node_cache\_logs\2025-04-13T06_02_56_877Z-
+10 verbose logfile D:\Vue\day_04\node_js\node_cache\_logs\2025-04-13T06_02_56_877Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+13 silly idealTree buildDeps
+14 silly fetch manifest sass@*
+15 silly packumentCache full:https://registry.npmmirror.com/sass cache-miss
+16 http fetch GET 200 https://registry.npmmirror.com/sass 276ms (cache miss)
+17 silly packumentCache full:https://registry.npmmirror.com/sass set size:116091 disposed:false
+18 silly fetch manifest sass-embedded@*
+19 silly packumentCache full:https://registry.npmmirror.com/sass-embedded cache-miss
+20 http fetch GET 200 https://registry.npmmirror.com/sass-embedded 59ms (cache miss)
+21 silly packumentCache full:https://registry.npmmirror.com/sass-embedded set size:64082 disposed:false
+22 silly placeDep ROOT sass@1.86.3 OK for:  want: *
+23 silly placeDep ROOT sass-embedded@1.86.3 OK for:  want: *
+24 silly fetch manifest chokidar@^4.0.0
+25 silly packumentCache full:https://registry.npmmirror.com/chokidar cache-miss
+26 silly fetch manifest immutable@^5.0.2
+27 silly packumentCache full:https://registry.npmmirror.com/immutable cache-miss
+28 silly fetch manifest source-map-js@>=0.6.2 <2.0.0
+29 silly packumentCache full:https://registry.npmmirror.com/source-map-js cache-miss
+30 silly fetch manifest @parcel/watcher@^2.4.1
+31 silly packumentCache full:https://registry.npmmirror.com/@parcel%2fwatcher cache-miss
+32 silly fetch manifest @bufbuild/protobuf@^2.0.0
+33 silly packumentCache full:https://registry.npmmirror.com/@bufbuild%2fprotobuf cache-miss
+34 silly fetch manifest buffer-builder@^0.2.0
+35 silly packumentCache full:https://registry.npmmirror.com/buffer-builder cache-miss
+36 silly fetch manifest colorjs.io@^0.5.0
+37 silly packumentCache full:https://registry.npmmirror.com/colorjs.io cache-miss
+38 silly fetch manifest immutable@^5.0.2
+39 silly packumentCache full:https://registry.npmmirror.com/immutable cache-miss
+40 silly fetch manifest rxjs@^7.4.0
+41 silly packumentCache full:https://registry.npmmirror.com/rxjs cache-miss
+42 silly fetch manifest supports-color@^8.1.1
+43 silly packumentCache full:https://registry.npmmirror.com/supports-color cache-miss
+44 silly fetch manifest sync-child-process@^1.0.2
+45 silly packumentCache full:https://registry.npmmirror.com/sync-child-process cache-miss
+46 http fetch GET 200 https://registry.npmmirror.com/chokidar 104ms (cache miss)
+47 silly packumentCache full:https://registry.npmmirror.com/chokidar set size:39278 disposed:false
+48 silly fetch manifest varint@^6.0.0
+49 silly packumentCache full:https://registry.npmmirror.com/varint cache-miss
+50 http fetch GET 200 https://registry.npmmirror.com/buffer-builder 123ms (cache miss)
+51 silly packumentCache full:https://registry.npmmirror.com/buffer-builder set size:2324 disposed:false
+52 silly fetch manifest sass-embedded-android-arm@1.86.3
+53 silly packumentCache full:https://registry.npmmirror.com/sass-embedded-android-arm cache-miss
+54 http fetch GET 200 https://registry.npmmirror.com/source-map-js 221ms (cache miss)
+55 silly packumentCache full:https://registry.npmmirror.com/source-map-js set size:14399 disposed:false
+56 silly fetch manifest sass-embedded-android-arm64@1.86.3
+57 silly packumentCache full:https://registry.npmmirror.com/sass-embedded-android-arm64 cache-miss
+58 http fetch GET 200 https://registry.npmmirror.com/colorjs.io 224ms (cache miss)
+59 silly packumentCache full:https://registry.npmmirror.com/colorjs.io set size:31479 disposed:false
+60 silly fetch manifest sass-embedded-android-ia32@1.86.3
+61 silly packumentCache full:https://registry.npmmirror.com/sass-embedded-android-ia32 cache-miss
+62 http fetch GET 200 https://registry.npmmirror.com/varint 131ms (cache miss)
+63 silly packumentCache full:https://registry.npmmirror.com/varint set size:5110 disposed:false
+64 silly fetch manifest sass-embedded-android-riscv64@1.86.3
+65 silly packumentCache full:https://registry.npmmirror.com/sass-embedded-android-riscv64 cache-miss
+66 http fetch GET 200 https://registry.npmmirror.com/sync-child-process 241ms (cache miss)
+67 silly packumentCache full:https://registry.npmmirror.com/sync-child-process set size:3142 disposed:false
+68 silly fetch manifest sass-embedded-android-x64@1.86.3
+69 silly packumentCache full:https://registry.npmmirror.com/sass-embedded-android-x64 cache-miss
+70 http fetch GET 200 https://registry.npmmirror.com/supports-color 245ms (cache miss)
+71 silly packumentCache full:https://registry.npmmirror.com/supports-color set size:21839 disposed:false
+72 silly fetch manifest sass-embedded-darwin-arm64@1.86.3
+73 silly packumentCache full:https://registry.npmmirror.com/sass-embedded-darwin-arm64 cache-miss
+74 http fetch GET 200 https://registry.npmmirror.com/@parcel%2fwatcher 264ms (cache miss)
+75 silly packumentCache full:https://registry.npmmirror.com/@parcel%2fwatcher set size:23169 disposed:false
+76 silly fetch manifest sass-embedded-darwin-x64@1.86.3
+77 silly packumentCache full:https://registry.npmmirror.com/sass-embedded-darwin-x64 cache-miss
+78 http fetch GET 200 https://registry.npmmirror.com/sass-embedded-android-arm 146ms (cache miss)
+79 silly packumentCache full:https://registry.npmmirror.com/sass-embedded-android-arm set size:15573 disposed:false
+80 silly fetch manifest sass-embedded-linux-arm@1.86.3
+81 silly packumentCache full:https://registry.npmmirror.com/sass-embedded-linux-arm cache-miss
+82 http fetch GET 200 https://registry.npmmirror.com/@bufbuild%2fprotobuf 345ms (cache miss)
+83 silly packumentCache full:https://registry.npmmirror.com/@bufbuild%2fprotobuf set size:39888 disposed:false
+84 silly fetch manifest sass-embedded-linux-arm64@1.86.3
+85 silly packumentCache full:https://registry.npmmirror.com/sass-embedded-linux-arm64 cache-miss
+86 http fetch GET 200 https://registry.npmmirror.com/immutable 353ms (cache miss)
+87 silly packumentCache full:https://registry.npmmirror.com/immutable set size:50397 disposed:false
+88 silly fetch manifest sass-embedded-linux-ia32@1.86.3
+89 silly packumentCache full:https://registry.npmmirror.com/sass-embedded-linux-ia32 cache-miss
+90 http fetch GET 200 https://registry.npmmirror.com/immutable 363ms (cache miss)
+91 silly packumentCache full:https://registry.npmmirror.com/immutable set size:50397 disposed:false
+92 silly packumentCache full:https://registry.npmmirror.com/immutable dispose
+93 silly fetch manifest sass-embedded-linux-riscv64@1.86.3
+94 silly packumentCache full:https://registry.npmmirror.com/sass-embedded-linux-riscv64 cache-miss
+95 http fetch GET 200 https://registry.npmmirror.com/sass-embedded-android-riscv64 165ms (cache miss)
+96 silly packumentCache full:https://registry.npmmirror.com/sass-embedded-android-riscv64 set size:10312 disposed:false
+97 silly fetch manifest sass-embedded-linux-x64@1.86.3
+98 silly packumentCache full:https://registry.npmmirror.com/sass-embedded-linux-x64 cache-miss
+99 http fetch GET 200 https://registry.npmmirror.com/sass-embedded-android-x64 159ms (cache miss)
+100 silly packumentCache full:https://registry.npmmirror.com/sass-embedded-android-x64 set size:15606 disposed:false
+101 silly fetch manifest sass-embedded-linux-musl-arm@1.86.3
+102 silly packumentCache full:https://registry.npmmirror.com/sass-embedded-linux-musl-arm cache-miss
+103 http fetch GET 200 https://registry.npmmirror.com/sass-embedded-android-arm64 253ms (cache miss)
+104 silly packumentCache full:https://registry.npmmirror.com/sass-embedded-android-arm64 set size:15646 disposed:false
+105 silly fetch manifest sass-embedded-linux-musl-arm64@1.86.3
+106 silly packumentCache full:https://registry.npmmirror.com/sass-embedded-linux-musl-arm64 cache-miss
+107 http fetch GET 200 https://registry.npmmirror.com/sass-embedded-android-ia32 250ms (cache miss)
+108 silly packumentCache full:https://registry.npmmirror.com/sass-embedded-android-ia32 set size:15636 disposed:false
+109 silly fetch manifest sass-embedded-linux-musl-ia32@1.86.3
+110 silly packumentCache full:https://registry.npmmirror.com/sass-embedded-linux-musl-ia32 cache-miss
+111 http fetch GET 200 https://registry.npmmirror.com/sass-embedded-darwin-arm64 232ms (cache miss)
+112 silly packumentCache full:https://registry.npmmirror.com/sass-embedded-darwin-arm64 set size:33983 disposed:false
+113 silly fetch manifest sass-embedded-linux-musl-riscv64@1.86.3
+114 silly packumentCache full:https://registry.npmmirror.com/sass-embedded-linux-musl-riscv64 cache-miss
+115 http fetch GET 200 https://registry.npmmirror.com/sass-embedded-darwin-x64 233ms (cache miss)
+116 silly packumentCache full:https://registry.npmmirror.com/sass-embedded-darwin-x64 set size:33778 disposed:false
+117 silly fetch manifest sass-embedded-linux-musl-x64@1.86.3
+118 silly packumentCache full:https://registry.npmmirror.com/sass-embedded-linux-musl-x64 cache-miss
+119 http fetch GET 200 https://registry.npmmirror.com/sass-embedded-linux-arm 233ms (cache miss)
+120 silly packumentCache full:https://registry.npmmirror.com/sass-embedded-linux-arm set size:32784 disposed:false
+121 silly fetch manifest sass-embedded-win32-arm64@1.86.3
+122 silly packumentCache full:https://registry.npmmirror.com/sass-embedded-win32-arm64 cache-miss
+123 http fetch GET 200 https://registry.npmmirror.com/rxjs 508ms (cache miss)
+124 silly packumentCache full:https://registry.npmmirror.com/rxjs set size:112542 disposed:false
+125 silly fetch manifest sass-embedded-win32-ia32@1.86.3
+126 silly packumentCache full:https://registry.npmmirror.com/sass-embedded-win32-ia32 cache-miss
+127 http fetch GET 200 https://registry.npmmirror.com/sass-embedded-linux-arm64 217ms (cache miss)
+128 silly packumentCache full:https://registry.npmmirror.com/sass-embedded-linux-arm64 set size:33819 disposed:false
+129 silly fetch manifest sass-embedded-win32-x64@1.86.3
+130 silly packumentCache full:https://registry.npmmirror.com/sass-embedded-win32-x64 cache-miss
+131 http fetch GET 200 https://registry.npmmirror.com/sass-embedded-linux-riscv64 262ms (cache miss)
+132 silly packumentCache full:https://registry.npmmirror.com/sass-embedded-linux-riscv64 set size:10255 disposed:false
+133 http fetch GET 200 https://registry.npmmirror.com/sass-embedded-linux-ia32 278ms (cache miss)
+134 silly packumentCache full:https://registry.npmmirror.com/sass-embedded-linux-ia32 set size:33935 disposed:false
+135 http fetch GET 200 https://registry.npmmirror.com/sass-embedded-linux-musl-riscv64 151ms (cache miss)
+136 silly packumentCache full:https://registry.npmmirror.com/sass-embedded-linux-musl-riscv64 set size:10338 disposed:false
+137 http fetch GET 200 https://registry.npmmirror.com/sass-embedded-linux-musl-arm 231ms (cache miss)
+138 silly packumentCache full:https://registry.npmmirror.com/sass-embedded-linux-musl-arm set size:15517 disposed:false
+139 http fetch GET 200 https://registry.npmmirror.com/sass-embedded-linux-musl-arm64 163ms (cache miss)
+140 silly packumentCache full:https://registry.npmmirror.com/sass-embedded-linux-musl-arm64 set size:15484 disposed:false
+141 http fetch GET 200 https://registry.npmmirror.com/sass-embedded-linux-x64 236ms (cache miss)
+142 silly packumentCache full:https://registry.npmmirror.com/sass-embedded-linux-x64 set size:33838 disposed:false
+143 http fetch GET 200 https://registry.npmmirror.com/sass-embedded-linux-musl-ia32 159ms (cache miss)
+144 silly packumentCache full:https://registry.npmmirror.com/sass-embedded-linux-musl-ia32 set size:15538 disposed:false
+145 http fetch GET 200 https://registry.npmmirror.com/sass-embedded-linux-musl-x64 145ms (cache miss)
+146 silly packumentCache full:https://registry.npmmirror.com/sass-embedded-linux-musl-x64 set size:15665 disposed:false
+147 http fetch GET 200 https://registry.npmmirror.com/sass-embedded-win32-arm64 141ms (cache miss)
+148 silly packumentCache full:https://registry.npmmirror.com/sass-embedded-win32-arm64 set size:13550 disposed:false
+149 http fetch GET 200 https://registry.npmmirror.com/sass-embedded-win32-x64 105ms (cache miss)
+150 silly packumentCache full:https://registry.npmmirror.com/sass-embedded-win32-x64 set size:34238 disposed:false
+151 http fetch GET 200 https://registry.npmmirror.com/sass-embedded-win32-ia32 192ms (cache miss)
+152 silly packumentCache full:https://registry.npmmirror.com/sass-embedded-win32-ia32 set size:34082 disposed:false
+153 silly placeDep ROOT @parcel/watcher@2.5.1 OK for: sass@1.86.3 want: ^2.4.1
+154 silly placeDep ROOT chokidar@4.0.3 OK for: sass@1.86.3 want: ^4.0.0
+155 silly placeDep ROOT immutable@5.1.1 OK for: sass@1.86.3 want: ^5.0.2
+156 silly placeDep ROOT source-map-js@1.2.1 OK for: sass@1.86.3 want: >=0.6.2 <2.0.0
+157 silly fetch manifest detect-libc@^1.0.3
+158 silly packumentCache full:https://registry.npmmirror.com/detect-libc cache-miss
+159 silly fetch manifest is-glob@^4.0.3
+160 silly packumentCache full:https://registry.npmmirror.com/is-glob cache-miss
+161 silly fetch manifest micromatch@^4.0.5
+162 silly packumentCache full:https://registry.npmmirror.com/micromatch cache-miss
+163 silly fetch manifest node-addon-api@^7.0.0
+164 silly packumentCache full:https://registry.npmmirror.com/node-addon-api cache-miss
+165 silly fetch manifest @parcel/watcher-darwin-x64@2.5.1
+166 silly packumentCache full:https://registry.npmmirror.com/@parcel%2fwatcher-darwin-x64 cache-miss
+167 silly fetch manifest @parcel/watcher-darwin-arm64@2.5.1
+168 silly packumentCache full:https://registry.npmmirror.com/@parcel%2fwatcher-darwin-arm64 cache-miss
+169 silly fetch manifest @parcel/watcher-win32-x64@2.5.1
+170 silly packumentCache full:https://registry.npmmirror.com/@parcel%2fwatcher-win32-x64 cache-miss
+171 silly fetch manifest @parcel/watcher-win32-arm64@2.5.1
+172 silly packumentCache full:https://registry.npmmirror.com/@parcel%2fwatcher-win32-arm64 cache-miss
+173 silly fetch manifest @parcel/watcher-win32-ia32@2.5.1
+174 silly packumentCache full:https://registry.npmmirror.com/@parcel%2fwatcher-win32-ia32 cache-miss
+175 silly fetch manifest @parcel/watcher-linux-x64-glibc@2.5.1
+176 silly packumentCache full:https://registry.npmmirror.com/@parcel%2fwatcher-linux-x64-glibc cache-miss
+177 silly fetch manifest @parcel/watcher-linux-x64-musl@2.5.1
+178 silly packumentCache full:https://registry.npmmirror.com/@parcel%2fwatcher-linux-x64-musl cache-miss
+179 http fetch GET 200 https://registry.npmmirror.com/@parcel%2fwatcher-darwin-arm64 52ms (cache miss)
+180 silly packumentCache full:https://registry.npmmirror.com/@parcel%2fwatcher-darwin-arm64 set size:5367 disposed:false
+181 silly fetch manifest @parcel/watcher-linux-arm64-glibc@2.5.1
+182 silly packumentCache full:https://registry.npmmirror.com/@parcel%2fwatcher-linux-arm64-glibc cache-miss
+183 http fetch GET 200 https://registry.npmmirror.com/micromatch 106ms (cache miss)
+184 silly packumentCache full:https://registry.npmmirror.com/micromatch set size:39383 disposed:false
+185 silly fetch manifest @parcel/watcher-linux-arm64-musl@2.5.1
+186 silly packumentCache full:https://registry.npmmirror.com/@parcel%2fwatcher-linux-arm64-musl cache-miss
+187 http fetch GET 200 https://registry.npmmirror.com/@parcel%2fwatcher-win32-x64 130ms (cache miss)
+188 silly packumentCache full:https://registry.npmmirror.com/@parcel%2fwatcher-win32-x64 set size:5410 disposed:false
+189 silly fetch manifest @parcel/watcher-linux-arm-glibc@2.5.1
+190 silly packumentCache full:https://registry.npmmirror.com/@parcel%2fwatcher-linux-arm-glibc cache-miss
+191 http fetch GET 200 https://registry.npmmirror.com/detect-libc 134ms (cache miss)
+192 silly packumentCache full:https://registry.npmmirror.com/detect-libc set size:8615 disposed:false
+193 silly fetch manifest @parcel/watcher-linux-arm-musl@2.5.1
+194 silly packumentCache full:https://registry.npmmirror.com/@parcel%2fwatcher-linux-arm-musl cache-miss
+195 http fetch GET 200 https://registry.npmmirror.com/is-glob 139ms (cache miss)
+196 silly packumentCache full:https://registry.npmmirror.com/is-glob set size:7964 disposed:false
+197 silly fetch manifest @parcel/watcher-android-arm64@2.5.1
+198 silly packumentCache full:https://registry.npmmirror.com/@parcel%2fwatcher-android-arm64 cache-miss
+199 http fetch GET 200 https://registry.npmmirror.com/@parcel%2fwatcher-win32-arm64 146ms (cache miss)
+200 silly packumentCache full:https://registry.npmmirror.com/@parcel%2fwatcher-win32-arm64 set size:5146 disposed:false
+201 silly fetch manifest @parcel/watcher-freebsd-x64@2.5.1
+202 silly packumentCache full:https://registry.npmmirror.com/@parcel%2fwatcher-freebsd-x64 cache-miss
+203 http fetch GET 200 https://registry.npmmirror.com/@parcel%2fwatcher-darwin-x64 150ms (cache miss)
+204 silly packumentCache full:https://registry.npmmirror.com/@parcel%2fwatcher-darwin-x64 set size:5406 disposed:false
+205 silly fetch manifest readdirp@^4.0.1
+206 silly packumentCache full:https://registry.npmmirror.com/readdirp cache-miss
+207 http fetch GET 200 https://registry.npmmirror.com/@parcel%2fwatcher-linux-x64-glibc 152ms (cache miss)
+208 silly packumentCache full:https://registry.npmmirror.com/@parcel%2fwatcher-linux-x64-glibc set size:5366 disposed:false
+209 http fetch GET 200 https://registry.npmmirror.com/@parcel%2fwatcher-win32-ia32 155ms (cache miss)
+210 silly packumentCache full:https://registry.npmmirror.com/@parcel%2fwatcher-win32-ia32 set size:4143 disposed:false
+211 http fetch GET 200 https://registry.npmmirror.com/@parcel%2fwatcher-linux-x64-musl 157ms (cache miss)
+212 silly packumentCache full:https://registry.npmmirror.com/@parcel%2fwatcher-linux-x64-musl set size:5396 disposed:false
+213 http fetch GET 200 https://registry.npmmirror.com/@parcel%2fwatcher-linux-arm64-glibc 121ms (cache miss)
+214 silly packumentCache full:https://registry.npmmirror.com/@parcel%2fwatcher-linux-arm64-glibc set size:5427 disposed:false
+215 http fetch GET 200 https://registry.npmmirror.com/node-addon-api 180ms (cache miss)
+216 silly packumentCache full:https://registry.npmmirror.com/node-addon-api set size:37226 disposed:false
+217 http fetch GET 200 https://registry.npmmirror.com/@parcel%2fwatcher-linux-arm64-musl 91ms (cache miss)
+218 silly packumentCache full:https://registry.npmmirror.com/@parcel%2fwatcher-linux-arm64-musl set size:5392 disposed:false
+219 http fetch GET 200 https://registry.npmmirror.com/@parcel%2fwatcher-freebsd-x64 90ms (cache miss)
+220 silly packumentCache full:https://registry.npmmirror.com/@parcel%2fwatcher-freebsd-x64 set size:4125 disposed:false
+221 http fetch GET 200 https://registry.npmmirror.com/@parcel%2fwatcher-linux-arm-musl 104ms (cache miss)
+222 silly packumentCache full:https://registry.npmmirror.com/@parcel%2fwatcher-linux-arm-musl set size:1592 disposed:false
+223 http fetch GET 200 https://registry.npmmirror.com/@parcel%2fwatcher-android-arm64 103ms (cache miss)
+224 silly packumentCache full:https://registry.npmmirror.com/@parcel%2fwatcher-android-arm64 set size:5094 disposed:false
+225 http fetch GET 200 https://registry.npmmirror.com/@parcel%2fwatcher-linux-arm-glibc 112ms (cache miss)
+226 silly packumentCache full:https://registry.npmmirror.com/@parcel%2fwatcher-linux-arm-glibc set size:5410 disposed:false
+227 http fetch GET 200 https://registry.npmmirror.com/readdirp 118ms (cache miss)
+228 silly packumentCache full:https://registry.npmmirror.com/readdirp set size:17999 disposed:false
+229 silly placeDep ROOT @parcel/watcher-android-arm64@2.5.1 OK for: @parcel/watcher@2.5.1 want: 2.5.1
+230 silly placeDep ROOT @parcel/watcher-darwin-arm64@2.5.1 OK for: @parcel/watcher@2.5.1 want: 2.5.1
+231 silly placeDep ROOT @parcel/watcher-darwin-x64@2.5.1 OK for: @parcel/watcher@2.5.1 want: 2.5.1
+232 silly placeDep ROOT @parcel/watcher-freebsd-x64@2.5.1 OK for: @parcel/watcher@2.5.1 want: 2.5.1
+233 silly placeDep ROOT @parcel/watcher-linux-arm-glibc@2.5.1 OK for: @parcel/watcher@2.5.1 want: 2.5.1
+234 silly placeDep ROOT @parcel/watcher-linux-arm-musl@2.5.1 OK for: @parcel/watcher@2.5.1 want: 2.5.1
+235 silly placeDep ROOT @parcel/watcher-linux-arm64-glibc@2.5.1 OK for: @parcel/watcher@2.5.1 want: 2.5.1
+236 silly placeDep ROOT @parcel/watcher-linux-arm64-musl@2.5.1 OK for: @parcel/watcher@2.5.1 want: 2.5.1
+237 silly placeDep ROOT @parcel/watcher-linux-x64-glibc@2.5.1 OK for: @parcel/watcher@2.5.1 want: 2.5.1
+238 silly placeDep ROOT @parcel/watcher-linux-x64-musl@2.5.1 OK for: @parcel/watcher@2.5.1 want: 2.5.1
+239 silly placeDep ROOT @parcel/watcher-win32-arm64@2.5.1 OK for: @parcel/watcher@2.5.1 want: 2.5.1
+240 silly placeDep ROOT @parcel/watcher-win32-ia32@2.5.1 OK for: @parcel/watcher@2.5.1 want: 2.5.1
+241 silly placeDep ROOT @parcel/watcher-win32-x64@2.5.1 OK for: @parcel/watcher@2.5.1 want: 2.5.1
+242 silly placeDep ROOT detect-libc@1.0.3 OK for: @parcel/watcher@2.5.1 want: ^1.0.3
+243 silly placeDep ROOT is-glob@4.0.3 OK for: @parcel/watcher@2.5.1 want: ^4.0.3
+244 silly placeDep ROOT micromatch@4.0.8 OK for: @parcel/watcher@2.5.1 want: ^4.0.5
+245 silly placeDep ROOT node-addon-api@7.1.1 OK for: @parcel/watcher@2.5.1 want: ^7.0.0
+246 silly fetch manifest is-extglob@^2.1.1
+247 silly packumentCache full:https://registry.npmmirror.com/is-extglob cache-miss
+248 silly fetch manifest braces@^3.0.3
+249 silly packumentCache full:https://registry.npmmirror.com/braces cache-miss
+250 silly fetch manifest picomatch@^2.3.1
+251 silly packumentCache full:https://registry.npmmirror.com/picomatch cache-miss
+252 http fetch GET 200 https://registry.npmmirror.com/picomatch 67ms (cache miss)
+253 silly packumentCache full:https://registry.npmmirror.com/picomatch set size:21670 disposed:false
+254 http fetch GET 200 https://registry.npmmirror.com/is-extglob 82ms (cache miss)
+255 silly packumentCache full:https://registry.npmmirror.com/is-extglob set size:3363 disposed:false
+256 http fetch GET 200 https://registry.npmmirror.com/braces 83ms (cache miss)
+257 silly packumentCache full:https://registry.npmmirror.com/braces set size:22104 disposed:false
+258 silly placeDep ROOT readdirp@4.1.2 OK for: chokidar@4.0.3 want: ^4.0.1
+259 silly placeDep ROOT is-extglob@2.1.1 OK for: is-glob@4.0.3 want: ^2.1.1
+260 silly placeDep ROOT braces@3.0.3 OK for: micromatch@4.0.8 want: ^3.0.3
+261 silly placeDep ROOT picomatch@2.3.1 OK for: micromatch@4.0.8 want: ^2.3.1
+262 silly fetch manifest fill-range@^7.1.1
+263 silly packumentCache full:https://registry.npmmirror.com/fill-range cache-miss
+264 http fetch GET 200 https://registry.npmmirror.com/fill-range 71ms (cache miss)
+265 silly packumentCache full:https://registry.npmmirror.com/fill-range set size:14249 disposed:false
+266 silly placeDep ROOT fill-range@7.1.1 OK for: braces@3.0.3 want: ^7.1.1
+267 silly fetch manifest to-regex-range@^5.0.1
+268 silly packumentCache full:https://registry.npmmirror.com/to-regex-range cache-miss
+269 http fetch GET 200 https://registry.npmmirror.com/to-regex-range 59ms (cache miss)
+270 silly packumentCache full:https://registry.npmmirror.com/to-regex-range set size:11477 disposed:false
+271 silly placeDep ROOT to-regex-range@5.0.1 OK for: fill-range@7.1.1 want: ^5.0.1
+272 silly fetch manifest is-number@^7.0.0
+273 silly packumentCache full:https://registry.npmmirror.com/is-number cache-miss
+274 http fetch GET 200 https://registry.npmmirror.com/is-number 81ms (cache miss)
+275 silly packumentCache full:https://registry.npmmirror.com/is-number set size:7889 disposed:false
+276 silly placeDep ROOT @bufbuild/protobuf@2.2.5 OK for: sass-embedded@1.86.3 want: ^2.0.0
+277 silly placeDep ROOT buffer-builder@0.2.0 OK for: sass-embedded@1.86.3 want: ^0.2.0
+278 silly placeDep ROOT colorjs.io@0.5.2 OK for: sass-embedded@1.86.3 want: ^0.5.0
+279 silly placeDep ROOT rxjs@7.8.2 OK for: sass-embedded@1.86.3 want: ^7.4.0
+280 silly placeDep ROOT sass-embedded-android-arm@1.86.3 OK for: sass-embedded@1.86.3 want: 1.86.3
+281 silly placeDep ROOT sass-embedded-android-arm64@1.86.3 OK for: sass-embedded@1.86.3 want: 1.86.3
+282 silly placeDep ROOT sass-embedded-android-ia32@1.86.3 OK for: sass-embedded@1.86.3 want: 1.86.3
+283 silly placeDep ROOT sass-embedded-android-riscv64@1.86.3 OK for: sass-embedded@1.86.3 want: 1.86.3
+284 silly placeDep ROOT sass-embedded-android-x64@1.86.3 OK for: sass-embedded@1.86.3 want: 1.86.3
+285 silly placeDep ROOT sass-embedded-darwin-arm64@1.86.3 OK for: sass-embedded@1.86.3 want: 1.86.3
+286 silly placeDep ROOT sass-embedded-darwin-x64@1.86.3 OK for: sass-embedded@1.86.3 want: 1.86.3
+287 silly placeDep ROOT sass-embedded-linux-arm@1.86.3 OK for: sass-embedded@1.86.3 want: 1.86.3
+288 silly placeDep ROOT sass-embedded-linux-arm64@1.86.3 OK for: sass-embedded@1.86.3 want: 1.86.3
+289 silly placeDep ROOT sass-embedded-linux-ia32@1.86.3 OK for: sass-embedded@1.86.3 want: 1.86.3
+290 silly placeDep ROOT sass-embedded-linux-musl-arm@1.86.3 OK for: sass-embedded@1.86.3 want: 1.86.3
+291 silly placeDep ROOT sass-embedded-linux-musl-arm64@1.86.3 OK for: sass-embedded@1.86.3 want: 1.86.3
+292 silly placeDep ROOT sass-embedded-linux-musl-ia32@1.86.3 OK for: sass-embedded@1.86.3 want: 1.86.3
+293 silly placeDep ROOT sass-embedded-linux-musl-riscv64@1.86.3 OK for: sass-embedded@1.86.3 want: 1.86.3
+294 silly placeDep ROOT sass-embedded-linux-musl-x64@1.86.3 OK for: sass-embedded@1.86.3 want: 1.86.3
+295 silly placeDep ROOT sass-embedded-linux-riscv64@1.86.3 OK for: sass-embedded@1.86.3 want: 1.86.3
+296 silly placeDep ROOT sass-embedded-linux-x64@1.86.3 OK for: sass-embedded@1.86.3 want: 1.86.3
+297 silly placeDep ROOT sass-embedded-win32-arm64@1.86.3 OK for: sass-embedded@1.86.3 want: 1.86.3
+298 silly placeDep ROOT sass-embedded-win32-ia32@1.86.3 OK for: sass-embedded@1.86.3 want: 1.86.3
+299 silly placeDep ROOT sass-embedded-win32-x64@1.86.3 OK for: sass-embedded@1.86.3 want: 1.86.3
+300 silly placeDep ROOT supports-color@8.1.1 OK for: sass-embedded@1.86.3 want: ^8.1.1
+301 silly placeDep ROOT sync-child-process@1.0.2 OK for: sass-embedded@1.86.3 want: ^1.0.2
+302 silly placeDep ROOT varint@6.0.0 OK for: sass-embedded@1.86.3 want: ^6.0.0
+303 silly fetch manifest tslib@^2.1.0
+304 silly packumentCache full:https://registry.npmmirror.com/tslib cache-miss
+305 silly fetch manifest has-flag@^4.0.0
+306 silly packumentCache full:https://registry.npmmirror.com/has-flag cache-miss
+307 silly fetch manifest sync-message-port@^1.0.0
+308 silly packumentCache full:https://registry.npmmirror.com/sync-message-port cache-miss
+309 http fetch GET 200 https://registry.npmmirror.com/tslib 94ms (cache miss)
+310 silly packumentCache full:https://registry.npmmirror.com/tslib set size:33192 disposed:false
+311 http fetch GET 200 https://registry.npmmirror.com/sync-message-port 96ms (cache miss)
+312 silly packumentCache full:https://registry.npmmirror.com/sync-message-port set size:5535 disposed:false
+313 http fetch GET 200 https://registry.npmmirror.com/has-flag 125ms (cache miss)
+314 silly packumentCache full:https://registry.npmmirror.com/has-flag set size:3321 disposed:false
+315 silly placeDep ROOT tslib@2.8.1 OK for: rxjs@7.8.2 want: ^2.1.0
+316 silly placeDep ROOT has-flag@4.0.0 OK for: supports-color@8.1.1 want: ^4.0.0
+317 silly placeDep ROOT sync-message-port@1.1.3 OK for: sync-child-process@1.0.2 want: ^1.0.0
+318 silly placeDep ROOT is-number@7.0.0 OK for: to-regex-range@5.0.1 want: ^7.0.0
+319 silly reify moves {}
+320 verbose reify failed optional dependency D:\Vue\day_04\node_modules\sass-embedded-win32-ia32
+321 silly reify mark deleted [ 'D:\\Vue\\day_04\\node_modules\\sass-embedded-win32-ia32' ]
+322 verbose reify failed optional dependency D:\Vue\day_04\node_modules\sass-embedded-win32-arm64
+323 silly reify mark deleted [ 'D:\\Vue\\day_04\\node_modules\\sass-embedded-win32-arm64' ]
+324 verbose reify failed optional dependency D:\Vue\day_04\node_modules\sass-embedded-linux-x64
+325 silly reify mark deleted [ 'D:\\Vue\\day_04\\node_modules\\sass-embedded-linux-x64' ]
+326 verbose reify failed optional dependency D:\Vue\day_04\node_modules\sass-embedded-linux-riscv64
+327 silly reify mark deleted [ 'D:\\Vue\\day_04\\node_modules\\sass-embedded-linux-riscv64' ]
+328 verbose reify failed optional dependency D:\Vue\day_04\node_modules\sass-embedded-linux-musl-x64
+329 silly reify mark deleted [ 'D:\\Vue\\day_04\\node_modules\\sass-embedded-linux-musl-x64' ]
+330 verbose reify failed optional dependency D:\Vue\day_04\node_modules\sass-embedded-linux-musl-riscv64
+331 silly reify mark deleted [ 'D:\\Vue\\day_04\\node_modules\\sass-embedded-linux-musl-riscv64' ]
+332 verbose reify failed optional dependency D:\Vue\day_04\node_modules\sass-embedded-linux-musl-ia32
+333 silly reify mark deleted [ 'D:\\Vue\\day_04\\node_modules\\sass-embedded-linux-musl-ia32' ]
+334 verbose reify failed optional dependency D:\Vue\day_04\node_modules\sass-embedded-linux-musl-arm64
+335 silly reify mark deleted [ 'D:\\Vue\\day_04\\node_modules\\sass-embedded-linux-musl-arm64' ]
+336 verbose reify failed optional dependency D:\Vue\day_04\node_modules\sass-embedded-linux-musl-arm
+337 silly reify mark deleted [ 'D:\\Vue\\day_04\\node_modules\\sass-embedded-linux-musl-arm' ]
+338 verbose reify failed optional dependency D:\Vue\day_04\node_modules\sass-embedded-linux-ia32
+339 silly reify mark deleted [ 'D:\\Vue\\day_04\\node_modules\\sass-embedded-linux-ia32' ]
+340 verbose reify failed optional dependency D:\Vue\day_04\node_modules\sass-embedded-linux-arm64
+341 silly reify mark deleted [ 'D:\\Vue\\day_04\\node_modules\\sass-embedded-linux-arm64' ]
+342 verbose reify failed optional dependency D:\Vue\day_04\node_modules\sass-embedded-linux-arm
+343 silly reify mark deleted [ 'D:\\Vue\\day_04\\node_modules\\sass-embedded-linux-arm' ]
+344 verbose reify failed optional dependency D:\Vue\day_04\node_modules\sass-embedded-darwin-x64
+345 silly reify mark deleted [ 'D:\\Vue\\day_04\\node_modules\\sass-embedded-darwin-x64' ]
+346 verbose reify failed optional dependency D:\Vue\day_04\node_modules\sass-embedded-darwin-arm64
+347 silly reify mark deleted [ 'D:\\Vue\\day_04\\node_modules\\sass-embedded-darwin-arm64' ]
+348 verbose reify failed optional dependency D:\Vue\day_04\node_modules\sass-embedded-android-x64
+349 silly reify mark deleted [ 'D:\\Vue\\day_04\\node_modules\\sass-embedded-android-x64' ]
+350 verbose reify failed optional dependency D:\Vue\day_04\node_modules\sass-embedded-android-riscv64
+351 silly reify mark deleted [ 'D:\\Vue\\day_04\\node_modules\\sass-embedded-android-riscv64' ]
+352 verbose reify failed optional dependency D:\Vue\day_04\node_modules\sass-embedded-android-ia32
+353 silly reify mark deleted [ 'D:\\Vue\\day_04\\node_modules\\sass-embedded-android-ia32' ]
+354 verbose reify failed optional dependency D:\Vue\day_04\node_modules\sass-embedded-android-arm64
+355 silly reify mark deleted [ 'D:\\Vue\\day_04\\node_modules\\sass-embedded-android-arm64' ]
+356 verbose reify failed optional dependency D:\Vue\day_04\node_modules\sass-embedded-android-arm
+357 silly reify mark deleted [ 'D:\\Vue\\day_04\\node_modules\\sass-embedded-android-arm' ]
+358 verbose reify failed optional dependency D:\Vue\day_04\node_modules\@parcel\watcher-win32-ia32
+359 silly reify mark deleted [ 'D:\\Vue\\day_04\\node_modules\\@parcel\\watcher-win32-ia32' ]
+360 verbose reify failed optional dependency D:\Vue\day_04\node_modules\@parcel\watcher-win32-arm64
+361 silly reify mark deleted [ 'D:\\Vue\\day_04\\node_modules\\@parcel\\watcher-win32-arm64' ]
+362 verbose reify failed optional dependency D:\Vue\day_04\node_modules\@parcel\watcher-linux-x64-musl
+363 silly reify mark deleted [ 'D:\\Vue\\day_04\\node_modules\\@parcel\\watcher-linux-x64-musl' ]
+364 verbose reify failed optional dependency D:\Vue\day_04\node_modules\@parcel\watcher-linux-x64-glibc
+365 silly reify mark deleted [ 'D:\\Vue\\day_04\\node_modules\\@parcel\\watcher-linux-x64-glibc' ]
+366 verbose reify failed optional dependency D:\Vue\day_04\node_modules\@parcel\watcher-linux-arm64-musl
+367 silly reify mark deleted [ 'D:\\Vue\\day_04\\node_modules\\@parcel\\watcher-linux-arm64-musl' ]
+368 verbose reify failed optional dependency D:\Vue\day_04\node_modules\@parcel\watcher-linux-arm64-glibc
+369 silly reify mark deleted [ 'D:\\Vue\\day_04\\node_modules\\@parcel\\watcher-linux-arm64-glibc' ]
+370 verbose reify failed optional dependency D:\Vue\day_04\node_modules\@parcel\watcher-linux-arm-musl
+371 silly reify mark deleted [ 'D:\\Vue\\day_04\\node_modules\\@parcel\\watcher-linux-arm-musl' ]
+372 verbose reify failed optional dependency D:\Vue\day_04\node_modules\@parcel\watcher-linux-arm-glibc
+373 silly reify mark deleted [ 'D:\\Vue\\day_04\\node_modules\\@parcel\\watcher-linux-arm-glibc' ]
+374 verbose reify failed optional dependency D:\Vue\day_04\node_modules\@parcel\watcher-freebsd-x64
+375 silly reify mark deleted [ 'D:\\Vue\\day_04\\node_modules\\@parcel\\watcher-freebsd-x64' ]
+376 verbose reify failed optional dependency D:\Vue\day_04\node_modules\@parcel\watcher-darwin-x64
+377 silly reify mark deleted [ 'D:\\Vue\\day_04\\node_modules\\@parcel\\watcher-darwin-x64' ]
+378 verbose reify failed optional dependency D:\Vue\day_04\node_modules\@parcel\watcher-darwin-arm64
+379 silly reify mark deleted [ 'D:\\Vue\\day_04\\node_modules\\@parcel\\watcher-darwin-arm64' ]
+380 verbose reify failed optional dependency D:\Vue\day_04\node_modules\@parcel\watcher-android-arm64
+381 silly reify mark deleted [ 'D:\\Vue\\day_04\\node_modules\\@parcel\\watcher-android-arm64' ]
+382 http cache sync-message-port@https://registry.npmmirror.com/sync-message-port/-/sync-message-port-1.1.3.tgz 1ms (cache hit)
+383 http cache is-number@https://registry.npmmirror.com/is-number/-/is-number-7.0.0.tgz 0ms (cache hit)
+384 http cache tslib@https://registry.npmmirror.com/tslib/-/tslib-2.8.1.tgz 0ms (cache hit)
+385 http cache @bufbuild/protobuf@https://registry.npmmirror.com/@bufbuild/protobuf/-/protobuf-2.2.5.tgz 0ms (cache hit)
+386 http cache varint@https://registry.npmmirror.com/varint/-/varint-6.0.0.tgz 0ms (cache hit)
+387 http cache has-flag@https://registry.npmmirror.com/has-flag/-/has-flag-4.0.0.tgz 0ms (cache hit)
+388 http cache sync-child-process@https://registry.npmmirror.com/sync-child-process/-/sync-child-process-1.0.2.tgz 0ms (cache hit)
+389 http cache supports-color@https://registry.npmmirror.com/supports-color/-/supports-color-8.1.1.tgz 0ms (cache hit)
+390 http cache sass-embedded-win32-x64@https://registry.npmmirror.com/sass-embedded-win32-x64/-/sass-embedded-win32-x64-1.86.3.tgz 0ms (cache hit)
+391 http cache colorjs.io@https://registry.npmmirror.com/colorjs.io/-/colorjs.io-0.5.2.tgz 0ms (cache hit)
+392 http cache rxjs@https://registry.npmmirror.com/rxjs/-/rxjs-7.8.2.tgz 0ms (cache hit)
+393 http cache buffer-builder@https://registry.npmmirror.com/buffer-builder/-/buffer-builder-0.2.0.tgz 0ms (cache hit)
+394 http cache fill-range@https://registry.npmmirror.com/fill-range/-/fill-range-7.1.1.tgz 0ms (cache hit)
+395 http cache @parcel/watcher-win32-x64@https://registry.npmmirror.com/@parcel/watcher-win32-x64/-/watcher-win32-x64-2.5.1.tgz 0ms (cache hit)
+396 http cache to-regex-range@https://registry.npmmirror.com/to-regex-range/-/to-regex-range-5.0.1.tgz 0ms (cache hit)
+397 http cache picomatch@https://registry.npmmirror.com/picomatch/-/picomatch-2.3.1.tgz 0ms (cache hit)
+398 http cache braces@https://registry.npmmirror.com/braces/-/braces-3.0.3.tgz 0ms (cache hit)
+399 http cache node-addon-api@https://registry.npmmirror.com/node-addon-api/-/node-addon-api-7.1.1.tgz 0ms (cache hit)
+400 http cache is-extglob@https://registry.npmmirror.com/is-extglob/-/is-extglob-2.1.1.tgz 0ms (cache hit)
+401 http cache @parcel/watcher@https://registry.npmmirror.com/@parcel/watcher/-/watcher-2.5.1.tgz 0ms (cache hit)
+402 http cache micromatch@https://registry.npmmirror.com/micromatch/-/micromatch-4.0.8.tgz 0ms (cache hit)
+403 http cache is-glob@https://registry.npmmirror.com/is-glob/-/is-glob-4.0.3.tgz 0ms (cache hit)
+404 http cache detect-libc@https://registry.npmmirror.com/detect-libc/-/detect-libc-1.0.3.tgz 0ms (cache hit)
+405 http cache readdirp@https://registry.npmmirror.com/readdirp/-/readdirp-4.1.2.tgz 0ms (cache hit)
+406 http cache source-map-js@https://registry.npmmirror.com/source-map-js/-/source-map-js-1.2.1.tgz 0ms (cache hit)
+407 http cache immutable@https://registry.npmmirror.com/immutable/-/immutable-5.1.1.tgz 0ms (cache hit)
+408 silly tarball no local data for sync-message-port@https://registry.npmmirror.com/sync-message-port/-/sync-message-port-1.1.3.tgz. Extracting by manifest.
+409 http cache chokidar@https://registry.npmmirror.com/chokidar/-/chokidar-4.0.3.tgz 0ms (cache hit)
+410 silly tarball no local data for is-number@https://registry.npmmirror.com/is-number/-/is-number-7.0.0.tgz. Extracting by manifest.
+411 http cache sass-embedded@https://registry.npmmirror.com/sass-embedded/-/sass-embedded-1.86.3.tgz 0ms (cache hit)
+412 silly tarball no local data for tslib@https://registry.npmmirror.com/tslib/-/tslib-2.8.1.tgz. Extracting by manifest.
+413 silly tarball no local data for @bufbuild/protobuf@https://registry.npmmirror.com/@bufbuild/protobuf/-/protobuf-2.2.5.tgz. Extracting by manifest.
+414 silly tarball no local data for varint@https://registry.npmmirror.com/varint/-/varint-6.0.0.tgz. Extracting by manifest.
+415 silly tarball no local data for has-flag@https://registry.npmmirror.com/has-flag/-/has-flag-4.0.0.tgz. Extracting by manifest.
+416 http cache sass@https://registry.npmmirror.com/sass/-/sass-1.86.3.tgz 0ms (cache hit)
+417 silly tarball no local data for sync-child-process@https://registry.npmmirror.com/sync-child-process/-/sync-child-process-1.0.2.tgz. Extracting by manifest.
+418 silly tarball no local data for supports-color@https://registry.npmmirror.com/supports-color/-/supports-color-8.1.1.tgz. Extracting by manifest.
+419 silly tarball no local data for sass-embedded-win32-x64@https://registry.npmmirror.com/sass-embedded-win32-x64/-/sass-embedded-win32-x64-1.86.3.tgz. Extracting by manifest.
+420 silly tarball no local data for colorjs.io@https://registry.npmmirror.com/colorjs.io/-/colorjs.io-0.5.2.tgz. Extracting by manifest.
+421 silly tarball no local data for rxjs@https://registry.npmmirror.com/rxjs/-/rxjs-7.8.2.tgz. Extracting by manifest.
+422 silly tarball no local data for buffer-builder@https://registry.npmmirror.com/buffer-builder/-/buffer-builder-0.2.0.tgz. Extracting by manifest.
+423 silly tarball no local data for fill-range@https://registry.npmmirror.com/fill-range/-/fill-range-7.1.1.tgz. Extracting by manifest.
+424 silly tarball no local data for @parcel/watcher-win32-x64@https://registry.npmmirror.com/@parcel/watcher-win32-x64/-/watcher-win32-x64-2.5.1.tgz. Extracting by manifest.
+425 silly tarball no local data for to-regex-range@https://registry.npmmirror.com/to-regex-range/-/to-regex-range-5.0.1.tgz. Extracting by manifest.
+426 silly tarball no local data for picomatch@https://registry.npmmirror.com/picomatch/-/picomatch-2.3.1.tgz. Extracting by manifest.
+427 silly tarball no local data for braces@https://registry.npmmirror.com/braces/-/braces-3.0.3.tgz. Extracting by manifest.
+428 silly tarball no local data for node-addon-api@https://registry.npmmirror.com/node-addon-api/-/node-addon-api-7.1.1.tgz. Extracting by manifest.
+429 silly tarball no local data for is-extglob@https://registry.npmmirror.com/is-extglob/-/is-extglob-2.1.1.tgz. Extracting by manifest.
+430 silly tarball no local data for @parcel/watcher@https://registry.npmmirror.com/@parcel/watcher/-/watcher-2.5.1.tgz. Extracting by manifest.
+431 silly tarball no local data for micromatch@https://registry.npmmirror.com/micromatch/-/micromatch-4.0.8.tgz. Extracting by manifest.
+432 silly tarball no local data for is-glob@https://registry.npmmirror.com/is-glob/-/is-glob-4.0.3.tgz. Extracting by manifest.
+433 silly tarball no local data for detect-libc@https://registry.npmmirror.com/detect-libc/-/detect-libc-1.0.3.tgz. Extracting by manifest.
+434 silly tarball no local data for readdirp@https://registry.npmmirror.com/readdirp/-/readdirp-4.1.2.tgz. Extracting by manifest.
+435 silly tarball no local data for source-map-js@https://registry.npmmirror.com/source-map-js/-/source-map-js-1.2.1.tgz. Extracting by manifest.
+436 silly tarball no local data for immutable@https://registry.npmmirror.com/immutable/-/immutable-5.1.1.tgz. Extracting by manifest.
+437 silly tarball no local data for chokidar@https://registry.npmmirror.com/chokidar/-/chokidar-4.0.3.tgz. Extracting by manifest.
+438 silly tarball no local data for sass-embedded@https://registry.npmmirror.com/sass-embedded/-/sass-embedded-1.86.3.tgz. Extracting by manifest.
+439 silly tarball no local data for sass@https://registry.npmmirror.com/sass/-/sass-1.86.3.tgz. Extracting by manifest.
+440 http fetch GET 200 https://cdn.npmmirror.com/packages/has-flag/4.0.0/has-flag-4.0.0.tgz 1267ms (cache miss)
+441 http fetch GET 200 https://cdn.npmmirror.com/packages/is-number/7.0.0/is-number-7.0.0.tgz 1273ms (cache miss)
+442 http fetch GET 200 https://cdn.npmmirror.com/packages/micromatch/4.0.8/micromatch-4.0.8.tgz 1247ms (cache miss)
+443 http fetch GET 200 https://cdn.npmmirror.com/packages/fill-range/7.1.1/fill-range-7.1.1.tgz 1265ms (cache miss)
+444 http fetch GET 200 https://cdn.npmmirror.com/packages/is-glob/4.0.3/is-glob-4.0.3.tgz 1255ms (cache miss)
+445 http fetch GET 200 https://cdn.npmmirror.com/packages/supports-color/8.1.1/supports-color-8.1.1.tgz 1295ms (cache miss)
+446 http fetch GET 200 https://cdn.npmmirror.com/packages/buffer-builder/0.2.0/buffer-builder-0.2.0.tgz 1292ms (cache miss)
+447 http fetch GET 200 https://cdn.npmmirror.com/packages/to-regex-range/5.0.1/to-regex-range-5.0.1.tgz 1312ms (cache miss)
+448 http fetch GET 200 https://cdn.npmmirror.com/packages/is-extglob/2.1.1/is-extglob-2.1.1.tgz 1364ms (cache miss)
+449 http fetch GET 200 https://cdn.npmmirror.com/packages/detect-libc/1.0.3/detect-libc-1.0.3.tgz 1396ms (cache miss)
+450 http fetch GET 200 https://cdn.npmmirror.com/packages/varint/6.0.0/varint-6.0.0.tgz 1449ms (cache miss)
+451 http fetch GET 200 https://cdn.npmmirror.com/packages/sync-message-port/1.1.3/sync-message-port-1.1.3.tgz 1472ms (cache miss)
+452 http fetch GET 200 https://cdn.npmmirror.com/packages/readdirp/4.1.2/readdirp-4.1.2.tgz 1447ms (cache miss)
+453 http fetch GET 200 https://cdn.npmmirror.com/packages/braces/3.0.3/braces-3.0.3.tgz 1541ms (cache miss)
+454 http fetch GET 200 https://cdn.npmmirror.com/packages/picomatch/2.3.1/picomatch-2.3.1.tgz 1560ms (cache miss)
+455 http fetch GET 200 https://cdn.npmmirror.com/packages/chokidar/4.0.3/chokidar-4.0.3.tgz 1586ms (cache miss)
+456 http fetch GET 200 https://cdn.npmmirror.com/packages/sync-child-process/1.0.2/sync-child-process-1.0.2.tgz 1618ms (cache miss)
+457 http fetch GET 200 https://cdn.npmmirror.com/packages/tslib/2.8.1/tslib-2.8.1.tgz 1624ms (cache miss)
+458 http fetch GET 200 https://cdn.npmmirror.com/packages/%40parcel/watcher-win32-x64/2.5.1/watcher-win32-x64-2.5.1.tgz 1627ms (cache miss)
+459 http fetch GET 200 https://cdn.npmmirror.com/packages/source-map-js/1.2.1/source-map-js-1.2.1.tgz 1658ms (cache miss)
+460 http fetch GET 200 https://cdn.npmmirror.com/packages/immutable/5.1.1/immutable-5.1.1.tgz 1673ms (cache miss)
+461 http fetch GET 200 https://cdn.npmmirror.com/packages/node-addon-api/7.1.1/node-addon-api-7.1.1.tgz 1728ms (cache miss)
+462 http fetch GET 200 https://cdn.npmmirror.com/packages/%40parcel/watcher/2.5.1/watcher-2.5.1.tgz 1950ms (cache miss)
+463 http fetch GET 200 https://cdn.npmmirror.com/packages/sass/1.86.3/sass-1.86.3.tgz 2331ms (cache miss)
+464 http fetch GET 200 https://cdn.npmmirror.com/packages/sass-embedded/1.86.3/sass-embedded-1.86.3.tgz 2652ms (cache miss)
+465 http fetch GET 200 https://cdn.npmmirror.com/packages/%40bufbuild/protobuf/2.2.5/protobuf-2.2.5.tgz 3061ms (cache miss)
+466 http fetch GET 200 https://cdn.npmmirror.com/packages/colorjs.io/0.5.2/colorjs.io-0.5.2.tgz 3154ms (cache miss)
+467 http fetch GET 200 https://cdn.npmmirror.com/packages/sass-embedded-win32-x64/1.86.3/sass-embedded-win32-x64-1.86.3.tgz 3332ms (cache miss)
+468 http fetch GET 200 https://cdn.npmmirror.com/packages/rxjs/7.8.2/rxjs-7.8.2.tgz 15146ms (cache miss)
+469 info run @parcel/watcher@2.5.1 install node_modules/@parcel/watcher node scripts/build-from-source.js
+470 info run @parcel/watcher@2.5.1 install { code: 0, signal: null }
+471 silly ADD node_modules/is-number
+472 silly ADD node_modules/sync-message-port
+473 silly ADD node_modules/has-flag
+474 silly ADD node_modules/tslib
+475 silly ADD node_modules/varint
+476 silly ADD node_modules/sync-child-process
+477 silly ADD node_modules/supports-color
+478 silly ADD node_modules/sass-embedded-win32-x64
+479 silly ADD
+480 silly ADD
+481 silly ADD
+482 silly ADD
+483 silly ADD
+484 silly ADD
+485 silly ADD
+486 silly ADD
+487 silly ADD
+488 silly ADD
+489 silly ADD
+490 silly ADD
+491 silly ADD
+492 silly ADD
+493 silly ADD
+494 silly ADD
+495 silly ADD
+496 silly ADD
+497 silly ADD
+498 silly ADD node_modules/rxjs
+499 silly ADD node_modules/colorjs.io
+500 silly ADD node_modules/buffer-builder
+501 silly ADD node_modules/@bufbuild/protobuf
+502 silly ADD node_modules/to-regex-range
+503 silly ADD node_modules/fill-range
+504 silly ADD node_modules/picomatch
+505 silly ADD node_modules/braces
+506 silly ADD node_modules/is-extglob
+507 silly ADD node_modules/readdirp
+508 silly ADD node_modules/node-addon-api
+509 silly ADD node_modules/micromatch
+510 silly ADD node_modules/is-glob
+511 silly ADD node_modules/detect-libc
+512 silly ADD node_modules/@parcel/watcher-win32-x64
+513 silly ADD
+514 silly ADD
+515 silly ADD
+516 silly ADD
+517 silly ADD
+518 silly ADD
+519 silly ADD
+520 silly ADD
+521 silly ADD
+522 silly ADD
+523 silly ADD
+524 silly ADD
+525 silly ADD node_modules/source-map-js
+526 silly ADD node_modules/immutable
+527 silly ADD node_modules/chokidar
+528 silly ADD node_modules/@parcel/watcher
+529 silly ADD node_modules/sass-embedded
+530 silly ADD node_modules/sass
+531 verbose cwd D:\Vue\day_04
+532 verbose os Windows_NT 10.0.26100
+533 verbose node v22.14.0
+534 verbose npm  v11.2.0
+535 verbose exit 0
+536 info ok

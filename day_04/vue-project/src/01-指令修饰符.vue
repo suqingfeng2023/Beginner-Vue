@@ -36,7 +36,7 @@ const onDivClick = () => {
 
 
 
-<style>
+<style scoped>
 div {
   width: 400px;
   height: 200px;
