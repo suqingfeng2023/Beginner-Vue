@@ -1,0 +1,45 @@
+{
+  "message": "获取新闻列表成功",
+  "data": [
+    {
+      "id": 1,
+      "title": "人工智能资本化社会化",
+      "source": "新京报经济新闻",
+      "cmtcount": 58,
+      "img": "http://ajax-api.itheima.net/images/0.webp",
+      "time": "2222-10-28 11:50:28"
+    },
+    {
+      "id": 5,
+      "title": "三十五届奥运会是哪个国家举行",
+      "source": "澎湃新闻",
+      "cmtcount": 131,
+      "img": "http://ajax-api.itheima.net/images/4.webp",
+      "time": "2222-10-24 09:08:34"
+    },
+    {
+      "id": 6,
+      "title": "二零三五年中国基本实现现代化",
+      "source": "海外网",
+      "cmtcount": 99,
+      "img": "http://ajax-api.itheima.net/images/5.webp",
+      "time": "2222-10-23 17:41:15"
+    },
+    {
+      "id": 8,
+      "title": "本世纪中叶建成社会主义现代化强国",
+      "source": "澎湃新闻",
+      "cmtcount": 119,
+      "img": "http://ajax-api.itheima.net/images/7.webp",
+      "time": "2222-10-22 03:59:44"
+    },
+    {
+      "id": 9,
+      "title": "未来10年、中国首富花落谁家",
+      "source": "胡润百富",
+      "cmtcount": 676,
+      "img": "http://ajax-api.itheima.net/images/8.webp",
+      "time": "2222-10-21 06:19:37"
+    }
+  ]
+}
