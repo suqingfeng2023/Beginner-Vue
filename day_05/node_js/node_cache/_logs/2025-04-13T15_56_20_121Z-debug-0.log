@@ -1,0 +1,21 @@
+0 verbose cli D:\node_js\node.exe D:\node_js\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.9.2
+2 info using node@v22.14.0
+3 silly config load:file:D:\node_js\node_modules\npm\npmrc
+4 silly config load:file:D:\Vue\day_05\.npmrc
+5 silly config load:file:C:\Users\10797\.npmrc
+6 silly config load:file:D:\Vue\day_05\node_js\node_global\etc\npmrc
+7 verbose title npm create vue@latest
+8 verbose argv "create" "vue@latest"
+9 verbose logfile logs-max:10 dir:D:\Vue\day_05\node_js\node_cache\_logs\2025-04-13T15_56_20_121Z-
+10 verbose logfile D:\Vue\day_05\node_js\node_cache\_logs\2025-04-13T15_56_20_121Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+13 http fetch GET 200 https://registry.npmmirror.com/create-vue 547ms (cache revalidated)
+14 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+15 verbose cwd D:\Vue\day_05
+16 verbose os Windows_NT 10.0.26100
+17 verbose node v22.14.0
+18 verbose npm  v10.9.2
+19 verbose exit 0
+20 info ok
