@@ -168,6 +168,7 @@ let add = () => {
         </td>
         <td>
           <a href="javascript:;" @click="remove(item.id, item.status)">删除</a>
+          <!-- <button type="button" class="text-danger bg-transparent border-0 p-0" @click="remove(item.id, item.status)">删除</button> -->
         </td>
       </tr>
     </tbody>
