@@ -2,7 +2,14 @@
 const props = defineProps(['list'])
 const emit = defineEmits(['delToDo'])
 
-const delTodo = id => {
+const delTodo = (id) => {
+  const task = props.list.find(item => item.id === id)
+  
+  if (!task.done) {
+    const confirmDelete = confirm('该城市状态未完成，确定要删除这个城市吗？')
+    if (!confirmDelete) return
+  }
+  
   emit('delToDo', id)
 }
 </script>

@@ -7,16 +7,19 @@ const enterName = () => {
   if (name.value) {
     emit('addTodo', name.value)
     name.value = ''
+    alert('任务添加成功！')
+  } else {
+    alert('任务内容不能为空！')
   }
 }
 </script>
 <template>
     <div class="header">
-      <p class="title">todos</p>
+      <p class="title">旅游计划表</p>
       <input 
         class="new-todo" 
         type="text" 
-        placeholder="What needs to be done?"
+        placeholder="请输入城市名称"
         v-model.trim="name"
         @keyup.enter="enterName"
       />

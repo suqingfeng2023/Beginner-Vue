@@ -1,0 +1,20 @@
+0 verbose cli D:\node_js\node.exe D:\node_js\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.9.2
+2 info using node@v22.14.0
+3 silly config load:file:D:\node_js\node_modules\npm\npmrc
+4 silly config load:file:D:\Vue\chapter02\.npmrc
+5 silly config load:file:C:\Users\10797\.npmrc
+6 silly config load:file:D:\Vue\chapter02\node_js\node_global\etc\npmrc
+7 verbose title npm list vite
+8 verbose argv "list" "vite"
+9 verbose logfile logs-max:10 dir:D:\Vue\chapter02\node_js\node_cache\_logs\2025-04-13T06_00_34_604Z-
+10 verbose logfile D:\Vue\chapter02\node_js\node_cache\_logs\2025-04-13T06_00_34_604Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+13 silly logfile done cleaning log files
+14 verbose cwd D:\Vue\chapter02
+15 verbose os Windows_NT 10.0.26100
+16 verbose node v22.14.0
+17 verbose npm  v10.9.2
+18 verbose exit 0
+19 info ok

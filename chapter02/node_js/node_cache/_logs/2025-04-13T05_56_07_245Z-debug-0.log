@@ -1,0 +1,642 @@
+0 verbose cli D:\node_js\node.exe D:\node_js\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.9.2
+2 info using node@v22.14.0
+3 silly config load:file:D:\node_js\node_modules\npm\npmrc
+4 silly config load:file:D:\Vue\chapter02\.npmrc
+5 silly config load:file:C:\Users\10797\.npmrc
+6 silly config load:file:D:\Vue\chapter02\node_js\node_global\etc\npmrc
+7 verbose title npm install sass sass-embedded
+8 verbose argv "install" "--save-dev" "sass" "sass-embedded"
+9 verbose logfile logs-max:10 dir:D:\Vue\chapter02\node_js\node_cache\_logs\2025-04-13T05_56_07_245Z-
+10 verbose logfile D:\Vue\chapter02\node_js\node_cache\_logs\2025-04-13T05_56_07_245Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+13 silly logfile done cleaning log files
+14 silly idealTree buildDeps
+15 silly fetch manifest sass-embedded@^1.86.3
+16 silly packumentCache full:https://registry.npmmirror.com/sass-embedded cache-miss
+17 http fetch GET 200 https://registry.npmmirror.com/sass-embedded 304ms (cache miss)
+18 silly packumentCache full:https://registry.npmmirror.com/sass-embedded set size:64082 disposed:false
+19 silly fetch manifest sass@*
+20 silly packumentCache full:https://registry.npmmirror.com/sass cache-miss
+21 http fetch GET 200 https://registry.npmmirror.com/sass 114ms (cache miss)
+22 silly packumentCache full:https://registry.npmmirror.com/sass set size:116091 disposed:false
+23 silly placeDep ROOT sass@1.86.3 OK for:  want: *
+24 silly placeDep ROOT sass-embedded@1.86.3 REPLACE for:  want: ^1.86.3
+25 silly fetch manifest chokidar@^4.0.0
+26 silly packumentCache full:https://registry.npmmirror.com/chokidar cache-miss
+27 silly fetch manifest @parcel/watcher@^2.4.1
+28 silly packumentCache full:https://registry.npmmirror.com/@parcel%2fwatcher cache-miss
+29 http fetch GET 200 https://registry.npmmirror.com/chokidar 64ms (cache miss)
+30 silly packumentCache full:https://registry.npmmirror.com/chokidar set size:39278 disposed:false
+31 http fetch GET 200 https://registry.npmmirror.com/@parcel%2fwatcher 176ms (cache miss)
+32 silly packumentCache full:https://registry.npmmirror.com/@parcel%2fwatcher set size:23169 disposed:false
+33 silly placeDep ROOT @parcel/watcher@2.5.1 OK for: sass@1.86.3 want: ^2.4.1
+34 silly placeDep ROOT chokidar@4.0.3 OK for: sass@1.86.3 want: ^4.0.0
+35 silly fetch manifest detect-libc@^1.0.3
+36 silly packumentCache full:https://registry.npmmirror.com/detect-libc cache-miss
+37 silly fetch manifest is-glob@^4.0.3
+38 silly packumentCache full:https://registry.npmmirror.com/is-glob cache-miss
+39 silly fetch manifest micromatch@^4.0.5
+40 silly packumentCache full:https://registry.npmmirror.com/micromatch cache-miss
+41 silly fetch manifest node-addon-api@^7.0.0
+42 silly packumentCache full:https://registry.npmmirror.com/node-addon-api cache-miss
+43 silly fetch manifest @parcel/watcher-darwin-x64@2.5.1
+44 silly packumentCache full:https://registry.npmmirror.com/@parcel%2fwatcher-darwin-x64 cache-miss
+45 silly fetch manifest @parcel/watcher-darwin-arm64@2.5.1
+46 silly packumentCache full:https://registry.npmmirror.com/@parcel%2fwatcher-darwin-arm64 cache-miss
+47 silly fetch manifest @parcel/watcher-win32-x64@2.5.1
+48 silly packumentCache full:https://registry.npmmirror.com/@parcel%2fwatcher-win32-x64 cache-miss
+49 silly fetch manifest @parcel/watcher-win32-arm64@2.5.1
+50 silly packumentCache full:https://registry.npmmirror.com/@parcel%2fwatcher-win32-arm64 cache-miss
+51 silly fetch manifest @parcel/watcher-win32-ia32@2.5.1
+52 silly packumentCache full:https://registry.npmmirror.com/@parcel%2fwatcher-win32-ia32 cache-miss
+53 silly fetch manifest @parcel/watcher-linux-x64-glibc@2.5.1
+54 silly packumentCache full:https://registry.npmmirror.com/@parcel%2fwatcher-linux-x64-glibc cache-miss
+55 silly fetch manifest @parcel/watcher-linux-x64-musl@2.5.1
+56 silly packumentCache full:https://registry.npmmirror.com/@parcel%2fwatcher-linux-x64-musl cache-miss
+57 http fetch GET 200 https://registry.npmmirror.com/detect-libc 73ms (cache miss)
+58 silly packumentCache full:https://registry.npmmirror.com/detect-libc set size:8615 disposed:false
+59 silly fetch manifest @parcel/watcher-linux-arm64-glibc@2.5.1
+60 silly packumentCache full:https://registry.npmmirror.com/@parcel%2fwatcher-linux-arm64-glibc cache-miss
+61 http fetch GET 200 https://registry.npmmirror.com/is-glob 77ms (cache miss)
+62 silly packumentCache full:https://registry.npmmirror.com/is-glob set size:7964 disposed:false
+63 silly fetch manifest @parcel/watcher-linux-arm64-musl@2.5.1
+64 silly packumentCache full:https://registry.npmmirror.com/@parcel%2fwatcher-linux-arm64-musl cache-miss
+65 http fetch GET 200 https://registry.npmmirror.com/@parcel%2fwatcher-linux-arm64-glibc 83ms (cache miss)
+66 silly packumentCache full:https://registry.npmmirror.com/@parcel%2fwatcher-linux-arm64-glibc set size:5427 disposed:false
+67 silly fetch manifest @parcel/watcher-linux-arm-glibc@2.5.1
+68 silly packumentCache full:https://registry.npmmirror.com/@parcel%2fwatcher-linux-arm-glibc cache-miss
+69 http fetch GET 200 https://registry.npmmirror.com/@parcel%2fwatcher-linux-arm64-musl 135ms (cache miss)
+70 silly packumentCache full:https://registry.npmmirror.com/@parcel%2fwatcher-linux-arm64-musl set size:5392 disposed:false
+71 silly fetch manifest @parcel/watcher-linux-arm-musl@2.5.1
+72 silly packumentCache full:https://registry.npmmirror.com/@parcel%2fwatcher-linux-arm-musl cache-miss
+73 http fetch GET 200 https://registry.npmmirror.com/@parcel%2fwatcher-win32-x64 228ms (cache miss)
+74 silly packumentCache full:https://registry.npmmirror.com/@parcel%2fwatcher-win32-x64 set size:5410 disposed:false
+75 silly fetch manifest @parcel/watcher-android-arm64@2.5.1
+76 silly packumentCache full:https://registry.npmmirror.com/@parcel%2fwatcher-android-arm64 cache-miss
+77 http fetch GET 200 https://registry.npmmirror.com/@parcel%2fwatcher-darwin-arm64 284ms (cache miss)
+78 silly packumentCache full:https://registry.npmmirror.com/@parcel%2fwatcher-darwin-arm64 set size:5367 disposed:false
+79 silly fetch manifest @parcel/watcher-freebsd-x64@2.5.1
+80 silly packumentCache full:https://registry.npmmirror.com/@parcel%2fwatcher-freebsd-x64 cache-miss
+81 http fetch GET 200 https://registry.npmmirror.com/@parcel%2fwatcher-darwin-x64 290ms (cache miss)
+82 silly packumentCache full:https://registry.npmmirror.com/@parcel%2fwatcher-darwin-x64 set size:5406 disposed:false
+83 silly fetch manifest readdirp@^4.0.1
+84 silly packumentCache full:https://registry.npmmirror.com/readdirp cache-miss
+85 http fetch GET 200 https://registry.npmmirror.com/@parcel%2fwatcher-win32-arm64 296ms (cache miss)
+86 silly packumentCache full:https://registry.npmmirror.com/@parcel%2fwatcher-win32-arm64 set size:5146 disposed:false
+87 http fetch GET 200 https://registry.npmmirror.com/@parcel%2fwatcher-linux-x64-musl 297ms (cache miss)
+88 silly packumentCache full:https://registry.npmmirror.com/@parcel%2fwatcher-linux-x64-musl set size:5396 disposed:false
+89 http fetch GET 200 https://registry.npmmirror.com/@parcel%2fwatcher-linux-x64-glibc 298ms (cache miss)
+90 silly packumentCache full:https://registry.npmmirror.com/@parcel%2fwatcher-linux-x64-glibc set size:5366 disposed:false
+91 http fetch GET 200 https://registry.npmmirror.com/@parcel%2fwatcher-win32-ia32 301ms (cache miss)
+92 silly packumentCache full:https://registry.npmmirror.com/@parcel%2fwatcher-win32-ia32 set size:4143 disposed:false
+93 http fetch GET 200 https://registry.npmmirror.com/micromatch 344ms (cache miss)
+94 silly packumentCache full:https://registry.npmmirror.com/micromatch set size:39383 disposed:false
+95 http fetch GET 200 https://registry.npmmirror.com/@parcel%2fwatcher-linux-arm-musl 130ms (cache miss)
+96 silly packumentCache full:https://registry.npmmirror.com/@parcel%2fwatcher-linux-arm-musl set size:1592 disposed:false
+97 http fetch GET 200 https://registry.npmmirror.com/@parcel%2fwatcher-linux-arm-glibc 186ms (cache miss)
+98 silly packumentCache full:https://registry.npmmirror.com/@parcel%2fwatcher-linux-arm-glibc set size:5410 disposed:false
+99 http fetch GET 200 https://registry.npmmirror.com/node-addon-api 348ms (cache miss)
+100 silly packumentCache full:https://registry.npmmirror.com/node-addon-api set size:37226 disposed:false
+101 http fetch GET 200 https://registry.npmmirror.com/@parcel%2fwatcher-android-arm64 124ms (cache miss)
+102 silly packumentCache full:https://registry.npmmirror.com/@parcel%2fwatcher-android-arm64 set size:5094 disposed:false
+103 http fetch GET 200 https://registry.npmmirror.com/@parcel%2fwatcher-freebsd-x64 81ms (cache miss)
+104 silly packumentCache full:https://registry.npmmirror.com/@parcel%2fwatcher-freebsd-x64 set size:4125 disposed:false
+105 http fetch GET 200 https://registry.npmmirror.com/readdirp 108ms (cache miss)
+106 silly packumentCache full:https://registry.npmmirror.com/readdirp set size:17999 disposed:false
+107 silly placeDep ROOT @parcel/watcher-android-arm64@2.5.1 OK for: @parcel/watcher@2.5.1 want: 2.5.1
+108 silly placeDep ROOT @parcel/watcher-darwin-arm64@2.5.1 OK for: @parcel/watcher@2.5.1 want: 2.5.1
+109 silly placeDep ROOT @parcel/watcher-darwin-x64@2.5.1 OK for: @parcel/watcher@2.5.1 want: 2.5.1
+110 silly placeDep ROOT @parcel/watcher-freebsd-x64@2.5.1 OK for: @parcel/watcher@2.5.1 want: 2.5.1
+111 silly placeDep ROOT @parcel/watcher-linux-arm-glibc@2.5.1 OK for: @parcel/watcher@2.5.1 want: 2.5.1
+112 silly placeDep ROOT @parcel/watcher-linux-arm-musl@2.5.1 OK for: @parcel/watcher@2.5.1 want: 2.5.1
+113 silly placeDep ROOT @parcel/watcher-linux-arm64-glibc@2.5.1 OK for: @parcel/watcher@2.5.1 want: 2.5.1
+114 silly placeDep ROOT @parcel/watcher-linux-arm64-musl@2.5.1 OK for: @parcel/watcher@2.5.1 want: 2.5.1
+115 silly placeDep ROOT @parcel/watcher-linux-x64-glibc@2.5.1 OK for: @parcel/watcher@2.5.1 want: 2.5.1
+116 silly placeDep ROOT @parcel/watcher-linux-x64-musl@2.5.1 OK for: @parcel/watcher@2.5.1 want: 2.5.1
+117 silly placeDep ROOT @parcel/watcher-win32-arm64@2.5.1 OK for: @parcel/watcher@2.5.1 want: 2.5.1
+118 silly placeDep ROOT @parcel/watcher-win32-ia32@2.5.1 OK for: @parcel/watcher@2.5.1 want: 2.5.1
+119 silly placeDep ROOT @parcel/watcher-win32-x64@2.5.1 OK for: @parcel/watcher@2.5.1 want: 2.5.1
+120 silly placeDep ROOT detect-libc@1.0.3 OK for: @parcel/watcher@2.5.1 want: ^1.0.3
+121 silly placeDep ROOT is-glob@4.0.3 OK for: @parcel/watcher@2.5.1 want: ^4.0.3
+122 silly placeDep ROOT micromatch@4.0.8 OK for: @parcel/watcher@2.5.1 want: ^4.0.5
+123 silly placeDep ROOT node-addon-api@7.1.1 OK for: @parcel/watcher@2.5.1 want: ^7.0.0
+124 silly fetch manifest is-extglob@^2.1.1
+125 silly packumentCache full:https://registry.npmmirror.com/is-extglob cache-miss
+126 silly fetch manifest braces@^3.0.3
+127 silly packumentCache full:https://registry.npmmirror.com/braces cache-miss
+128 silly fetch manifest picomatch@^2.3.1
+129 silly packumentCache full:https://registry.npmmirror.com/picomatch cache-miss
+130 http fetch GET 200 https://registry.npmmirror.com/braces 100ms (cache miss)
+131 silly packumentCache full:https://registry.npmmirror.com/braces set size:22104 disposed:false
+132 http fetch GET 200 https://registry.npmmirror.com/picomatch 107ms (cache miss)
+133 silly packumentCache full:https://registry.npmmirror.com/picomatch set size:21670 disposed:false
+134 http fetch GET 200 https://registry.npmmirror.com/is-extglob 114ms (cache miss)
+135 silly packumentCache full:https://registry.npmmirror.com/is-extglob set size:3363 disposed:false
+136 silly placeDep ROOT readdirp@4.1.2 OK for: chokidar@4.0.3 want: ^4.0.1
+137 silly placeDep ROOT is-extglob@2.1.1 OK for: is-glob@4.0.3 want: ^2.1.1
+138 silly placeDep ROOT braces@3.0.3 OK for: micromatch@4.0.8 want: ^3.0.3
+139 silly placeDep ROOT picomatch@2.3.1 OK for: micromatch@4.0.8 want: ^2.3.1
+140 silly fetch manifest fill-range@^7.1.1
+141 silly packumentCache full:https://registry.npmmirror.com/fill-range cache-miss
+142 http fetch GET 200 https://registry.npmmirror.com/fill-range 53ms (cache miss)
+143 silly packumentCache full:https://registry.npmmirror.com/fill-range set size:14249 disposed:false
+144 silly placeDep ROOT fill-range@7.1.1 OK for: braces@3.0.3 want: ^7.1.1
+145 silly fetch manifest to-regex-range@^5.0.1
+146 silly packumentCache full:https://registry.npmmirror.com/to-regex-range cache-miss
+147 http fetch GET 200 https://registry.npmmirror.com/to-regex-range 58ms (cache miss)
+148 silly packumentCache full:https://registry.npmmirror.com/to-regex-range set size:11477 disposed:false
+149 silly placeDep ROOT to-regex-range@5.0.1 OK for: fill-range@7.1.1 want: ^5.0.1
+150 silly fetch manifest is-number@^7.0.0
+151 silly packumentCache full:https://registry.npmmirror.com/is-number cache-miss
+152 http fetch GET 200 https://registry.npmmirror.com/is-number 53ms (cache miss)
+153 silly packumentCache full:https://registry.npmmirror.com/is-number set size:7889 disposed:false
+154 silly placeDep ROOT is-number@7.0.0 OK for: to-regex-range@5.0.1 want: ^7.0.0
+155 silly reify moves {}
+156 silly audit bulk request {
+156 silly audit   '@babel/helper-string-parser': [ '7.25.9' ],
+156 silly audit   '@babel/helper-validator-identifier': [ '7.25.9' ],
+156 silly audit   '@babel/parser': [ '7.27.0' ],
+156 silly audit   '@babel/types': [ '7.27.0' ],
+156 silly audit   '@bufbuild/protobuf': [ '2.2.5' ],
+156 silly audit   '@esbuild/aix-ppc64': [ '0.25.2' ],
+156 silly audit   '@esbuild/android-arm': [ '0.25.2' ],
+156 silly audit   '@esbuild/android-arm64': [ '0.25.2' ],
+156 silly audit   '@esbuild/android-x64': [ '0.25.2' ],
+156 silly audit   '@esbuild/darwin-arm64': [ '0.25.2' ],
+156 silly audit   '@esbuild/darwin-x64': [ '0.25.2' ],
+156 silly audit   '@esbuild/freebsd-arm64': [ '0.25.2' ],
+156 silly audit   '@esbuild/freebsd-x64': [ '0.25.2' ],
+156 silly audit   '@esbuild/linux-arm': [ '0.25.2' ],
+156 silly audit   '@esbuild/linux-arm64': [ '0.25.2' ],
+156 silly audit   '@esbuild/linux-ia32': [ '0.25.2' ],
+156 silly audit   '@esbuild/linux-loong64': [ '0.25.2' ],
+156 silly audit   '@esbuild/linux-mips64el': [ '0.25.2' ],
+156 silly audit   '@esbuild/linux-ppc64': [ '0.25.2' ],
+156 silly audit   '@esbuild/linux-riscv64': [ '0.25.2' ],
+156 silly audit   '@esbuild/linux-s390x': [ '0.25.2' ],
+156 silly audit   '@esbuild/linux-x64': [ '0.25.2' ],
+156 silly audit   '@esbuild/netbsd-arm64': [ '0.25.2' ],
+156 silly audit   '@esbuild/netbsd-x64': [ '0.25.2' ],
+156 silly audit   '@esbuild/openbsd-arm64': [ '0.25.2' ],
+156 silly audit   '@esbuild/openbsd-x64': [ '0.25.2' ],
+156 silly audit   '@esbuild/sunos-x64': [ '0.25.2' ],
+156 silly audit   '@esbuild/win32-arm64': [ '0.25.2' ],
+156 silly audit   '@esbuild/win32-ia32': [ '0.25.2' ],
+156 silly audit   '@esbuild/win32-x64': [ '0.25.2' ],
+156 silly audit   '@jridgewell/sourcemap-codec': [ '1.5.0' ],
+156 silly audit   '@rollup/rollup-android-arm-eabi': [ '4.40.0' ],
+156 silly audit   '@rollup/rollup-android-arm64': [ '4.40.0' ],
+156 silly audit   '@rollup/rollup-darwin-arm64': [ '4.40.0' ],
+156 silly audit   '@rollup/rollup-darwin-x64': [ '4.40.0' ],
+156 silly audit   '@rollup/rollup-freebsd-arm64': [ '4.40.0' ],
+156 silly audit   '@rollup/rollup-freebsd-x64': [ '4.40.0' ],
+156 silly audit   '@rollup/rollup-linux-arm-gnueabihf': [ '4.40.0' ],
+156 silly audit   '@rollup/rollup-linux-arm-musleabihf': [ '4.40.0' ],
+156 silly audit   '@rollup/rollup-linux-arm64-gnu': [ '4.40.0' ],
+156 silly audit   '@rollup/rollup-linux-arm64-musl': [ '4.40.0' ],
+156 silly audit   '@rollup/rollup-linux-loongarch64-gnu': [ '4.40.0' ],
+156 silly audit   '@rollup/rollup-linux-powerpc64le-gnu': [ '4.40.0' ],
+156 silly audit   '@rollup/rollup-linux-riscv64-gnu': [ '4.40.0' ],
+156 silly audit   '@rollup/rollup-linux-riscv64-musl': [ '4.40.0' ],
+156 silly audit   '@rollup/rollup-linux-s390x-gnu': [ '4.40.0' ],
+156 silly audit   '@rollup/rollup-linux-x64-gnu': [ '4.40.0' ],
+156 silly audit   '@rollup/rollup-linux-x64-musl': [ '4.40.0' ],
+156 silly audit   '@rollup/rollup-win32-arm64-msvc': [ '4.40.0' ],
+156 silly audit   '@rollup/rollup-win32-ia32-msvc': [ '4.40.0' ],
+156 silly audit   '@rollup/rollup-win32-x64-msvc': [ '4.40.0' ],
+156 silly audit   '@types/estree': [ '1.0.7' ],
+156 silly audit   '@vue/compiler-core': [ '3.5.13' ],
+156 silly audit   '@vue/compiler-dom': [ '3.5.13' ],
+156 silly audit   '@vue/compiler-sfc': [ '3.5.13' ],
+156 silly audit   '@vue/compiler-ssr': [ '3.5.13' ],
+156 silly audit   '@vue/reactivity': [ '3.5.13' ],
+156 silly audit   '@vue/runtime-core': [ '3.5.13' ],
+156 silly audit   '@vue/runtime-dom': [ '3.5.13' ],
+156 silly audit   '@vue/server-renderer': [ '3.5.13' ],
+156 silly audit   '@vue/shared': [ '3.5.13' ],
+156 silly audit   'buffer-builder': [ '0.2.0' ],
+156 silly audit   'colorjs.io': [ '0.5.2' ],
+156 silly audit   csstype: [ '3.1.3' ],
+156 silly audit   entities: [ '4.5.0' ],
+156 silly audit   esbuild: [ '0.25.2' ],
+156 silly audit   'estree-walker': [ '2.0.2' ],
+156 silly audit   fsevents: [ '2.3.3' ],
+156 silly audit   'has-flag': [ '4.0.0' ],
+156 silly audit   immutable: [ '5.1.1' ],
+156 silly audit   'magic-string': [ '0.30.17' ],
+156 silly audit   nanoid: [ '3.3.11' ],
+156 silly audit   picocolors: [ '1.1.1' ],
+156 silly audit   postcss: [ '8.5.3' ],
+156 silly audit   rollup: [ '4.40.0' ],
+156 silly audit   rxjs: [ '7.8.2' ],
+156 silly audit   'sass-embedded-android-arm': [ '1.86.3' ],
+156 silly audit   'sass-embedded-android-arm64': [ '1.86.3' ],
+156 silly audit   'sass-embedded-android-ia32': [ '1.86.3' ],
+156 silly audit   'sass-embedded-android-riscv64': [ '1.86.3' ],
+156 silly audit   'sass-embedded-android-x64': [ '1.86.3' ],
+156 silly audit   'sass-embedded-darwin-arm64': [ '1.86.3' ],
+156 silly audit   'sass-embedded-darwin-x64': [ '1.86.3' ],
+156 silly audit   'sass-embedded-linux-arm': [ '1.86.3' ],
+156 silly audit   'sass-embedded-linux-arm64': [ '1.86.3' ],
+156 silly audit   'sass-embedded-linux-ia32': [ '1.86.3' ],
+156 silly audit   'sass-embedded-linux-musl-arm': [ '1.86.3' ],
+156 silly audit   'sass-embedded-linux-musl-arm64': [ '1.86.3' ],
+156 silly audit   'sass-embedded-linux-musl-ia32': [ '1.86.3' ],
+156 silly audit   'sass-embedded-linux-musl-riscv64': [ '1.86.3' ],
+156 silly audit   'sass-embedded-linux-musl-x64': [ '1.86.3' ],
+156 silly audit   'sass-embedded-linux-riscv64': [ '1.86.3' ],
+156 silly audit   'sass-embedded-linux-x64': [ '1.86.3' ],
+156 silly audit   'sass-embedded-win32-arm64': [ '1.86.3' ],
+156 silly audit   'sass-embedded-win32-ia32': [ '1.86.3' ],
+156 silly audit   'sass-embedded-win32-x64': [ '1.86.3' ],
+156 silly audit   'source-map-js': [ '1.2.1' ],
+156 silly audit   'supports-color': [ '8.1.1' ],
+156 silly audit   'sync-child-process': [ '1.0.2' ],
+156 silly audit   'sync-message-port': [ '1.1.3' ],
+156 silly audit   tslib: [ '2.8.1' ],
+156 silly audit   varint: [ '6.0.0' ],
+156 silly audit   vite: [ '6.2.6' ],
+156 silly audit   vue: [ '3.5.13' ],
+156 silly audit   sass: [ '1.86.3' ],
+156 silly audit   'sass-embedded': [ '1.86.3' ],
+156 silly audit   '@parcel/watcher': [ '2.5.1' ],
+156 silly audit   chokidar: [ '4.0.3' ],
+156 silly audit   '@parcel/watcher-android-arm64': [ '2.5.1' ],
+156 silly audit   '@parcel/watcher-darwin-arm64': [ '2.5.1' ],
+156 silly audit   '@parcel/watcher-darwin-x64': [ '2.5.1' ],
+156 silly audit   '@parcel/watcher-freebsd-x64': [ '2.5.1' ],
+156 silly audit   '@parcel/watcher-linux-arm-glibc': [ '2.5.1' ],
+156 silly audit   '@parcel/watcher-linux-arm-musl': [ '2.5.1' ],
+156 silly audit   '@parcel/watcher-linux-arm64-glibc': [ '2.5.1' ],
+156 silly audit   '@parcel/watcher-linux-arm64-musl': [ '2.5.1' ],
+156 silly audit   '@parcel/watcher-linux-x64-glibc': [ '2.5.1' ],
+156 silly audit   '@parcel/watcher-linux-x64-musl': [ '2.5.1' ],
+156 silly audit   '@parcel/watcher-win32-arm64': [ '2.5.1' ],
+156 silly audit   '@parcel/watcher-win32-ia32': [ '2.5.1' ],
+156 silly audit   '@parcel/watcher-win32-x64': [ '2.5.1' ],
+156 silly audit   'detect-libc': [ '1.0.3' ],
+156 silly audit   'is-glob': [ '4.0.3' ],
+156 silly audit   micromatch: [ '4.0.8' ],
+156 silly audit   'node-addon-api': [ '7.1.1' ],
+156 silly audit   readdirp: [ '4.1.2' ],
+156 silly audit   'is-extglob': [ '2.1.1' ],
+156 silly audit   braces: [ '3.0.3' ],
+156 silly audit   picomatch: [ '2.3.1' ],
+156 silly audit   'fill-range': [ '7.1.1' ],
+156 silly audit   'to-regex-range': [ '5.0.1' ],
+156 silly audit   'is-number': [ '7.0.0' ]
+156 silly audit }
+157 verbose reify failed optional dependency D:\Vue\chapter02\node_modules\@parcel\watcher-win32-ia32
+158 silly reify mark deleted [ 'D:\\Vue\\chapter02\\node_modules\\@parcel\\watcher-win32-ia32' ]
+159 verbose reify failed optional dependency D:\Vue\chapter02\node_modules\@parcel\watcher-win32-arm64
+160 silly reify mark deleted [ 'D:\\Vue\\chapter02\\node_modules\\@parcel\\watcher-win32-arm64' ]
+161 verbose reify failed optional dependency D:\Vue\chapter02\node_modules\@parcel\watcher-linux-x64-musl
+162 silly reify mark deleted [ 'D:\\Vue\\chapter02\\node_modules\\@parcel\\watcher-linux-x64-musl' ]
+163 verbose reify failed optional dependency D:\Vue\chapter02\node_modules\@parcel\watcher-linux-x64-glibc
+164 silly reify mark deleted [
+164 silly reify   'D:\\Vue\\chapter02\\node_modules\\@parcel\\watcher-linux-x64-glibc'
+164 silly reify ]
+165 verbose reify failed optional dependency D:\Vue\chapter02\node_modules\@parcel\watcher-linux-arm64-musl
+166 silly reify mark deleted [
+166 silly reify   'D:\\Vue\\chapter02\\node_modules\\@parcel\\watcher-linux-arm64-musl'
+166 silly reify ]
+167 verbose reify failed optional dependency D:\Vue\chapter02\node_modules\@parcel\watcher-linux-arm64-glibc
+168 silly reify mark deleted [
+168 silly reify   'D:\\Vue\\chapter02\\node_modules\\@parcel\\watcher-linux-arm64-glibc'
+168 silly reify ]
+169 verbose reify failed optional dependency D:\Vue\chapter02\node_modules\@parcel\watcher-linux-arm-musl
+170 silly reify mark deleted [ 'D:\\Vue\\chapter02\\node_modules\\@parcel\\watcher-linux-arm-musl' ]
+171 verbose reify failed optional dependency D:\Vue\chapter02\node_modules\@parcel\watcher-linux-arm-glibc
+172 silly reify mark deleted [
+172 silly reify   'D:\\Vue\\chapter02\\node_modules\\@parcel\\watcher-linux-arm-glibc'
+172 silly reify ]
+173 verbose reify failed optional dependency D:\Vue\chapter02\node_modules\@parcel\watcher-freebsd-x64
+174 silly reify mark deleted [ 'D:\\Vue\\chapter02\\node_modules\\@parcel\\watcher-freebsd-x64' ]
+175 verbose reify failed optional dependency D:\Vue\chapter02\node_modules\@parcel\watcher-darwin-x64
+176 silly reify mark deleted [ 'D:\\Vue\\chapter02\\node_modules\\@parcel\\watcher-darwin-x64' ]
+177 verbose reify failed optional dependency D:\Vue\chapter02\node_modules\@parcel\watcher-darwin-arm64
+178 silly reify mark deleted [ 'D:\\Vue\\chapter02\\node_modules\\@parcel\\watcher-darwin-arm64' ]
+179 verbose reify failed optional dependency D:\Vue\chapter02\node_modules\@parcel\watcher-android-arm64
+180 silly reify mark deleted [ 'D:\\Vue\\chapter02\\node_modules\\@parcel\\watcher-android-arm64' ]
+181 verbose reify failed optional dependency D:\Vue\chapter02\node_modules\sass-embedded-win32-ia32
+182 silly reify mark deleted [ 'D:\\Vue\\chapter02\\node_modules\\sass-embedded-win32-ia32' ]
+183 verbose reify failed optional dependency D:\Vue\chapter02\node_modules\sass-embedded-win32-arm64
+184 silly reify mark deleted [ 'D:\\Vue\\chapter02\\node_modules\\sass-embedded-win32-arm64' ]
+185 verbose reify failed optional dependency D:\Vue\chapter02\node_modules\sass-embedded-linux-x64
+186 silly reify mark deleted [ 'D:\\Vue\\chapter02\\node_modules\\sass-embedded-linux-x64' ]
+187 verbose reify failed optional dependency D:\Vue\chapter02\node_modules\sass-embedded-linux-riscv64
+188 silly reify mark deleted [ 'D:\\Vue\\chapter02\\node_modules\\sass-embedded-linux-riscv64' ]
+189 verbose reify failed optional dependency D:\Vue\chapter02\node_modules\sass-embedded-linux-musl-x64
+190 silly reify mark deleted [ 'D:\\Vue\\chapter02\\node_modules\\sass-embedded-linux-musl-x64' ]
+191 verbose reify failed optional dependency D:\Vue\chapter02\node_modules\sass-embedded-linux-musl-riscv64
+192 silly reify mark deleted [
+192 silly reify   'D:\\Vue\\chapter02\\node_modules\\sass-embedded-linux-musl-riscv64'
+192 silly reify ]
+193 verbose reify failed optional dependency D:\Vue\chapter02\node_modules\sass-embedded-linux-musl-ia32
+194 silly reify mark deleted [ 'D:\\Vue\\chapter02\\node_modules\\sass-embedded-linux-musl-ia32' ]
+195 verbose reify failed optional dependency D:\Vue\chapter02\node_modules\sass-embedded-linux-musl-arm64
+196 silly reify mark deleted [ 'D:\\Vue\\chapter02\\node_modules\\sass-embedded-linux-musl-arm64' ]
+197 verbose reify failed optional dependency D:\Vue\chapter02\node_modules\sass-embedded-linux-musl-arm
+198 silly reify mark deleted [ 'D:\\Vue\\chapter02\\node_modules\\sass-embedded-linux-musl-arm' ]
+199 verbose reify failed optional dependency D:\Vue\chapter02\node_modules\sass-embedded-linux-ia32
+200 silly reify mark deleted [ 'D:\\Vue\\chapter02\\node_modules\\sass-embedded-linux-ia32' ]
+201 verbose reify failed optional dependency D:\Vue\chapter02\node_modules\sass-embedded-linux-arm64
+202 silly reify mark deleted [ 'D:\\Vue\\chapter02\\node_modules\\sass-embedded-linux-arm64' ]
+203 verbose reify failed optional dependency D:\Vue\chapter02\node_modules\sass-embedded-linux-arm
+204 silly reify mark deleted [ 'D:\\Vue\\chapter02\\node_modules\\sass-embedded-linux-arm' ]
+205 verbose reify failed optional dependency D:\Vue\chapter02\node_modules\sass-embedded-darwin-x64
+206 silly reify mark deleted [ 'D:\\Vue\\chapter02\\node_modules\\sass-embedded-darwin-x64' ]
+207 verbose reify failed optional dependency D:\Vue\chapter02\node_modules\sass-embedded-darwin-arm64
+208 silly reify mark deleted [ 'D:\\Vue\\chapter02\\node_modules\\sass-embedded-darwin-arm64' ]
+209 verbose reify failed optional dependency D:\Vue\chapter02\node_modules\sass-embedded-android-x64
+210 silly reify mark deleted [ 'D:\\Vue\\chapter02\\node_modules\\sass-embedded-android-x64' ]
+211 verbose reify failed optional dependency D:\Vue\chapter02\node_modules\sass-embedded-android-riscv64
+212 silly reify mark deleted [ 'D:\\Vue\\chapter02\\node_modules\\sass-embedded-android-riscv64' ]
+213 verbose reify failed optional dependency D:\Vue\chapter02\node_modules\sass-embedded-android-ia32
+214 silly reify mark deleted [ 'D:\\Vue\\chapter02\\node_modules\\sass-embedded-android-ia32' ]
+215 verbose reify failed optional dependency D:\Vue\chapter02\node_modules\sass-embedded-android-arm64
+216 silly reify mark deleted [ 'D:\\Vue\\chapter02\\node_modules\\sass-embedded-android-arm64' ]
+217 verbose reify failed optional dependency D:\Vue\chapter02\node_modules\sass-embedded-android-arm
+218 silly reify mark deleted [ 'D:\\Vue\\chapter02\\node_modules\\sass-embedded-android-arm' ]
+219 verbose reify failed optional dependency D:\Vue\chapter02\node_modules\fsevents
+220 silly reify mark deleted [ 'D:\\Vue\\chapter02\\node_modules\\fsevents' ]
+221 verbose reify failed optional dependency D:\Vue\chapter02\node_modules\@rollup\rollup-win32-ia32-msvc
+222 silly reify mark deleted [ 'D:\\Vue\\chapter02\\node_modules\\@rollup\\rollup-win32-ia32-msvc' ]
+223 verbose reify failed optional dependency D:\Vue\chapter02\node_modules\@rollup\rollup-win32-arm64-msvc
+224 silly reify mark deleted [
+224 silly reify   'D:\\Vue\\chapter02\\node_modules\\@rollup\\rollup-win32-arm64-msvc'
+224 silly reify ]
+225 verbose reify failed optional dependency D:\Vue\chapter02\node_modules\@rollup\rollup-linux-x64-musl
+226 silly reify mark deleted [ 'D:\\Vue\\chapter02\\node_modules\\@rollup\\rollup-linux-x64-musl' ]
+227 verbose reify failed optional dependency D:\Vue\chapter02\node_modules\@rollup\rollup-linux-x64-gnu
+228 silly reify mark deleted [ 'D:\\Vue\\chapter02\\node_modules\\@rollup\\rollup-linux-x64-gnu' ]
+229 verbose reify failed optional dependency D:\Vue\chapter02\node_modules\@rollup\rollup-linux-s390x-gnu
+230 silly reify mark deleted [ 'D:\\Vue\\chapter02\\node_modules\\@rollup\\rollup-linux-s390x-gnu' ]
+231 verbose reify failed optional dependency D:\Vue\chapter02\node_modules\@rollup\rollup-linux-riscv64-musl
+232 silly reify mark deleted [
+232 silly reify   'D:\\Vue\\chapter02\\node_modules\\@rollup\\rollup-linux-riscv64-musl'
+232 silly reify ]
+233 verbose reify failed optional dependency D:\Vue\chapter02\node_modules\@rollup\rollup-linux-riscv64-gnu
+234 silly reify mark deleted [
+234 silly reify   'D:\\Vue\\chapter02\\node_modules\\@rollup\\rollup-linux-riscv64-gnu'
+234 silly reify ]
+235 verbose reify failed optional dependency D:\Vue\chapter02\node_modules\@rollup\rollup-linux-powerpc64le-gnu
+236 silly reify mark deleted [
+236 silly reify   'D:\\Vue\\chapter02\\node_modules\\@rollup\\rollup-linux-powerpc64le-gnu'
+236 silly reify ]
+237 verbose reify failed optional dependency D:\Vue\chapter02\node_modules\@rollup\rollup-linux-loongarch64-gnu
+238 silly reify mark deleted [
+238 silly reify   'D:\\Vue\\chapter02\\node_modules\\@rollup\\rollup-linux-loongarch64-gnu'
+238 silly reify ]
+239 verbose reify failed optional dependency D:\Vue\chapter02\node_modules\@rollup\rollup-linux-arm64-musl
+240 silly reify mark deleted [
+240 silly reify   'D:\\Vue\\chapter02\\node_modules\\@rollup\\rollup-linux-arm64-musl'
+240 silly reify ]
+241 verbose reify failed optional dependency D:\Vue\chapter02\node_modules\@rollup\rollup-linux-arm64-gnu
+242 silly reify mark deleted [ 'D:\\Vue\\chapter02\\node_modules\\@rollup\\rollup-linux-arm64-gnu' ]
+243 verbose reify failed optional dependency D:\Vue\chapter02\node_modules\@rollup\rollup-linux-arm-musleabihf
+244 silly reify mark deleted [
+244 silly reify   'D:\\Vue\\chapter02\\node_modules\\@rollup\\rollup-linux-arm-musleabihf'
+244 silly reify ]
+245 verbose reify failed optional dependency D:\Vue\chapter02\node_modules\@rollup\rollup-linux-arm-gnueabihf
+246 silly reify mark deleted [
+246 silly reify   'D:\\Vue\\chapter02\\node_modules\\@rollup\\rollup-linux-arm-gnueabihf'
+246 silly reify ]
+247 verbose reify failed optional dependency D:\Vue\chapter02\node_modules\@rollup\rollup-freebsd-x64
+248 silly reify mark deleted [ 'D:\\Vue\\chapter02\\node_modules\\@rollup\\rollup-freebsd-x64' ]
+249 verbose reify failed optional dependency D:\Vue\chapter02\node_modules\@rollup\rollup-freebsd-arm64
+250 silly reify mark deleted [ 'D:\\Vue\\chapter02\\node_modules\\@rollup\\rollup-freebsd-arm64' ]
+251 verbose reify failed optional dependency D:\Vue\chapter02\node_modules\@rollup\rollup-darwin-x64
+252 silly reify mark deleted [ 'D:\\Vue\\chapter02\\node_modules\\@rollup\\rollup-darwin-x64' ]
+253 verbose reify failed optional dependency D:\Vue\chapter02\node_modules\@rollup\rollup-darwin-arm64
+254 silly reify mark deleted [ 'D:\\Vue\\chapter02\\node_modules\\@rollup\\rollup-darwin-arm64' ]
+255 verbose reify failed optional dependency D:\Vue\chapter02\node_modules\@rollup\rollup-android-arm64
+256 silly reify mark deleted [ 'D:\\Vue\\chapter02\\node_modules\\@rollup\\rollup-android-arm64' ]
+257 verbose reify failed optional dependency D:\Vue\chapter02\node_modules\@rollup\rollup-android-arm-eabi
+258 silly reify mark deleted [
+258 silly reify   'D:\\Vue\\chapter02\\node_modules\\@rollup\\rollup-android-arm-eabi'
+258 silly reify ]
+259 verbose reify failed optional dependency D:\Vue\chapter02\node_modules\@esbuild\win32-ia32
+260 silly reify mark deleted [ 'D:\\Vue\\chapter02\\node_modules\\@esbuild\\win32-ia32' ]
+261 verbose reify failed optional dependency D:\Vue\chapter02\node_modules\@esbuild\win32-arm64
+262 silly reify mark deleted [ 'D:\\Vue\\chapter02\\node_modules\\@esbuild\\win32-arm64' ]
+263 verbose reify failed optional dependency D:\Vue\chapter02\node_modules\@esbuild\sunos-x64
+264 silly reify mark deleted [ 'D:\\Vue\\chapter02\\node_modules\\@esbuild\\sunos-x64' ]
+265 verbose reify failed optional dependency D:\Vue\chapter02\node_modules\@esbuild\openbsd-x64
+266 silly reify mark deleted [ 'D:\\Vue\\chapter02\\node_modules\\@esbuild\\openbsd-x64' ]
+267 verbose reify failed optional dependency D:\Vue\chapter02\node_modules\@esbuild\openbsd-arm64
+268 silly reify mark deleted [ 'D:\\Vue\\chapter02\\node_modules\\@esbuild\\openbsd-arm64' ]
+269 verbose reify failed optional dependency D:\Vue\chapter02\node_modules\@esbuild\netbsd-x64
+270 silly reify mark deleted [ 'D:\\Vue\\chapter02\\node_modules\\@esbuild\\netbsd-x64' ]
+271 verbose reify failed optional dependency D:\Vue\chapter02\node_modules\@esbuild\netbsd-arm64
+272 silly reify mark deleted [ 'D:\\Vue\\chapter02\\node_modules\\@esbuild\\netbsd-arm64' ]
+273 verbose reify failed optional dependency D:\Vue\chapter02\node_modules\@esbuild\linux-x64
+274 silly reify mark deleted [ 'D:\\Vue\\chapter02\\node_modules\\@esbuild\\linux-x64' ]
+275 verbose reify failed optional dependency D:\Vue\chapter02\node_modules\@esbuild\linux-s390x
+276 silly reify mark deleted [ 'D:\\Vue\\chapter02\\node_modules\\@esbuild\\linux-s390x' ]
+277 verbose reify failed optional dependency D:\Vue\chapter02\node_modules\@esbuild\linux-riscv64
+278 silly reify mark deleted [ 'D:\\Vue\\chapter02\\node_modules\\@esbuild\\linux-riscv64' ]
+279 verbose reify failed optional dependency D:\Vue\chapter02\node_modules\@esbuild\linux-ppc64
+280 silly reify mark deleted [ 'D:\\Vue\\chapter02\\node_modules\\@esbuild\\linux-ppc64' ]
+281 verbose reify failed optional dependency D:\Vue\chapter02\node_modules\@esbuild\linux-mips64el
+282 silly reify mark deleted [ 'D:\\Vue\\chapter02\\node_modules\\@esbuild\\linux-mips64el' ]
+283 verbose reify failed optional dependency D:\Vue\chapter02\node_modules\@esbuild\linux-loong64
+284 silly reify mark deleted [ 'D:\\Vue\\chapter02\\node_modules\\@esbuild\\linux-loong64' ]
+285 verbose reify failed optional dependency D:\Vue\chapter02\node_modules\@esbuild\linux-ia32
+286 silly reify mark deleted [ 'D:\\Vue\\chapter02\\node_modules\\@esbuild\\linux-ia32' ]
+287 verbose reify failed optional dependency D:\Vue\chapter02\node_modules\@esbuild\linux-arm64
+288 silly reify mark deleted [ 'D:\\Vue\\chapter02\\node_modules\\@esbuild\\linux-arm64' ]
+289 verbose reify failed optional dependency D:\Vue\chapter02\node_modules\@esbuild\linux-arm
+290 silly reify mark deleted [ 'D:\\Vue\\chapter02\\node_modules\\@esbuild\\linux-arm' ]
+291 verbose reify failed optional dependency D:\Vue\chapter02\node_modules\@esbuild\freebsd-x64
+292 silly reify mark deleted [ 'D:\\Vue\\chapter02\\node_modules\\@esbuild\\freebsd-x64' ]
+293 verbose reify failed optional dependency D:\Vue\chapter02\node_modules\@esbuild\freebsd-arm64
+294 silly reify mark deleted [ 'D:\\Vue\\chapter02\\node_modules\\@esbuild\\freebsd-arm64' ]
+295 verbose reify failed optional dependency D:\Vue\chapter02\node_modules\@esbuild\darwin-x64
+296 silly reify mark deleted [ 'D:\\Vue\\chapter02\\node_modules\\@esbuild\\darwin-x64' ]
+297 verbose reify failed optional dependency D:\Vue\chapter02\node_modules\@esbuild\darwin-arm64
+298 silly reify mark deleted [ 'D:\\Vue\\chapter02\\node_modules\\@esbuild\\darwin-arm64' ]
+299 verbose reify failed optional dependency D:\Vue\chapter02\node_modules\@esbuild\android-x64
+300 silly reify mark deleted [ 'D:\\Vue\\chapter02\\node_modules\\@esbuild\\android-x64' ]
+301 verbose reify failed optional dependency D:\Vue\chapter02\node_modules\@esbuild\android-arm64
+302 silly reify mark deleted [ 'D:\\Vue\\chapter02\\node_modules\\@esbuild\\android-arm64' ]
+303 verbose reify failed optional dependency D:\Vue\chapter02\node_modules\@esbuild\android-arm
+304 silly reify mark deleted [ 'D:\\Vue\\chapter02\\node_modules\\@esbuild\\android-arm' ]
+305 verbose reify failed optional dependency D:\Vue\chapter02\node_modules\@esbuild\aix-ppc64
+306 silly reify mark deleted [ 'D:\\Vue\\chapter02\\node_modules\\@esbuild\\aix-ppc64' ]
+307 http cache is-number@https://registry.npmmirror.com/is-number/-/is-number-7.0.0.tgz 1ms (cache hit)
+308 http cache fill-range@https://registry.npmmirror.com/fill-range/-/fill-range-7.1.1.tgz 0ms (cache hit)
+309 http cache to-regex-range@https://registry.npmmirror.com/to-regex-range/-/to-regex-range-5.0.1.tgz 0ms (cache hit)
+310 http cache picomatch@https://registry.npmmirror.com/picomatch/-/picomatch-2.3.1.tgz 0ms (cache hit)
+311 http cache readdirp@https://registry.npmmirror.com/readdirp/-/readdirp-4.1.2.tgz 0ms (cache hit)
+312 http cache is-extglob@https://registry.npmmirror.com/is-extglob/-/is-extglob-2.1.1.tgz 0ms (cache hit)
+313 http cache node-addon-api@https://registry.npmmirror.com/node-addon-api/-/node-addon-api-7.1.1.tgz 0ms (cache hit)
+314 http cache @parcel/watcher-win32-x64@https://registry.npmmirror.com/@parcel/watcher-win32-x64/-/watcher-win32-x64-2.5.1.tgz 0ms (cache hit)
+315 http cache braces@https://registry.npmmirror.com/braces/-/braces-3.0.3.tgz 0ms (cache hit)
+316 http cache @parcel/watcher@https://registry.npmmirror.com/@parcel/watcher/-/watcher-2.5.1.tgz 0ms (cache hit)
+317 http cache is-glob@https://registry.npmmirror.com/is-glob/-/is-glob-4.0.3.tgz 0ms (cache hit)
+318 http cache micromatch@https://registry.npmmirror.com/micromatch/-/micromatch-4.0.8.tgz 0ms (cache hit)
+319 http cache detect-libc@https://registry.npmmirror.com/detect-libc/-/detect-libc-1.0.3.tgz 0ms (cache hit)
+320 http cache chokidar@https://registry.npmmirror.com/chokidar/-/chokidar-4.0.3.tgz 0ms (cache hit)
+321 silly tarball no local data for is-number@https://registry.npmmirror.com/is-number/-/is-number-7.0.0.tgz. Extracting by manifest.
+322 silly tarball no local data for fill-range@https://registry.npmmirror.com/fill-range/-/fill-range-7.1.1.tgz. Extracting by manifest.
+323 silly tarball no local data for to-regex-range@https://registry.npmmirror.com/to-regex-range/-/to-regex-range-5.0.1.tgz. Extracting by manifest.
+324 silly tarball no local data for picomatch@https://registry.npmmirror.com/picomatch/-/picomatch-2.3.1.tgz. Extracting by manifest.
+325 silly tarball no local data for readdirp@https://registry.npmmirror.com/readdirp/-/readdirp-4.1.2.tgz. Extracting by manifest.
+326 silly tarball no local data for is-extglob@https://registry.npmmirror.com/is-extglob/-/is-extglob-2.1.1.tgz. Extracting by manifest.
+327 silly tarball no local data for node-addon-api@https://registry.npmmirror.com/node-addon-api/-/node-addon-api-7.1.1.tgz. Extracting by manifest.
+328 silly tarball no local data for @parcel/watcher-win32-x64@https://registry.npmmirror.com/@parcel/watcher-win32-x64/-/watcher-win32-x64-2.5.1.tgz. Extracting by manifest.
+329 silly tarball no local data for braces@https://registry.npmmirror.com/braces/-/braces-3.0.3.tgz. Extracting by manifest.
+330 silly tarball no local data for @parcel/watcher@https://registry.npmmirror.com/@parcel/watcher/-/watcher-2.5.1.tgz. Extracting by manifest.
+331 silly tarball no local data for is-glob@https://registry.npmmirror.com/is-glob/-/is-glob-4.0.3.tgz. Extracting by manifest.
+332 silly tarball no local data for micromatch@https://registry.npmmirror.com/micromatch/-/micromatch-4.0.8.tgz. Extracting by manifest.
+333 silly tarball no local data for detect-libc@https://registry.npmmirror.com/detect-libc/-/detect-libc-1.0.3.tgz. Extracting by manifest.
+334 silly tarball no local data for chokidar@https://registry.npmmirror.com/chokidar/-/chokidar-4.0.3.tgz. Extracting by manifest.
+335 http cache sass@https://registry.npmmirror.com/sass/-/sass-1.86.3.tgz 0ms (cache hit)
+336 silly tarball no local data for sass@https://registry.npmmirror.com/sass/-/sass-1.86.3.tgz. Extracting by manifest.
+337 http fetch POST 404 https://registry.npmmirror.com/-/npm/v1/security/advisories/bulk 55ms
+338 silly audit bulk request failed [object Object]
+339 http fetch POST 404 https://registry.npmmirror.com/-/npm/v1/security/audits/quick 50ms
+340 verbose audit error HttpErrorGeneral: 404 Not Found - POST https://registry.npmmirror.com/-/npm/v1/security/audits/quick - [NOT_IMPLEMENTED] /-/npm/v1/security/* not implemented yet
+340 verbose audit error     at D:\node_js\node_modules\npm\node_modules\npm-registry-fetch\lib\check-response.js:103:15
+340 verbose audit error     at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+340 verbose audit error     at async [getReport] (D:\node_js\node_modules\npm\node_modules\@npmcli\arborist\lib\audit-report.js:336:21)
+340 verbose audit error     at async AuditReport.run (D:\node_js\node_modules\npm\node_modules\@npmcli\arborist\lib\audit-report.js:106:19) {
+340 verbose audit error   headers: [Object: null prototype] {
+340 verbose audit error     server: [ 'Tengine' ],
+340 verbose audit error     date: [ 'Sun, 13 Apr 2025 05:56:04 GMT' ],
+340 verbose audit error     'content-type': [ 'application/json' ],
+340 verbose audit error     'transfer-encoding': [ 'chunked' ],
+340 verbose audit error     connection: [ 'keep-alive' ],
+340 verbose audit error     'strict-transport-security': [ 'max-age=5184000' ],
+340 verbose audit error     via: [ 'kunlun1.cn2343[,404666]' ],
+340 verbose audit error     'timing-allow-origin': [ '*' ],
+340 verbose audit error     eagleid: [ 'b7c3ea2d17445237642435429e' ],
+340 verbose audit error     'x-fetch-attempts': [ '1' ]
+340 verbose audit error   },
+340 verbose audit error   statusCode: 404,
+340 verbose audit error   code: 'E404',
+340 verbose audit error   method: 'POST',
+340 verbose audit error   uri: 'https://registry.npmmirror.com/-/npm/v1/security/audits/quick',
+340 verbose audit error   body: {
+340 verbose audit error     error: '[NOT_IMPLEMENTED] /-/npm/v1/security/* not implemented yet'
+340 verbose audit error   },
+340 verbose audit error   pkgid: undefined
+340 verbose audit error }
+341 silly audit error [object Object]
+342 silly audit report null
+343 http fetch GET 200 https://cdn.npmmirror.com/packages/fill-range/7.1.1/fill-range-7.1.1.tgz 683ms (cache miss)
+344 http fetch GET 200 https://cdn.npmmirror.com/packages/to-regex-range/5.0.1/to-regex-range-5.0.1.tgz 699ms (cache miss)
+345 http fetch GET 200 https://cdn.npmmirror.com/packages/is-number/7.0.0/is-number-7.0.0.tgz 745ms (cache miss)
+346 http fetch GET 200 https://cdn.npmmirror.com/packages/is-glob/4.0.3/is-glob-4.0.3.tgz 739ms (cache miss)
+347 http fetch GET 200 https://cdn.npmmirror.com/packages/micromatch/4.0.8/micromatch-4.0.8.tgz 742ms (cache miss)
+348 http fetch GET 200 https://cdn.npmmirror.com/packages/detect-libc/1.0.3/detect-libc-1.0.3.tgz 772ms (cache miss)
+349 http fetch GET 200 https://cdn.npmmirror.com/packages/is-extglob/2.1.1/is-extglob-2.1.1.tgz 783ms (cache miss)
+350 http fetch GET 200 https://cdn.npmmirror.com/packages/readdirp/4.1.2/readdirp-4.1.2.tgz 815ms (cache miss)
+351 http fetch GET 200 https://cdn.npmmirror.com/packages/picomatch/2.3.1/picomatch-2.3.1.tgz 861ms (cache miss)
+352 http fetch GET 200 https://cdn.npmmirror.com/packages/braces/3.0.3/braces-3.0.3.tgz 859ms (cache miss)
+353 http fetch GET 200 https://cdn.npmmirror.com/packages/chokidar/4.0.3/chokidar-4.0.3.tgz 903ms (cache miss)
+354 http fetch GET 200 https://cdn.npmmirror.com/packages/%40parcel/watcher-win32-x64/2.5.1/watcher-win32-x64-2.5.1.tgz 920ms (cache miss)
+355 http fetch GET 200 https://cdn.npmmirror.com/packages/node-addon-api/7.1.1/node-addon-api-7.1.1.tgz 995ms (cache miss)
+356 http fetch GET 200 https://cdn.npmmirror.com/packages/%40parcel/watcher/2.5.1/watcher-2.5.1.tgz 1135ms (cache miss)
+357 http fetch GET 200 https://cdn.npmmirror.com/packages/sass/1.86.3/sass-1.86.3.tgz 1330ms (cache miss)
+358 info run @parcel/watcher@2.5.1 install node_modules/@parcel/watcher node scripts/build-from-source.js
+359 info run @parcel/watcher@2.5.1 install { code: 0, signal: null }
+360 silly ADD node_modules/is-number
+361 silly ADD node_modules/to-regex-range
+362 silly ADD node_modules/fill-range
+363 silly ADD node_modules/picomatch
+364 silly ADD node_modules/braces
+365 silly ADD node_modules/is-extglob
+366 silly ADD node_modules/readdirp
+367 silly ADD node_modules/node-addon-api
+368 silly ADD node_modules/micromatch
+369 silly ADD node_modules/is-glob
+370 silly ADD node_modules/detect-libc
+371 silly ADD node_modules/@parcel/watcher-win32-x64
+372 silly ADD
+373 silly ADD
+374 silly ADD
+375 silly ADD
+376 silly ADD
+377 silly ADD
+378 silly ADD
+379 silly ADD
+380 silly ADD
+381 silly ADD
+382 silly ADD
+383 silly ADD
+384 silly ADD node_modules/chokidar
+385 silly ADD node_modules/@parcel/watcher
+386 silly ADD node_modules/sass
+387 silly ADD
+388 silly ADD
+389 silly ADD
+390 silly ADD
+391 silly ADD
+392 silly ADD
+393 silly ADD
+394 silly ADD
+395 silly ADD
+396 silly ADD
+397 silly ADD
+398 silly ADD
+399 silly ADD
+400 silly ADD
+401 silly ADD
+402 silly ADD
+403 silly ADD
+404 silly ADD
+405 silly ADD
+406 silly ADD
+407 silly ADD
+408 silly ADD
+409 silly ADD
+410 silly ADD
+411 silly ADD
+412 silly ADD
+413 silly ADD
+414 silly ADD
+415 silly ADD
+416 silly ADD
+417 silly ADD
+418 silly ADD
+419 silly ADD
+420 silly ADD
+421 silly ADD
+422 silly ADD
+423 silly ADD
+424 silly ADD
+425 silly ADD
+426 silly ADD
+427 silly ADD
+428 silly ADD
+429 silly ADD
+430 silly ADD
+431 silly ADD
+432 silly ADD
+433 silly ADD
+434 silly ADD
+435 silly ADD
+436 silly ADD
+437 silly ADD
+438 silly ADD
+439 silly ADD
+440 silly ADD
+441 silly ADD
+442 silly ADD
+443 silly ADD
+444 silly ADD
+445 silly ADD
+446 silly ADD
+447 silly ADD
+448 silly ADD
+449 silly ADD
+450 verbose cwd D:\Vue\chapter02
+451 verbose os Windows_NT 10.0.26100
+452 verbose node v22.14.0
+453 verbose npm  v10.9.2
+454 verbose exit 0
+455 info ok

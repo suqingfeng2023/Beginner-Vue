@@ -1,0 +1,373 @@
+0 verbose cli D:\node_js\node.exe D:\node_js\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.9.2
+2 info using node@v22.14.0
+3 silly config load:file:D:\node_js\node_modules\npm\npmrc
+4 silly config load:file:D:\Vue\chapter02\.npmrc
+5 silly config load:file:C:\Users\10797\.npmrc
+6 silly config load:file:D:\Vue\chapter02\node_js\node_global\etc\npmrc
+7 verbose title npm install
+8 verbose argv "install"
+9 verbose logfile logs-max:10 dir:D:\Vue\chapter02\node_js\node_cache\_logs\2025-04-13T05_56_04_877Z-
+10 verbose logfile D:\Vue\chapter02\node_js\node_cache\_logs\2025-04-13T05_56_04_877Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+13 silly logfile done cleaning log files
+14 silly idealTree buildDeps
+15 silly reify moves {}
+16 silly audit bulk request {
+16 silly audit   '@babel/helper-string-parser': [ '7.25.9' ],
+16 silly audit   '@babel/helper-validator-identifier': [ '7.25.9' ],
+16 silly audit   '@babel/parser': [ '7.27.0' ],
+16 silly audit   '@babel/types': [ '7.27.0' ],
+16 silly audit   '@bufbuild/protobuf': [ '2.2.5' ],
+16 silly audit   '@esbuild/aix-ppc64': [ '0.25.2' ],
+16 silly audit   '@esbuild/android-arm': [ '0.25.2' ],
+16 silly audit   '@esbuild/android-arm64': [ '0.25.2' ],
+16 silly audit   '@esbuild/android-x64': [ '0.25.2' ],
+16 silly audit   '@esbuild/darwin-arm64': [ '0.25.2' ],
+16 silly audit   '@esbuild/darwin-x64': [ '0.25.2' ],
+16 silly audit   '@esbuild/freebsd-arm64': [ '0.25.2' ],
+16 silly audit   '@esbuild/freebsd-x64': [ '0.25.2' ],
+16 silly audit   '@esbuild/linux-arm': [ '0.25.2' ],
+16 silly audit   '@esbuild/linux-arm64': [ '0.25.2' ],
+16 silly audit   '@esbuild/linux-ia32': [ '0.25.2' ],
+16 silly audit   '@esbuild/linux-loong64': [ '0.25.2' ],
+16 silly audit   '@esbuild/linux-mips64el': [ '0.25.2' ],
+16 silly audit   '@esbuild/linux-ppc64': [ '0.25.2' ],
+16 silly audit   '@esbuild/linux-riscv64': [ '0.25.2' ],
+16 silly audit   '@esbuild/linux-s390x': [ '0.25.2' ],
+16 silly audit   '@esbuild/linux-x64': [ '0.25.2' ],
+16 silly audit   '@esbuild/netbsd-arm64': [ '0.25.2' ],
+16 silly audit   '@esbuild/netbsd-x64': [ '0.25.2' ],
+16 silly audit   '@esbuild/openbsd-arm64': [ '0.25.2' ],
+16 silly audit   '@esbuild/openbsd-x64': [ '0.25.2' ],
+16 silly audit   '@esbuild/sunos-x64': [ '0.25.2' ],
+16 silly audit   '@esbuild/win32-arm64': [ '0.25.2' ],
+16 silly audit   '@esbuild/win32-ia32': [ '0.25.2' ],
+16 silly audit   '@esbuild/win32-x64': [ '0.25.2' ],
+16 silly audit   '@jridgewell/sourcemap-codec': [ '1.5.0' ],
+16 silly audit   '@rollup/rollup-android-arm-eabi': [ '4.40.0' ],
+16 silly audit   '@rollup/rollup-android-arm64': [ '4.40.0' ],
+16 silly audit   '@rollup/rollup-darwin-arm64': [ '4.40.0' ],
+16 silly audit   '@rollup/rollup-darwin-x64': [ '4.40.0' ],
+16 silly audit   '@rollup/rollup-freebsd-arm64': [ '4.40.0' ],
+16 silly audit   '@rollup/rollup-freebsd-x64': [ '4.40.0' ],
+16 silly audit   '@rollup/rollup-linux-arm-gnueabihf': [ '4.40.0' ],
+16 silly audit   '@rollup/rollup-linux-arm-musleabihf': [ '4.40.0' ],
+16 silly audit   '@rollup/rollup-linux-arm64-gnu': [ '4.40.0' ],
+16 silly audit   '@rollup/rollup-linux-arm64-musl': [ '4.40.0' ],
+16 silly audit   '@rollup/rollup-linux-loongarch64-gnu': [ '4.40.0' ],
+16 silly audit   '@rollup/rollup-linux-powerpc64le-gnu': [ '4.40.0' ],
+16 silly audit   '@rollup/rollup-linux-riscv64-gnu': [ '4.40.0' ],
+16 silly audit   '@rollup/rollup-linux-riscv64-musl': [ '4.40.0' ],
+16 silly audit   '@rollup/rollup-linux-s390x-gnu': [ '4.40.0' ],
+16 silly audit   '@rollup/rollup-linux-x64-gnu': [ '4.40.0' ],
+16 silly audit   '@rollup/rollup-linux-x64-musl': [ '4.40.0' ],
+16 silly audit   '@rollup/rollup-win32-arm64-msvc': [ '4.40.0' ],
+16 silly audit   '@rollup/rollup-win32-ia32-msvc': [ '4.40.0' ],
+16 silly audit   '@rollup/rollup-win32-x64-msvc': [ '4.40.0' ],
+16 silly audit   '@types/estree': [ '1.0.7' ],
+16 silly audit   '@vue/compiler-core': [ '3.5.13' ],
+16 silly audit   '@vue/compiler-dom': [ '3.5.13' ],
+16 silly audit   '@vue/compiler-sfc': [ '3.5.13' ],
+16 silly audit   '@vue/compiler-ssr': [ '3.5.13' ],
+16 silly audit   '@vue/reactivity': [ '3.5.13' ],
+16 silly audit   '@vue/runtime-core': [ '3.5.13' ],
+16 silly audit   '@vue/runtime-dom': [ '3.5.13' ],
+16 silly audit   '@vue/server-renderer': [ '3.5.13' ],
+16 silly audit   '@vue/shared': [ '3.5.13' ],
+16 silly audit   'buffer-builder': [ '0.2.0' ],
+16 silly audit   'colorjs.io': [ '0.5.2' ],
+16 silly audit   csstype: [ '3.1.3' ],
+16 silly audit   entities: [ '4.5.0' ],
+16 silly audit   esbuild: [ '0.25.2' ],
+16 silly audit   'estree-walker': [ '2.0.2' ],
+16 silly audit   fsevents: [ '2.3.3' ],
+16 silly audit   'has-flag': [ '4.0.0' ],
+16 silly audit   immutable: [ '5.1.1' ],
+16 silly audit   'magic-string': [ '0.30.17' ],
+16 silly audit   nanoid: [ '3.3.11' ],
+16 silly audit   picocolors: [ '1.1.1' ],
+16 silly audit   postcss: [ '8.5.3' ],
+16 silly audit   rollup: [ '4.40.0' ],
+16 silly audit   rxjs: [ '7.8.2' ],
+16 silly audit   'sass-embedded': [ '1.86.3' ],
+16 silly audit   'sass-embedded-android-arm': [ '1.86.3' ],
+16 silly audit   'sass-embedded-android-arm64': [ '1.86.3' ],
+16 silly audit   'sass-embedded-android-ia32': [ '1.86.3' ],
+16 silly audit   'sass-embedded-android-riscv64': [ '1.86.3' ],
+16 silly audit   'sass-embedded-android-x64': [ '1.86.3' ],
+16 silly audit   'sass-embedded-darwin-arm64': [ '1.86.3' ],
+16 silly audit   'sass-embedded-darwin-x64': [ '1.86.3' ],
+16 silly audit   'sass-embedded-linux-arm': [ '1.86.3' ],
+16 silly audit   'sass-embedded-linux-arm64': [ '1.86.3' ],
+16 silly audit   'sass-embedded-linux-ia32': [ '1.86.3' ],
+16 silly audit   'sass-embedded-linux-musl-arm': [ '1.86.3' ],
+16 silly audit   'sass-embedded-linux-musl-arm64': [ '1.86.3' ],
+16 silly audit   'sass-embedded-linux-musl-ia32': [ '1.86.3' ],
+16 silly audit   'sass-embedded-linux-musl-riscv64': [ '1.86.3' ],
+16 silly audit   'sass-embedded-linux-musl-x64': [ '1.86.3' ],
+16 silly audit   'sass-embedded-linux-riscv64': [ '1.86.3' ],
+16 silly audit   'sass-embedded-linux-x64': [ '1.86.3' ],
+16 silly audit   'sass-embedded-win32-arm64': [ '1.86.3' ],
+16 silly audit   'sass-embedded-win32-ia32': [ '1.86.3' ],
+16 silly audit   'sass-embedded-win32-x64': [ '1.86.3' ],
+16 silly audit   'source-map-js': [ '1.2.1' ],
+16 silly audit   'supports-color': [ '8.1.1' ],
+16 silly audit   'sync-child-process': [ '1.0.2' ],
+16 silly audit   'sync-message-port': [ '1.1.3' ],
+16 silly audit   tslib: [ '2.8.1' ],
+16 silly audit   varint: [ '6.0.0' ],
+16 silly audit   vite: [ '6.2.6' ],
+16 silly audit   vue: [ '3.5.13' ]
+16 silly audit }
+17 verbose reify failed optional dependency D:\Vue\chapter02\node_modules\sass-embedded-win32-ia32
+18 silly reify mark deleted [ 'D:\\Vue\\chapter02\\node_modules\\sass-embedded-win32-ia32' ]
+19 verbose reify failed optional dependency D:\Vue\chapter02\node_modules\sass-embedded-win32-arm64
+20 silly reify mark deleted [ 'D:\\Vue\\chapter02\\node_modules\\sass-embedded-win32-arm64' ]
+21 verbose reify failed optional dependency D:\Vue\chapter02\node_modules\sass-embedded-linux-x64
+22 silly reify mark deleted [ 'D:\\Vue\\chapter02\\node_modules\\sass-embedded-linux-x64' ]
+23 verbose reify failed optional dependency D:\Vue\chapter02\node_modules\sass-embedded-linux-riscv64
+24 silly reify mark deleted [ 'D:\\Vue\\chapter02\\node_modules\\sass-embedded-linux-riscv64' ]
+25 verbose reify failed optional dependency D:\Vue\chapter02\node_modules\sass-embedded-linux-musl-x64
+26 silly reify mark deleted [ 'D:\\Vue\\chapter02\\node_modules\\sass-embedded-linux-musl-x64' ]
+27 verbose reify failed optional dependency D:\Vue\chapter02\node_modules\sass-embedded-linux-musl-riscv64
+28 silly reify mark deleted [
+28 silly reify   'D:\\Vue\\chapter02\\node_modules\\sass-embedded-linux-musl-riscv64'
+28 silly reify ]
+29 verbose reify failed optional dependency D:\Vue\chapter02\node_modules\sass-embedded-linux-musl-ia32
+30 silly reify mark deleted [ 'D:\\Vue\\chapter02\\node_modules\\sass-embedded-linux-musl-ia32' ]
+31 verbose reify failed optional dependency D:\Vue\chapter02\node_modules\sass-embedded-linux-musl-arm64
+32 silly reify mark deleted [ 'D:\\Vue\\chapter02\\node_modules\\sass-embedded-linux-musl-arm64' ]
+33 verbose reify failed optional dependency D:\Vue\chapter02\node_modules\sass-embedded-linux-musl-arm
+34 silly reify mark deleted [ 'D:\\Vue\\chapter02\\node_modules\\sass-embedded-linux-musl-arm' ]
+35 verbose reify failed optional dependency D:\Vue\chapter02\node_modules\sass-embedded-linux-ia32
+36 silly reify mark deleted [ 'D:\\Vue\\chapter02\\node_modules\\sass-embedded-linux-ia32' ]
+37 verbose reify failed optional dependency D:\Vue\chapter02\node_modules\sass-embedded-linux-arm64
+38 silly reify mark deleted [ 'D:\\Vue\\chapter02\\node_modules\\sass-embedded-linux-arm64' ]
+39 verbose reify failed optional dependency D:\Vue\chapter02\node_modules\sass-embedded-linux-arm
+40 silly reify mark deleted [ 'D:\\Vue\\chapter02\\node_modules\\sass-embedded-linux-arm' ]
+41 verbose reify failed optional dependency D:\Vue\chapter02\node_modules\sass-embedded-darwin-x64
+42 silly reify mark deleted [ 'D:\\Vue\\chapter02\\node_modules\\sass-embedded-darwin-x64' ]
+43 verbose reify failed optional dependency D:\Vue\chapter02\node_modules\sass-embedded-darwin-arm64
+44 silly reify mark deleted [ 'D:\\Vue\\chapter02\\node_modules\\sass-embedded-darwin-arm64' ]
+45 verbose reify failed optional dependency D:\Vue\chapter02\node_modules\sass-embedded-android-x64
+46 silly reify mark deleted [ 'D:\\Vue\\chapter02\\node_modules\\sass-embedded-android-x64' ]
+47 verbose reify failed optional dependency D:\Vue\chapter02\node_modules\sass-embedded-android-riscv64
+48 silly reify mark deleted [ 'D:\\Vue\\chapter02\\node_modules\\sass-embedded-android-riscv64' ]
+49 verbose reify failed optional dependency D:\Vue\chapter02\node_modules\sass-embedded-android-ia32
+50 silly reify mark deleted [ 'D:\\Vue\\chapter02\\node_modules\\sass-embedded-android-ia32' ]
+51 verbose reify failed optional dependency D:\Vue\chapter02\node_modules\sass-embedded-android-arm64
+52 silly reify mark deleted [ 'D:\\Vue\\chapter02\\node_modules\\sass-embedded-android-arm64' ]
+53 verbose reify failed optional dependency D:\Vue\chapter02\node_modules\sass-embedded-android-arm
+54 silly reify mark deleted [ 'D:\\Vue\\chapter02\\node_modules\\sass-embedded-android-arm' ]
+55 verbose reify failed optional dependency D:\Vue\chapter02\node_modules\fsevents
+56 silly reify mark deleted [ 'D:\\Vue\\chapter02\\node_modules\\fsevents' ]
+57 verbose reify failed optional dependency D:\Vue\chapter02\node_modules\@rollup\rollup-win32-ia32-msvc
+58 silly reify mark deleted [ 'D:\\Vue\\chapter02\\node_modules\\@rollup\\rollup-win32-ia32-msvc' ]
+59 verbose reify failed optional dependency D:\Vue\chapter02\node_modules\@rollup\rollup-win32-arm64-msvc
+60 silly reify mark deleted [
+60 silly reify   'D:\\Vue\\chapter02\\node_modules\\@rollup\\rollup-win32-arm64-msvc'
+60 silly reify ]
+61 verbose reify failed optional dependency D:\Vue\chapter02\node_modules\@rollup\rollup-linux-x64-musl
+62 silly reify mark deleted [ 'D:\\Vue\\chapter02\\node_modules\\@rollup\\rollup-linux-x64-musl' ]
+63 verbose reify failed optional dependency D:\Vue\chapter02\node_modules\@rollup\rollup-linux-x64-gnu
+64 silly reify mark deleted [ 'D:\\Vue\\chapter02\\node_modules\\@rollup\\rollup-linux-x64-gnu' ]
+65 verbose reify failed optional dependency D:\Vue\chapter02\node_modules\@rollup\rollup-linux-s390x-gnu
+66 silly reify mark deleted [ 'D:\\Vue\\chapter02\\node_modules\\@rollup\\rollup-linux-s390x-gnu' ]
+67 verbose reify failed optional dependency D:\Vue\chapter02\node_modules\@rollup\rollup-linux-riscv64-musl
+68 silly reify mark deleted [
+68 silly reify   'D:\\Vue\\chapter02\\node_modules\\@rollup\\rollup-linux-riscv64-musl'
+68 silly reify ]
+69 verbose reify failed optional dependency D:\Vue\chapter02\node_modules\@rollup\rollup-linux-riscv64-gnu
+70 silly reify mark deleted [
+70 silly reify   'D:\\Vue\\chapter02\\node_modules\\@rollup\\rollup-linux-riscv64-gnu'
+70 silly reify ]
+71 verbose reify failed optional dependency D:\Vue\chapter02\node_modules\@rollup\rollup-linux-powerpc64le-gnu
+72 silly reify mark deleted [
+72 silly reify   'D:\\Vue\\chapter02\\node_modules\\@rollup\\rollup-linux-powerpc64le-gnu'
+72 silly reify ]
+73 verbose reify failed optional dependency D:\Vue\chapter02\node_modules\@rollup\rollup-linux-loongarch64-gnu
+74 silly reify mark deleted [
+74 silly reify   'D:\\Vue\\chapter02\\node_modules\\@rollup\\rollup-linux-loongarch64-gnu'
+74 silly reify ]
+75 verbose reify failed optional dependency D:\Vue\chapter02\node_modules\@rollup\rollup-linux-arm64-musl
+76 silly reify mark deleted [
+76 silly reify   'D:\\Vue\\chapter02\\node_modules\\@rollup\\rollup-linux-arm64-musl'
+76 silly reify ]
+77 verbose reify failed optional dependency D:\Vue\chapter02\node_modules\@rollup\rollup-linux-arm64-gnu
+78 silly reify mark deleted [ 'D:\\Vue\\chapter02\\node_modules\\@rollup\\rollup-linux-arm64-gnu' ]
+79 verbose reify failed optional dependency D:\Vue\chapter02\node_modules\@rollup\rollup-linux-arm-musleabihf
+80 silly reify mark deleted [
+80 silly reify   'D:\\Vue\\chapter02\\node_modules\\@rollup\\rollup-linux-arm-musleabihf'
+80 silly reify ]
+81 verbose reify failed optional dependency D:\Vue\chapter02\node_modules\@rollup\rollup-linux-arm-gnueabihf
+82 silly reify mark deleted [
+82 silly reify   'D:\\Vue\\chapter02\\node_modules\\@rollup\\rollup-linux-arm-gnueabihf'
+82 silly reify ]
+83 verbose reify failed optional dependency D:\Vue\chapter02\node_modules\@rollup\rollup-freebsd-x64
+84 silly reify mark deleted [ 'D:\\Vue\\chapter02\\node_modules\\@rollup\\rollup-freebsd-x64' ]
+85 verbose reify failed optional dependency D:\Vue\chapter02\node_modules\@rollup\rollup-freebsd-arm64
+86 silly reify mark deleted [ 'D:\\Vue\\chapter02\\node_modules\\@rollup\\rollup-freebsd-arm64' ]
+87 verbose reify failed optional dependency D:\Vue\chapter02\node_modules\@rollup\rollup-darwin-x64
+88 silly reify mark deleted [ 'D:\\Vue\\chapter02\\node_modules\\@rollup\\rollup-darwin-x64' ]
+89 verbose reify failed optional dependency D:\Vue\chapter02\node_modules\@rollup\rollup-darwin-arm64
+90 silly reify mark deleted [ 'D:\\Vue\\chapter02\\node_modules\\@rollup\\rollup-darwin-arm64' ]
+91 verbose reify failed optional dependency D:\Vue\chapter02\node_modules\@rollup\rollup-android-arm64
+92 silly reify mark deleted [ 'D:\\Vue\\chapter02\\node_modules\\@rollup\\rollup-android-arm64' ]
+93 verbose reify failed optional dependency D:\Vue\chapter02\node_modules\@rollup\rollup-android-arm-eabi
+94 silly reify mark deleted [
+94 silly reify   'D:\\Vue\\chapter02\\node_modules\\@rollup\\rollup-android-arm-eabi'
+94 silly reify ]
+95 verbose reify failed optional dependency D:\Vue\chapter02\node_modules\@esbuild\win32-ia32
+96 silly reify mark deleted [ 'D:\\Vue\\chapter02\\node_modules\\@esbuild\\win32-ia32' ]
+97 verbose reify failed optional dependency D:\Vue\chapter02\node_modules\@esbuild\win32-arm64
+98 silly reify mark deleted [ 'D:\\Vue\\chapter02\\node_modules\\@esbuild\\win32-arm64' ]
+99 verbose reify failed optional dependency D:\Vue\chapter02\node_modules\@esbuild\sunos-x64
+100 silly reify mark deleted [ 'D:\\Vue\\chapter02\\node_modules\\@esbuild\\sunos-x64' ]
+101 verbose reify failed optional dependency D:\Vue\chapter02\node_modules\@esbuild\openbsd-x64
+102 silly reify mark deleted [ 'D:\\Vue\\chapter02\\node_modules\\@esbuild\\openbsd-x64' ]
+103 verbose reify failed optional dependency D:\Vue\chapter02\node_modules\@esbuild\openbsd-arm64
+104 silly reify mark deleted [ 'D:\\Vue\\chapter02\\node_modules\\@esbuild\\openbsd-arm64' ]
+105 verbose reify failed optional dependency D:\Vue\chapter02\node_modules\@esbuild\netbsd-x64
+106 silly reify mark deleted [ 'D:\\Vue\\chapter02\\node_modules\\@esbuild\\netbsd-x64' ]
+107 verbose reify failed optional dependency D:\Vue\chapter02\node_modules\@esbuild\netbsd-arm64
+108 silly reify mark deleted [ 'D:\\Vue\\chapter02\\node_modules\\@esbuild\\netbsd-arm64' ]
+109 verbose reify failed optional dependency D:\Vue\chapter02\node_modules\@esbuild\linux-x64
+110 silly reify mark deleted [ 'D:\\Vue\\chapter02\\node_modules\\@esbuild\\linux-x64' ]
+111 verbose reify failed optional dependency D:\Vue\chapter02\node_modules\@esbuild\linux-s390x
+112 silly reify mark deleted [ 'D:\\Vue\\chapter02\\node_modules\\@esbuild\\linux-s390x' ]
+113 verbose reify failed optional dependency D:\Vue\chapter02\node_modules\@esbuild\linux-riscv64
+114 silly reify mark deleted [ 'D:\\Vue\\chapter02\\node_modules\\@esbuild\\linux-riscv64' ]
+115 verbose reify failed optional dependency D:\Vue\chapter02\node_modules\@esbuild\linux-ppc64
+116 silly reify mark deleted [ 'D:\\Vue\\chapter02\\node_modules\\@esbuild\\linux-ppc64' ]
+117 verbose reify failed optional dependency D:\Vue\chapter02\node_modules\@esbuild\linux-mips64el
+118 silly reify mark deleted [ 'D:\\Vue\\chapter02\\node_modules\\@esbuild\\linux-mips64el' ]
+119 verbose reify failed optional dependency D:\Vue\chapter02\node_modules\@esbuild\linux-loong64
+120 silly reify mark deleted [ 'D:\\Vue\\chapter02\\node_modules\\@esbuild\\linux-loong64' ]
+121 verbose reify failed optional dependency D:\Vue\chapter02\node_modules\@esbuild\linux-ia32
+122 silly reify mark deleted [ 'D:\\Vue\\chapter02\\node_modules\\@esbuild\\linux-ia32' ]
+123 verbose reify failed optional dependency D:\Vue\chapter02\node_modules\@esbuild\linux-arm64
+124 silly reify mark deleted [ 'D:\\Vue\\chapter02\\node_modules\\@esbuild\\linux-arm64' ]
+125 verbose reify failed optional dependency D:\Vue\chapter02\node_modules\@esbuild\linux-arm
+126 silly reify mark deleted [ 'D:\\Vue\\chapter02\\node_modules\\@esbuild\\linux-arm' ]
+127 verbose reify failed optional dependency D:\Vue\chapter02\node_modules\@esbuild\freebsd-x64
+128 silly reify mark deleted [ 'D:\\Vue\\chapter02\\node_modules\\@esbuild\\freebsd-x64' ]
+129 verbose reify failed optional dependency D:\Vue\chapter02\node_modules\@esbuild\freebsd-arm64
+130 silly reify mark deleted [ 'D:\\Vue\\chapter02\\node_modules\\@esbuild\\freebsd-arm64' ]
+131 verbose reify failed optional dependency D:\Vue\chapter02\node_modules\@esbuild\darwin-x64
+132 silly reify mark deleted [ 'D:\\Vue\\chapter02\\node_modules\\@esbuild\\darwin-x64' ]
+133 verbose reify failed optional dependency D:\Vue\chapter02\node_modules\@esbuild\darwin-arm64
+134 silly reify mark deleted [ 'D:\\Vue\\chapter02\\node_modules\\@esbuild\\darwin-arm64' ]
+135 verbose reify failed optional dependency D:\Vue\chapter02\node_modules\@esbuild\android-x64
+136 silly reify mark deleted [ 'D:\\Vue\\chapter02\\node_modules\\@esbuild\\android-x64' ]
+137 verbose reify failed optional dependency D:\Vue\chapter02\node_modules\@esbuild\android-arm64
+138 silly reify mark deleted [ 'D:\\Vue\\chapter02\\node_modules\\@esbuild\\android-arm64' ]
+139 verbose reify failed optional dependency D:\Vue\chapter02\node_modules\@esbuild\android-arm
+140 silly reify mark deleted [ 'D:\\Vue\\chapter02\\node_modules\\@esbuild\\android-arm' ]
+141 verbose reify failed optional dependency D:\Vue\chapter02\node_modules\@esbuild\aix-ppc64
+142 silly reify mark deleted [ 'D:\\Vue\\chapter02\\node_modules\\@esbuild\\aix-ppc64' ]
+143 http fetch POST 404 https://registry.npmmirror.com/-/npm/v1/security/advisories/bulk 196ms
+144 silly audit bulk request failed [object Object]
+145 http fetch POST 404 https://registry.npmmirror.com/-/npm/v1/security/audits/quick 40ms
+146 verbose audit error HttpErrorGeneral: 404 Not Found - POST https://registry.npmmirror.com/-/npm/v1/security/audits/quick - [NOT_IMPLEMENTED] /-/npm/v1/security/* not implemented yet
+146 verbose audit error     at D:\node_js\node_modules\npm\node_modules\npm-registry-fetch\lib\check-response.js:103:15
+146 verbose audit error     at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+146 verbose audit error     at async [getReport] (D:\node_js\node_modules\npm\node_modules\@npmcli\arborist\lib\audit-report.js:336:21)
+146 verbose audit error     at async AuditReport.run (D:\node_js\node_modules\npm\node_modules\@npmcli\arborist\lib\audit-report.js:106:19)
+146 verbose audit error     at async Arborist.reify (D:\node_js\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:268:24)
+146 verbose audit error     at async Install.exec (D:\node_js\node_modules\npm\lib\commands\install.js:150:5)
+146 verbose audit error     at async Npm.exec (D:\node_js\node_modules\npm\lib\npm.js:207:9)
+146 verbose audit error     at async module.exports (D:\node_js\node_modules\npm\lib\cli\entry.js:74:5) {
+146 verbose audit error   headers: [Object: null prototype] {
+146 verbose audit error     server: [ 'Tengine' ],
+146 verbose audit error     date: [ 'Sun, 13 Apr 2025 05:56:00 GMT' ],
+146 verbose audit error     'content-type': [ 'application/json' ],
+146 verbose audit error     'transfer-encoding': [ 'chunked' ],
+146 verbose audit error     connection: [ 'keep-alive' ],
+146 verbose audit error     'strict-transport-security': [ 'max-age=5184000' ],
+146 verbose audit error     via: [ 'kunlun10.cn2343[,404666]' ],
+146 verbose audit error     'timing-allow-origin': [ '*' ],
+146 verbose audit error     eagleid: [ 'b7c3ea3417445237605984519e' ],
+146 verbose audit error     'x-fetch-attempts': [ '1' ]
+146 verbose audit error   },
+146 verbose audit error   statusCode: 404,
+146 verbose audit error   code: 'E404',
+146 verbose audit error   method: 'POST',
+146 verbose audit error   uri: 'https://registry.npmmirror.com/-/npm/v1/security/audits/quick',
+146 verbose audit error   body: {
+146 verbose audit error     error: '[NOT_IMPLEMENTED] /-/npm/v1/security/* not implemented yet'
+146 verbose audit error   },
+146 verbose audit error   pkgid: undefined
+146 verbose audit error }
+147 silly audit error [object Object]
+148 silly audit report null
+149 silly ADD
+150 silly ADD
+151 silly ADD
+152 silly ADD
+153 silly ADD
+154 silly ADD
+155 silly ADD
+156 silly ADD
+157 silly ADD
+158 silly ADD
+159 silly ADD
+160 silly ADD
+161 silly ADD
+162 silly ADD
+163 silly ADD
+164 silly ADD
+165 silly ADD
+166 silly ADD
+167 silly ADD
+168 silly ADD
+169 silly ADD
+170 silly ADD
+171 silly ADD
+172 silly ADD
+173 silly ADD
+174 silly ADD
+175 silly ADD
+176 silly ADD
+177 silly ADD
+178 silly ADD
+179 silly ADD
+180 silly ADD
+181 silly ADD
+182 silly ADD
+183 silly ADD
+184 silly ADD
+185 silly ADD
+186 silly ADD
+187 silly ADD
+188 silly ADD
+189 silly ADD
+190 silly ADD
+191 silly ADD
+192 silly ADD
+193 silly ADD
+194 silly ADD
+195 silly ADD
+196 silly ADD
+197 silly ADD
+198 silly ADD
+199 silly ADD
+200 silly ADD
+201 silly ADD
+202 silly ADD
+203 silly ADD
+204 silly ADD
+205 silly ADD
+206 silly ADD
+207 silly ADD
+208 silly ADD
+209 silly ADD
+210 silly ADD
+211 silly ADD
+212 verbose cwd D:\Vue\chapter02
+213 verbose os Windows_NT 10.0.26100
+214 verbose node v22.14.0
+215 verbose npm  v10.9.2
+216 verbose exit 0
+217 info ok

@@ -4,28 +4,28 @@ const emit = defineEmits(['updateStatus'])
 </script>
 <template>
     <div class="footer">
-      <span class="todo-count">共<strong>{{ lastLength }}</strong>条未完成任务</span>
+      <span class="todo-count">共<strong>{{ lastLength }}</strong>个城市未完成</span>
       <ul class="filters">
         <li>
           <a 
             @click.prevent="emit('updateStatus', 'all')" 
             :class="{ selected: status === 'all' }" 
             href="#/"
-          >All</a>
+          >全部</a>
         </li>
         <li>
           <a 
             @click.prevent="emit('updateStatus', 'active')" 
             :class="{ selected: status === 'active' }"
             href="#/active"
-          >Active</a>
+          >未完成</a>
         </li>
         <li>
           <a 
             @click.prevent="emit('updateStatus', 'completed')" 
             :class="{ selected: status === 'completed' }"
             href="#/completed"
-          >Completed</a>
+          >完成</a>
         </li>
       </ul>
     </div>
@@ -84,14 +84,13 @@ const emit = defineEmits(['updateStatus'])
     border: 1px solid transparent;
     border-radius: 3px;
     border-color: #767676;
-
 }
 
 .filters li a:hover {
     border-color: #db7676;
 }
 
-.selected {
+.filters li a.selected {
     border-color: #db7676;
 }
 </style>
