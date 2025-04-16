@@ -1,0 +1,41 @@
+0 verbose cli D:\node_js\node.exe D:\node_js\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.9.2
+2 info using node@v22.14.0
+3 silly config load:file:D:\node_js\node_modules\npm\npmrc
+4 silly config load:file:D:\Vue\day_06\.npmrc
+5 silly config load:file:C:\Users\10797\.npmrc
+6 silly config load:file:D:\Vue\day_06\node_js\node_global\etc\npmrc
+7 verbose title npm i axios
+8 verbose argv "i" "axios"
+9 verbose logfile logs-max:10 dir:D:\Vue\day_06\node_js\node_cache\_logs\2025-04-14T10_40_59_286Z-
+10 verbose logfile D:\Vue\day_06\node_js\node_cache\_logs\2025-04-14T10_40_59_286Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+13 silly idealTree buildDeps
+14 silly fetch manifest axios@*
+15 silly packumentCache full:https://registry.npmmirror.com/axios cache-miss
+16 http fetch GET https://registry.npmmirror.com/axios attempt 1 failed with ETIMEDOUT
+17 http fetch GET https://registry.npmmirror.com/axios attempt 2 failed with ETIMEDOUT
+18 http fetch GET https://registry.npmmirror.com/axios attempt 3 failed with EHOSTUNREACH
+19 silly placeDep ROOT axios@ OK for:  want: *
+20 verbose type system
+21 verbose stack FetchError: request to https://registry.npmmirror.com/axios failed, reason: connect EHOSTUNREACH 120.222.223.242:443
+21 verbose stack     at ClientRequest.<anonymous> (D:\node_js\node_modules\npm\node_modules\minipass-fetch\lib\index.js:130:14)
+21 verbose stack     at ClientRequest.emit (node:events:518:28)
+21 verbose stack     at emitErrorEvent (node:_http_client:104:11)
+21 verbose stack     at _destroy (node:_http_client:898:9)
+21 verbose stack     at onSocketNT (node:_http_client:918:5)
+21 verbose stack     at process.processTicksAndRejections (node:internal/process/task_queues:91:21)
+22 error code EHOSTUNREACH
+23 error syscall connect
+24 error errno EHOSTUNREACH
+25 error request to https://registry.npmmirror.com/axios failed, reason: connect EHOSTUNREACH 120.222.223.242:443
+26 silly unfinished npm timer reify 1744627261430
+27 silly unfinished npm timer reify:loadTrees 1744627261440
+28 verbose cwd D:\Vue\day_06
+29 verbose os Windows_NT 10.0.26100
+30 verbose node v22.14.0
+31 verbose npm  v10.9.2
+32 verbose exit 1
+33 verbose code 1
+34 error A complete log of this run can be found in: D:\Vue\day_06\node_js\node_cache\_logs\2025-04-14T10_40_59_286Z-debug-0.log
