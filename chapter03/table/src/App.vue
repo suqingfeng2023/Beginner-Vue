@@ -1,5 +1,5 @@
 <script setup>
-import { ref, onMounted, computed } from 'vue'
+import { ref, onMounted, computed, reactive } from 'vue'
 import MyFood from './components/MyFood.vue'
 
 const foodList = ref([])
@@ -25,7 +25,7 @@ const fetchFoods = async () => {
     console.log('API响应:', result)
     
     if (result.code === 1) {
-      foodList.value = result.data.map(item => ({
+      foodList.value = result.data.map(item => reactive({
         ...item,
         reviews: [], // 初始为空，后续单独加载评价
         inputVisible: false,
@@ -97,9 +97,11 @@ const addFood = async () => {
 
 // 显示评价输入框
 const showReviewInput = (food) => {
-  console.log('显示输入框，食品ID:', food.id)
-  food.inputVisible = true
-}
+  console.log('当前 food 对象:', food);
+  console.log('修改前 inputVisible:', food.inputVisible);
+  food.inputVisible = true;
+  console.log('修改后 inputVisible:', food.inputVisible);
+  }
 
 // 删除食品
 const deleteFood = async (id) => {
@@ -130,7 +132,7 @@ const addReview = async (food) => {
   const review = food.inputValue.trim()
   console.log('尝试添加评价:', review, '到食品ID:', food.id)
   
-  if (!review) {
+  if (!review || food.reviews.index(review)!== -1) {
     console.log('评价内容为空')
     food.inputValue = ''
     food.inputVisible = false
@@ -244,7 +246,7 @@ onMounted(() => {
                   class="form-control form-control-sm me-2"
                   style="width: 150px;"
                   v-model="food.inputValue"
-                  v-focus
+                  v-focus       
                   @keyup.enter="addReview(food)"
                   @keyup.esc="food.inputVisible = false"
                 >
