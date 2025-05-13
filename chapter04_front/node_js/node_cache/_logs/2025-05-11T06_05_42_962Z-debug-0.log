@@ -1,0 +1,238 @@
+0 verbose cli D:\node_js\node.exe D:\node_js\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.9.2
+2 info using node@v22.14.0
+3 silly config load:file:D:\node_js\node_modules\npm\npmrc
+4 silly config load:file:D:\Vue\chapter04 copy\.npmrc
+5 silly config load:file:C:\Users\10797\.npmrc
+6 silly config load:file:D:\Vue\chapter04 copy\node_js\node_global\etc\npmrc
+7 verbose title npm install axios
+8 verbose argv "install" "axios"
+9 verbose logfile logs-max:10 dir:D:\Vue\chapter04 copy\node_js\node_cache\_logs\2025-05-11T06_05_42_962Z-
+10 verbose logfile D:\Vue\chapter04 copy\node_js\node_cache\_logs\2025-05-11T06_05_42_962Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+13 silly idealTree buildDeps
+14 silly fetch manifest axios@*
+15 silly packumentCache full:https://registry.npmmirror.com/axios cache-miss
+16 http fetch GET 200 https://registry.npmmirror.com/axios 244ms (cache miss)
+17 silly packumentCache full:https://registry.npmmirror.com/axios set size:105540 disposed:false
+18 silly placeDep ROOT axios@1.9.0 OK for:  want: *
+19 silly fetch manifest follow-redirects@^1.15.6
+20 silly packumentCache full:https://registry.npmmirror.com/follow-redirects cache-miss
+21 silly fetch manifest form-data@^4.0.0
+22 silly packumentCache full:https://registry.npmmirror.com/form-data cache-miss
+23 silly fetch manifest proxy-from-env@^1.1.0
+24 silly packumentCache full:https://registry.npmmirror.com/proxy-from-env cache-miss
+25 http fetch GET 200 https://registry.npmmirror.com/follow-redirects 68ms (cache miss)
+26 silly packumentCache full:https://registry.npmmirror.com/follow-redirects set size:28829 disposed:false
+27 http fetch GET 200 https://registry.npmmirror.com/proxy-from-env 118ms (cache miss)
+28 silly packumentCache full:https://registry.npmmirror.com/proxy-from-env set size:4747 disposed:false
+29 http fetch GET 200 https://registry.npmmirror.com/form-data 206ms (cache miss)
+30 silly packumentCache full:https://registry.npmmirror.com/form-data set size:22106 disposed:false
+31 silly placeDep ROOT follow-redirects@1.15.9 OK for: axios@1.9.0 want: ^1.15.6
+32 silly placeDep ROOT form-data@4.0.2 OK for: axios@1.9.0 want: ^4.0.0
+33 silly placeDep ROOT proxy-from-env@1.1.0 OK for: axios@1.9.0 want: ^1.1.0
+34 silly fetch manifest asynckit@^0.4.0
+35 silly packumentCache full:https://registry.npmmirror.com/asynckit cache-miss
+36 silly fetch manifest combined-stream@^1.0.8
+37 silly packumentCache full:https://registry.npmmirror.com/combined-stream cache-miss
+38 silly fetch manifest es-set-tostringtag@^2.1.0
+39 silly packumentCache full:https://registry.npmmirror.com/es-set-tostringtag cache-miss
+40 silly fetch manifest mime-types@^2.1.12
+41 silly packumentCache full:https://registry.npmmirror.com/mime-types cache-miss
+42 http fetch GET 200 https://registry.npmmirror.com/asynckit 76ms (cache miss)
+43 silly packumentCache full:https://registry.npmmirror.com/asynckit set size:4567 disposed:false
+44 http fetch GET 200 https://registry.npmmirror.com/combined-stream 95ms (cache miss)
+45 silly packumentCache full:https://registry.npmmirror.com/combined-stream set size:7154 disposed:false
+46 http fetch GET 200 https://registry.npmmirror.com/es-set-tostringtag 98ms (cache miss)
+47 silly packumentCache full:https://registry.npmmirror.com/es-set-tostringtag set size:6558 disposed:false
+48 http fetch GET 200 https://registry.npmmirror.com/mime-types 156ms (cache miss)
+49 silly packumentCache full:https://registry.npmmirror.com/mime-types set size:20913 disposed:false
+50 silly placeDep ROOT asynckit@0.4.0 OK for: form-data@4.0.2 want: ^0.4.0
+51 silly placeDep ROOT combined-stream@1.0.8 OK for: form-data@4.0.2 want: ^1.0.8
+52 silly placeDep ROOT es-set-tostringtag@2.1.0 OK for: form-data@4.0.2 want: ^2.1.0
+53 silly placeDep ROOT mime-types@2.1.35 OK for: form-data@4.0.2 want: ^2.1.12
+54 silly fetch manifest delayed-stream@~1.0.0
+55 silly packumentCache full:https://registry.npmmirror.com/delayed-stream cache-miss
+56 silly fetch manifest es-errors@^1.3.0
+57 silly packumentCache full:https://registry.npmmirror.com/es-errors cache-miss
+58 silly fetch manifest get-intrinsic@^1.2.6
+59 silly packumentCache full:https://registry.npmmirror.com/get-intrinsic cache-miss
+60 silly fetch manifest has-tostringtag@^1.0.2
+61 silly packumentCache full:https://registry.npmmirror.com/has-tostringtag cache-miss
+62 silly fetch manifest hasown@^2.0.2
+63 silly packumentCache full:https://registry.npmmirror.com/hasown cache-miss
+64 silly fetch manifest mime-db@1.52.0
+65 silly packumentCache full:https://registry.npmmirror.com/mime-db cache-miss
+66 http fetch GET 200 https://registry.npmmirror.com/es-errors 58ms (cache miss)
+67 silly packumentCache full:https://registry.npmmirror.com/es-errors set size:4030 disposed:false
+68 http fetch GET 200 https://registry.npmmirror.com/get-intrinsic 76ms (cache miss)
+69 silly packumentCache full:https://registry.npmmirror.com/get-intrinsic set size:11108 disposed:false
+70 http fetch GET 200 https://registry.npmmirror.com/hasown 81ms (cache miss)
+71 silly packumentCache full:https://registry.npmmirror.com/hasown set size:3832 disposed:false
+72 http fetch GET 200 https://registry.npmmirror.com/delayed-stream 87ms (cache miss)
+73 silly packumentCache full:https://registry.npmmirror.com/delayed-stream set size:4333 disposed:false
+74 http fetch GET 200 https://registry.npmmirror.com/has-tostringtag 135ms (cache miss)
+75 silly packumentCache full:https://registry.npmmirror.com/has-tostringtag set size:3448 disposed:false
+76 http fetch GET 200 https://registry.npmmirror.com/mime-db 156ms (cache miss)
+77 silly packumentCache full:https://registry.npmmirror.com/mime-db set size:24186 disposed:false
+78 silly placeDep ROOT delayed-stream@1.0.0 OK for: combined-stream@1.0.8 want: ~1.0.0
+79 silly placeDep ROOT es-errors@1.3.0 OK for: es-set-tostringtag@2.1.0 want: ^1.3.0
+80 silly placeDep ROOT get-intrinsic@1.3.0 OK for: es-set-tostringtag@2.1.0 want: ^1.2.6
+81 silly placeDep ROOT has-tostringtag@1.0.2 OK for: es-set-tostringtag@2.1.0 want: ^1.0.2
+82 silly placeDep ROOT hasown@2.0.2 OK for: es-set-tostringtag@2.1.0 want: ^2.0.2
+83 silly fetch manifest call-bind-apply-helpers@^1.0.2
+84 silly packumentCache full:https://registry.npmmirror.com/call-bind-apply-helpers cache-miss
+85 silly fetch manifest es-define-property@^1.0.1
+86 silly packumentCache full:https://registry.npmmirror.com/es-define-property cache-miss
+87 silly fetch manifest es-object-atoms@^1.1.1
+88 silly packumentCache full:https://registry.npmmirror.com/es-object-atoms cache-miss
+89 silly fetch manifest function-bind@^1.1.2
+90 silly packumentCache full:https://registry.npmmirror.com/function-bind cache-miss
+91 silly fetch manifest get-proto@^1.0.1
+92 silly packumentCache full:https://registry.npmmirror.com/get-proto cache-miss
+93 silly fetch manifest gopd@^1.2.0
+94 silly packumentCache full:https://registry.npmmirror.com/gopd cache-miss
+95 silly fetch manifest has-symbols@^1.1.0
+96 silly packumentCache full:https://registry.npmmirror.com/has-symbols cache-miss
+97 silly fetch manifest math-intrinsics@^1.1.0
+98 silly packumentCache full:https://registry.npmmirror.com/math-intrinsics cache-miss
+99 silly fetch manifest has-symbols@^1.0.3
+100 silly packumentCache full:https://registry.npmmirror.com/has-symbols cache-miss
+101 silly fetch manifest function-bind@^1.1.2
+102 silly packumentCache full:https://registry.npmmirror.com/function-bind cache-miss
+103 http fetch GET 200 https://registry.npmmirror.com/es-define-property 80ms (cache miss)
+104 silly packumentCache full:https://registry.npmmirror.com/es-define-property set size:2896 disposed:false
+105 http fetch GET 200 https://registry.npmmirror.com/function-bind 80ms (cache miss)
+106 silly packumentCache full:https://registry.npmmirror.com/function-bind set size:4376 disposed:false
+107 http fetch GET 200 https://registry.npmmirror.com/call-bind-apply-helpers 82ms (cache miss)
+108 silly packumentCache full:https://registry.npmmirror.com/call-bind-apply-helpers set size:3532 disposed:false
+109 http fetch GET 200 https://registry.npmmirror.com/get-proto 83ms (cache miss)
+110 silly packumentCache full:https://registry.npmmirror.com/get-proto set size:2799 disposed:false
+111 http fetch GET 200 https://registry.npmmirror.com/gopd 83ms (cache miss)
+112 silly packumentCache full:https://registry.npmmirror.com/gopd set size:3962 disposed:false
+113 http fetch GET 200 https://registry.npmmirror.com/es-object-atoms 85ms (cache miss)
+114 silly packumentCache full:https://registry.npmmirror.com/es-object-atoms set size:3862 disposed:false
+115 http fetch GET 200 https://registry.npmmirror.com/function-bind 133ms (cache miss)
+116 silly packumentCache full:https://registry.npmmirror.com/function-bind set size:4376 disposed:false
+117 silly packumentCache full:https://registry.npmmirror.com/function-bind dispose
+118 http fetch GET 200 https://registry.npmmirror.com/math-intrinsics 142ms (cache miss)
+119 silly packumentCache full:https://registry.npmmirror.com/math-intrinsics set size:3012 disposed:false
+120 http fetch GET 200 https://registry.npmmirror.com/has-symbols 145ms (cache miss)
+121 silly packumentCache full:https://registry.npmmirror.com/has-symbols set size:5325 disposed:false
+122 http fetch GET 200 https://registry.npmmirror.com/has-symbols 148ms (cache miss)
+123 silly packumentCache full:https://registry.npmmirror.com/has-symbols set size:5325 disposed:false
+124 silly packumentCache full:https://registry.npmmirror.com/has-symbols dispose
+125 silly placeDep ROOT call-bind-apply-helpers@1.0.2 OK for: get-intrinsic@1.3.0 want: ^1.0.2
+126 silly placeDep ROOT es-define-property@1.0.1 OK for: get-intrinsic@1.3.0 want: ^1.0.1
+127 silly placeDep ROOT es-object-atoms@1.1.1 OK for: get-intrinsic@1.3.0 want: ^1.1.1
+128 silly placeDep ROOT function-bind@1.1.2 OK for: get-intrinsic@1.3.0 want: ^1.1.2
+129 silly placeDep ROOT get-proto@1.0.1 OK for: get-intrinsic@1.3.0 want: ^1.0.1
+130 silly placeDep ROOT gopd@1.2.0 OK for: get-intrinsic@1.3.0 want: ^1.2.0
+131 silly placeDep ROOT has-symbols@1.1.0 OK for: get-intrinsic@1.3.0 want: ^1.1.0
+132 silly placeDep ROOT math-intrinsics@1.1.0 OK for: get-intrinsic@1.3.0 want: ^1.1.0
+133 silly fetch manifest dunder-proto@^1.0.1
+134 silly packumentCache full:https://registry.npmmirror.com/dunder-proto cache-miss
+135 http fetch GET 200 https://registry.npmmirror.com/dunder-proto 65ms (cache miss)
+136 silly packumentCache full:https://registry.npmmirror.com/dunder-proto set size:2798 disposed:false
+137 silly placeDep ROOT dunder-proto@1.0.1 OK for: get-proto@1.0.1 want: ^1.0.1
+138 silly placeDep ROOT mime-db@1.52.0 OK for: mime-types@2.1.35 want: 1.52.0
+139 silly reify moves {}
+140 http cache mime-db@https://registry.npmmirror.com/mime-db/-/mime-db-1.52.0.tgz 0ms (cache hit)
+141 http cache dunder-proto@https://registry.npmmirror.com/dunder-proto/-/dunder-proto-1.0.1.tgz 0ms (cache hit)
+142 http cache gopd@https://registry.npmmirror.com/gopd/-/gopd-1.2.0.tgz 0ms (cache hit)
+143 http cache math-intrinsics@https://registry.npmmirror.com/math-intrinsics/-/math-intrinsics-1.1.0.tgz 0ms (cache hit)
+144 http cache get-proto@https://registry.npmmirror.com/get-proto/-/get-proto-1.0.1.tgz 0ms (cache hit)
+145 http cache function-bind@https://registry.npmmirror.com/function-bind/-/function-bind-1.1.2.tgz 0ms (cache hit)
+146 http cache es-object-atoms@https://registry.npmmirror.com/es-object-atoms/-/es-object-atoms-1.1.1.tgz 0ms (cache hit)
+147 http cache has-symbols@https://registry.npmmirror.com/has-symbols/-/has-symbols-1.1.0.tgz 0ms (cache hit)
+148 http cache es-define-property@https://registry.npmmirror.com/es-define-property/-/es-define-property-1.0.1.tgz 0ms (cache hit)
+149 http cache hasown@https://registry.npmmirror.com/hasown/-/hasown-2.0.2.tgz 0ms (cache hit)
+150 http cache get-intrinsic@https://registry.npmmirror.com/get-intrinsic/-/get-intrinsic-1.3.0.tgz 0ms (cache hit)
+151 http cache call-bind-apply-helpers@https://registry.npmmirror.com/call-bind-apply-helpers/-/call-bind-apply-helpers-1.0.2.tgz 0ms (cache hit)
+152 http cache es-errors@https://registry.npmmirror.com/es-errors/-/es-errors-1.3.0.tgz 0ms (cache hit)
+153 http cache mime-types@https://registry.npmmirror.com/mime-types/-/mime-types-2.1.35.tgz 0ms (cache hit)
+154 http cache has-tostringtag@https://registry.npmmirror.com/has-tostringtag/-/has-tostringtag-1.0.2.tgz 0ms (cache hit)
+155 http cache es-set-tostringtag@https://registry.npmmirror.com/es-set-tostringtag/-/es-set-tostringtag-2.1.0.tgz 0ms (cache hit)
+156 http cache delayed-stream@https://registry.npmmirror.com/delayed-stream/-/delayed-stream-1.0.0.tgz 0ms (cache hit)
+157 http cache asynckit@https://registry.npmmirror.com/asynckit/-/asynckit-0.4.0.tgz 0ms (cache hit)
+158 http cache combined-stream@https://registry.npmmirror.com/combined-stream/-/combined-stream-1.0.8.tgz 0ms (cache hit)
+159 silly tarball no local data for mime-db@https://registry.npmmirror.com/mime-db/-/mime-db-1.52.0.tgz. Extracting by manifest.
+160 http cache follow-redirects@https://registry.npmmirror.com/follow-redirects/-/follow-redirects-1.15.9.tgz 0ms (cache hit)
+161 http cache proxy-from-env@https://registry.npmmirror.com/proxy-from-env/-/proxy-from-env-1.1.0.tgz 0ms (cache hit)
+162 silly tarball no local data for dunder-proto@https://registry.npmmirror.com/dunder-proto/-/dunder-proto-1.0.1.tgz. Extracting by manifest.
+163 http cache axios@https://registry.npmmirror.com/axios/-/axios-1.9.0.tgz 0ms (cache hit)
+164 silly tarball no local data for gopd@https://registry.npmmirror.com/gopd/-/gopd-1.2.0.tgz. Extracting by manifest.
+165 http cache form-data@https://registry.npmmirror.com/form-data/-/form-data-4.0.2.tgz 0ms (cache hit)
+166 silly tarball no local data for math-intrinsics@https://registry.npmmirror.com/math-intrinsics/-/math-intrinsics-1.1.0.tgz. Extracting by manifest.
+167 silly tarball no local data for get-proto@https://registry.npmmirror.com/get-proto/-/get-proto-1.0.1.tgz. Extracting by manifest.
+168 silly tarball no local data for function-bind@https://registry.npmmirror.com/function-bind/-/function-bind-1.1.2.tgz. Extracting by manifest.
+169 silly tarball no local data for es-object-atoms@https://registry.npmmirror.com/es-object-atoms/-/es-object-atoms-1.1.1.tgz. Extracting by manifest.
+170 silly tarball no local data for has-symbols@https://registry.npmmirror.com/has-symbols/-/has-symbols-1.1.0.tgz. Extracting by manifest.
+171 silly tarball no local data for es-define-property@https://registry.npmmirror.com/es-define-property/-/es-define-property-1.0.1.tgz. Extracting by manifest.
+172 silly tarball no local data for hasown@https://registry.npmmirror.com/hasown/-/hasown-2.0.2.tgz. Extracting by manifest.
+173 silly tarball no local data for get-intrinsic@https://registry.npmmirror.com/get-intrinsic/-/get-intrinsic-1.3.0.tgz. Extracting by manifest.
+174 silly tarball no local data for call-bind-apply-helpers@https://registry.npmmirror.com/call-bind-apply-helpers/-/call-bind-apply-helpers-1.0.2.tgz. Extracting by manifest.
+175 silly tarball no local data for es-errors@https://registry.npmmirror.com/es-errors/-/es-errors-1.3.0.tgz. Extracting by manifest.
+176 silly tarball no local data for mime-types@https://registry.npmmirror.com/mime-types/-/mime-types-2.1.35.tgz. Extracting by manifest.
+177 silly tarball no local data for has-tostringtag@https://registry.npmmirror.com/has-tostringtag/-/has-tostringtag-1.0.2.tgz. Extracting by manifest.
+178 silly tarball no local data for es-set-tostringtag@https://registry.npmmirror.com/es-set-tostringtag/-/es-set-tostringtag-2.1.0.tgz. Extracting by manifest.
+179 silly tarball no local data for delayed-stream@https://registry.npmmirror.com/delayed-stream/-/delayed-stream-1.0.0.tgz. Extracting by manifest.
+180 silly tarball no local data for asynckit@https://registry.npmmirror.com/asynckit/-/asynckit-0.4.0.tgz. Extracting by manifest.
+181 silly tarball no local data for combined-stream@https://registry.npmmirror.com/combined-stream/-/combined-stream-1.0.8.tgz. Extracting by manifest.
+182 silly tarball no local data for follow-redirects@https://registry.npmmirror.com/follow-redirects/-/follow-redirects-1.15.9.tgz. Extracting by manifest.
+183 silly tarball no local data for proxy-from-env@https://registry.npmmirror.com/proxy-from-env/-/proxy-from-env-1.1.0.tgz. Extracting by manifest.
+184 silly tarball no local data for axios@https://registry.npmmirror.com/axios/-/axios-1.9.0.tgz. Extracting by manifest.
+185 silly tarball no local data for form-data@https://registry.npmmirror.com/form-data/-/form-data-4.0.2.tgz. Extracting by manifest.
+186 http fetch GET 200 https://cdn.npmmirror.com/packages/es-define-property/1.0.1/es-define-property-1.0.1.tgz 773ms (cache miss)
+187 http fetch GET 200 https://cdn.npmmirror.com/packages/dunder-proto/1.0.1/dunder-proto-1.0.1.tgz 790ms (cache miss)
+188 http fetch GET 200 https://cdn.npmmirror.com/packages/get-proto/1.0.1/get-proto-1.0.1.tgz 791ms (cache miss)
+189 http fetch GET 200 https://cdn.npmmirror.com/packages/es-object-atoms/1.1.1/es-object-atoms-1.1.1.tgz 800ms (cache miss)
+190 http fetch GET 200 https://cdn.npmmirror.com/packages/proxy-from-env/1.1.0/proxy-from-env-1.1.0.tgz 798ms (cache miss)
+191 http fetch GET 200 https://cdn.npmmirror.com/packages/combined-stream/1.0.8/combined-stream-1.0.8.tgz 801ms (cache miss)
+192 http fetch GET 200 https://cdn.npmmirror.com/packages/follow-redirects/1.15.9/follow-redirects-1.15.9.tgz 802ms (cache miss)
+193 http fetch GET 200 https://cdn.npmmirror.com/packages/mime-types/2.1.35/mime-types-2.1.35.tgz 805ms (cache miss)
+194 http fetch GET 200 https://cdn.npmmirror.com/packages/delayed-stream/1.0.0/delayed-stream-1.0.0.tgz 824ms (cache miss)
+195 http fetch GET 200 https://cdn.npmmirror.com/packages/form-data/4.0.2/form-data-4.0.2.tgz 834ms (cache miss)
+196 http fetch GET 200 https://cdn.npmmirror.com/packages/mime-db/1.52.0/mime-db-1.52.0.tgz 862ms (cache miss)
+197 http fetch GET 200 https://cdn.npmmirror.com/packages/hasown/2.0.2/hasown-2.0.2.tgz 874ms (cache miss)
+198 http fetch GET 200 https://cdn.npmmirror.com/packages/es-set-tostringtag/2.1.0/es-set-tostringtag-2.1.0.tgz 878ms (cache miss)
+199 http fetch GET 200 https://cdn.npmmirror.com/packages/get-intrinsic/1.3.0/get-intrinsic-1.3.0.tgz 881ms (cache miss)
+200 http fetch GET 200 https://cdn.npmmirror.com/packages/function-bind/1.1.2/function-bind-1.1.2.tgz 902ms (cache miss)
+201 http fetch GET 200 https://cdn.npmmirror.com/packages/gopd/1.2.0/gopd-1.2.0.tgz 904ms (cache miss)
+202 http fetch GET 200 https://cdn.npmmirror.com/packages/has-symbols/1.1.0/has-symbols-1.1.0.tgz 942ms (cache miss)
+203 http fetch GET 200 https://cdn.npmmirror.com/packages/has-tostringtag/1.0.2/has-tostringtag-1.0.2.tgz 943ms (cache miss)
+204 http fetch GET 200 https://cdn.npmmirror.com/packages/asynckit/0.4.0/asynckit-0.4.0.tgz 961ms (cache miss)
+205 http fetch GET 200 https://cdn.npmmirror.com/packages/call-bind-apply-helpers/1.0.2/call-bind-apply-helpers-1.0.2.tgz 970ms (cache miss)
+206 http fetch GET 200 https://cdn.npmmirror.com/packages/es-errors/1.3.0/es-errors-1.3.0.tgz 976ms (cache miss)
+207 http fetch GET 200 https://cdn.npmmirror.com/packages/math-intrinsics/1.1.0/math-intrinsics-1.1.0.tgz 1034ms (cache miss)
+208 http fetch GET 200 https://cdn.npmmirror.com/packages/axios/1.9.0/axios-1.9.0.tgz 1336ms (cache miss)
+209 silly ADD node_modules/mime-db
+210 silly ADD node_modules/dunder-proto
+211 silly ADD node_modules/math-intrinsics
+212 silly ADD node_modules/has-symbols
+213 silly ADD node_modules/gopd
+214 silly ADD node_modules/get-proto
+215 silly ADD node_modules/function-bind
+216 silly ADD node_modules/es-object-atoms
+217 silly ADD node_modules/es-define-property
+218 silly ADD node_modules/call-bind-apply-helpers
+219 silly ADD node_modules/hasown
+220 silly ADD node_modules/has-tostringtag
+221 silly ADD node_modules/get-intrinsic
+222 silly ADD node_modules/es-errors
+223 silly ADD node_modules/delayed-stream
+224 silly ADD node_modules/mime-types
+225 silly ADD node_modules/es-set-tostringtag
+226 silly ADD node_modules/combined-stream
+227 silly ADD node_modules/asynckit
+228 silly ADD node_modules/proxy-from-env
+229 silly ADD node_modules/form-data
+230 silly ADD node_modules/follow-redirects
+231 silly ADD node_modules/axios
+232 verbose cwd D:\Vue\chapter04 copy
+233 verbose os Windows_NT 10.0.26100
+234 verbose node v22.14.0
+235 verbose npm  v10.9.2
+236 verbose exit 0
+237 info ok
