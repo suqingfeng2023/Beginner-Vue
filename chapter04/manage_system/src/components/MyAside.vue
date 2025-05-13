@@ -1,73 +1,48 @@
 <script setup>
+import { useRouter } from 'vue-router'
+
+const router = useRouter()
+const navItems = [
+  { path: '/home/add-food', name: '添加食品' },
+  { path: '/home/food-list', name: '食品展示' },
+  { path: '/home/user-info', name: '用户信息' }
+]
+
+const navigate = (path) => {
+  router.push(path)
+}
 </script>
 
 <template>
-    <div class="layout-aside-container">
-        <ul class="menu">
-            <li class="menu-item">
-                <router-link to="/home/users">用户管理</router-link>
-            </li>
-            <li class="menu-item">
-                <router-link to="/home/rights">权限管理</router-link>
-            </li>
-            <li class="menu-item">
-                <router-link to="/home/goods">商品管理</router-link>
-            </li>
-            <li class="menu-item">
-                <router-link to="/home/orders">订单管理</router-link>
-            </li>
-            <li class="menu-item">
-                <router-link to="/home/settings">系统设置</router-link>
-            </li>
-        </ul>
+  <div class="aside-container">
+    <div v-for="item in navItems" :key="item.path" class="nav-item" :class="{ active: $route.path === item.path }"
+      @click="navigate(item.path)">
+      {{ item.name }}
     </div>
+  </div>
 </template>
 
-<style lang="less" scoped>
-.layout-aside-container {
-  width: 250px;
+<style scoped>
+.aside-container {
+  width: 200px;
+  background-color: #2c3e50;
+  color: white;
   height: 100%;
-  border-right: 1px solid #eaeaea;
+  padding: 20px 0;
 }
 
-.menu {
-  list-style-type: none;
-  padding: 0;
-  .menu-item {
-    line-height: 50px;
-    font-weight: bold;
-    font-size: 14px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
-      Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    &:hover {
-      background-color: #efefef;
-      cursor: pointer;
-    }
-    a {
-      display: block;
-      color: black;
-      padding-left: 30px;
-      &:hover {
-        text-decoration: none;
-      }
-    }
-  }
+.nav-item {
+  padding: 15px 20px;
+  cursor: pointer;
+  transition: all 0.3s;
 }
-/* 设置路由高亮效果 */
-.router-link-active {
-  background-color: #efefef;
-  box-sizing: border-box;
-  position: relative;
-  /* 伪元素实现路由高亮效果 */
-  &::before {
-    content: ' ';
-    display: block;
-    width: 4px;
-    height: 100%;
-    position: absolute;
-    left: 0;
-    top: 0;
-    background-color: #42b983;
-  }
+
+.nav-item:hover {
+  background-color: #34495e;
+}
+
+.nav-item.active {
+  background-color: #5f9ea0;
+  font-weight: bold;
 }
 </style>

@@ -15,46 +15,26 @@ const routes = createRouter({
         {
             path: '/home',
             component: () => import('../views/Home.vue'),
-            redirect: '/home/users',
+            redirect: '/home/food-list',
             children: [
                 {
-                    path: 'users',
-                    component: { render: () => h(RouterView) },
-                    children: [
-                        {
-                            path: '',
-                            component: () => import('../views/MyUsers.vue')
-                        },
-                        {
-                            path: ':id',
-                            name: 'details',
-                            component: () => import('../views/user/MyUserDetail.vue'),
-                            props: true
-                        }
-                    ]
+                    path: 'add-food',
+                    component: () => import('../views/AddFood.vue')
                 },
                 {
-                    path: 'rights',
-                    component: () => import('../views/MyRights.vue')
+                    path: 'food-list',
+                    component: () => import('../views/FoodList.vue')
                 },
                 {
-                    path: 'goods',
-                    component: () => import('../views/MyGoods.vue')
+                    path: 'food-detail/:id',
+                    component: () => import('../views/FoodDetail.vue'),
+                    props: true
                 },
                 {
-                    path: 'orders',
-                    component: () => import('../views/MyOrders.vue')
-                },
-                {
-                    path: 'settings',
-                    component: () => import('../views/MySettings.vue')
-                },
-                {
-                    path: 'menu',
-                    component: () => import('../views/MyMenu.vue')
+                    path: 'user-info',
+                    component: () => import('../views/UserInfo.vue')
                 }
             ]
-
         }
     ]
 })
