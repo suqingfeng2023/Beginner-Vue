@@ -15,7 +15,6 @@ const passwordForm = ref({
 
 // 提交表单
 const submitForm = async () => {
-    // 最基本的检查
     if (!passwordForm.value.oldPassword || !passwordForm.value.newPassword) {
         ElMessage.error('请填写完整信息')
         return
@@ -27,20 +26,18 @@ const submitForm = async () => {
     }
 
     try {
-        // 调用API更新密码
-        await updatePassword({
+        const response = await updatePassword({
             oldPassword: passwordForm.value.oldPassword,
             newPassword: passwordForm.value.newPassword
         })
 
-        ElMessage.success('密码修改成功，请重新登录')
+        // 成功时由组件显示消息
+        ElMessage.success(response.msg || '密码修改成功，请重新登录')
+        setTimeout(() => router.push('/login'), 1500)
 
-        // 跳转到登录页
-        setTimeout(() => {
-            router.push('/login')
-        }, 1500)
     } catch (error) {
-        ElMessage.error('密码修改失败: ' + (error.message || '未知错误'))
+        // 拦截器已返回错误消息，直接显示
+        ElMessage.error(error.message || '密码修改失败')
     }
 }
 

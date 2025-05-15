@@ -21,3 +21,8 @@ export const getFoodById = (id) => {
 export const deleteFoodById = (id) => {
   return request.delete(`/foods/${id}`)
 }
+
+// 修改食物
+export const updateFood = (id, data) => {
+  return request.put(`/foods/${id}`, data)
+}
